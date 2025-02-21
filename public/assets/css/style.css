@@ -3107,6 +3107,8 @@ label {
   top: 0px;
   left: 0px;
   z-index: 123;
+  background-color: #000;
+  color: white;
 }
 .header.header-style-4 {
   padding-top: 0px;

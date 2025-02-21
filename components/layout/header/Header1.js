@@ -5,7 +5,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, topBar
     return (
         <>
             <header className={`header ${headerCls ? headerCls : ""} sticky-bar ${scroll ? "stick" : ""}`}>
-                {topBar &&
+                {/* {topBar &&
                     <div className="top-bar">
                         <div className="container">
                             <div className="top-bar-inner">
@@ -16,7 +16,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, topBar
                             </div>
                         </div>
                     </div>
-                }
+                } */}
                 <div className="container">
                     <div className="main-header">
                         <div className="header-left">
@@ -34,8 +34,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, topBar
                                                 <li><Link href="/index-2">Marketing App</Link></li>
                                                 <li><Link href="/index-3">Web Agency</Link></li>
                                                 <li><Link href="/index-4">Digital Agency</Link></li>
-                                                <li><Link href="/index-5">3D Products</Link></li>
-                                                <li><Link href="/index-6">AI Platform</Link></li>
+                                                {/* <li><Link href="/index-5">3D Products</Link></li>
+                                                <li><Link href="/index-6">AI Platform</Link></li> */}
                                             </ul>
                                         </li>
                                         <li className="has-children"><Link href="/about">About</Link></li>
