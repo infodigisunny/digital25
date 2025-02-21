@@ -12,7 +12,8 @@ export default function Home4() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={4} headerCls="header-style-2 header-style-4" >
+            {/* <Layout headerStyle={1} footerStyle={4} headerCls="header-style-2 header-style-4" > */}
+                 <Layout headerStyle={1} footerStyle={1} logoWhite>
                 <Section1 />
                 <Section2 />
                 <Section3 />

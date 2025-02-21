@@ -5,7 +5,8 @@ export default function Section1() {
     return (
         <>
 
-            <section className="section-box">
+  margin-top: 150px;
+            <section className="section-box" style={{marginTop:"150px"}}>
                 <div className="banner-hero hero-3">
                     <div className="banner-inner">
                         <div className="container">
