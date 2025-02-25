@@ -7456,8 +7456,11 @@ a.icon-socials:hover {
 }
 
 .hero-4 {
-  background-color: #191919;
-  background-image: url(../imgs/page/homepage2/bg-banner.png);
+  /* background-color: #191919; */
+  background: url(../imgs/page/homepage3/bg-banner.png) no-repeat top -90px center;
+  /* background-size: contain; */
+  /* background-image: url(../imgs/page/homepage2/bg-banner.png); */
+
   background-repeat: no-repeat;
   background-position: bottom 50px center;
   background-size: cover;
@@ -7665,7 +7668,11 @@ a.icon-socials:hover {
   position: relative;
 }
 .hero-5 .banner-inner-top {
-  background-color: #191919;
+  /* background-color: #191919; */
+  background-color: #fff;
+  color: #000;
+  background: url(../imgs/page/homepage3/bg-banner.png) no-repeat top -90px center;
+  background-size: cover;
   padding-top: 250px;
   padding-bottom: 140px;
 }
@@ -7674,6 +7681,7 @@ a.icon-socials:hover {
   width: 45%;
   position: relative;
   z-index: 4;
+  color: #000;
 }
 .hero-5 .banner-image-main {
   position: absolute;
