@@ -7633,7 +7633,7 @@ a.icon-socials:hover {
   margin-bottom: 78px;
 }
 .box-newsletter .newsletter-left {
-  max-width: 435px;
+  /* max-width: 435px; */
 }
 .box-newsletter .newsletter-right {
   max-width: 606px;
@@ -7832,9 +7832,9 @@ a.icon-socials:hover {
 }
 
 .item-review-discover {
-  background-image: url(../imgs/page/homepage1/quote.png);
-  background-position: top left;
-  background-repeat: no-repeat;
+  /* background-image: url(../imgs/page/homepage1/quote.png); */
+  /* background-position: top left; */
+  /* background-repeat: no-repeat; */
   padding: 49px 40px;
 }
 

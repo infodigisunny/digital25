@@ -32,10 +32,9 @@ export default function Section1() {
                   Grow Your Business with a Digital Marketing Agency
                 </h1>
                 <p className='text-lg neutral-500 mb-55'>
-                  Use our analytics, reporting, and AI-assisted optimization
-                  tools to monitor trends, track performance, and create better
-                  campaigns that reach more customers likely to engage and
-                  convert.
+                  Use our tools to track your marketing. See what works, find
+                  trends, change your campaigns, and reach more people to
+                  attract more sales with our expertise.
                 </p>
                 <div className='d-flex mb-60'>
                   <Link className='hover-up mr-5' href='#'>
