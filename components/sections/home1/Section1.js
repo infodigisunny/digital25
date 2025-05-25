@@ -29,7 +29,7 @@ export default function Section1() {
                   </svg>
                 </Link>
                 <h1 className='display-2 mb-30 mt-25'>
-                  Get the insights you need to improve your business
+                  Grow Your Business with a Digital Marketing Agency
                 </h1>
                 <p className='text-lg neutral-500 mb-55'>
                   Use our analytics, reporting, and AI-assisted optimization

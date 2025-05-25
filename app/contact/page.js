@@ -7,7 +7,6 @@ export default function Contact() {
 
     return (
         <>
-
             <Layout headerStyle={1} footerStyle={1} headerCls="header-style-2 header-style-4" >
                 <div>
                     <section className="section-box box-content-contact">
