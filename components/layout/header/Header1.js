@@ -65,7 +65,7 @@ export default function Header1({
                       <Link href='/about'>About</Link>
                     </li>
                     <li className='has-children'>
-                      <Link href='/digital-agency'>Digital Agency</Link>
+                      <Link href='/digital-agency'>Digital-Agency</Link>
                     </li>
                     {/* <li className='mega-li has-children'>
                       <Link href='#'>Pages</Link>
