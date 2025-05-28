@@ -54,7 +54,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                                                 <li><Link href="/">Business Solutions</Link></li>
                                                 <li><Link href="/index-2">Marketing App</Link></li>
                                                 <li><Link href="/index-3">Web Agency</Link></li>
-                                                <li><Link href="/index-4">Digital Agency</Link></li>
+                                                <li><Link href="/digital-agency">Digital Agency</Link></li>
                                                 <li><Link href="/index-5">3D Products</Link></li>
                                                 <li><Link href="/index-6">AI Platform</Link></li>
                                             </ul>

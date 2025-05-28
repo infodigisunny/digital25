@@ -44,7 +44,7 @@ export default function Header1({
                       <Link className='active' href='/'>
                         Home
                       </Link>
-                      <ul className='sub-menu'>
+                      {/* <ul className='sub-menu'>
                         <li>
                           <Link href='/'>Business Solutions</Link>
                         </li>
@@ -55,19 +55,19 @@ export default function Header1({
                           <Link href='/index-3'>Web Agency</Link>
                         </li>
                         <li>
-                          <Link href='/index-4'>Digital Agency</Link>
+                          <Link href='/digital-agency'>Digital Agency</Link>
                         </li>
-                        {/* <li><Link href="/index-5">3D Products</Link></li>
-                                                <li><Link href="/index-6">AI Platform</Link></li> */}
-                      </ul>
+                        <li><Link href="/index-5">3D Products</Link></li>
+                                                <li><Link href="/index-6">AI Platform</Link></li>
+                      </ul> */}
                     </li>
                     <li className='has-children'>
                       <Link href='/about'>About</Link>
                     </li>
                     <li className='has-children'>
-                      <Link href='/service'>Services</Link>
+                      <Link href='/digital-agency'>Digital Agency</Link>
                     </li>
-                    <li className='mega-li has-children'>
+                    {/* <li className='mega-li has-children'>
                       <Link href='#'>Pages</Link>
                       <div className='mega-menu'>
                         <div className='mega-menu-inner'>
@@ -87,7 +87,7 @@ export default function Header1({
                                       <Link href='/index-3'>Web Agency</Link>
                                     </li>
                                     <li>
-                                      <Link href='/index-4'>
+                                      <Link href='/digital-agency'>
                                         Digital Agency
                                       </Link>
                                     </li>
@@ -234,8 +234,8 @@ export default function Header1({
                           </div>
                         </div>
                       </div>
-                    </li>
-                    <li className='has-children'>
+                    </li> */}
+                    {/* <li className='has-children'>
                       <Link href='/blog'>Blog</Link>
                       <ul className='sub-menu'>
                         <li>
@@ -251,13 +251,13 @@ export default function Header1({
                     </li>
                     <li className='has-children'>
                       <Link href='/contact'>Contact</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </nav>
               </div>
             </div>
             <div className='header-right'>
-              <SearchForm />
+              {/* <SearchForm />
               <Link className='btn btn-brand-4-medium hover-up' href='#'>
                 Get Started
                 <svg
@@ -270,7 +270,7 @@ export default function Header1({
                     d='M22 11.0003L18.4791 7.47949V10.3074H0V11.6933H18.4791V14.5213L22 11.0003Z'
                     fill='true'></path>
                 </svg>
-              </Link>
+              </Link> */}
               <div
                 className='burger-icon burger-icon-white'
                 onClick={handleMobileMenu}>
