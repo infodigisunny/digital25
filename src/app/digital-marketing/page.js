@@ -33,7 +33,7 @@ return (
                   {/* LEFT SIDE - Content */}
                   <div className="col-lg-6 col-md-12">
                     <h1 className="display-2 mb-25">
-                      Grow Your Business with a <span className="text-bg-brand-4">Digital</span> Marketing Agency
+                      Grow Your Online Business with a <span className="text-bg-brand-4">Digital</span> Marketing Agency
                     </h1>
                     <p className="text-lg mb-25">
                       Every business today needs a strong online presence. Our smartly applied and result-focused
