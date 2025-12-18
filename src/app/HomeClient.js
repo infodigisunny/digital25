@@ -9,57 +9,32 @@ import Header1 from "../../components/layout/header/Header1";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import "animate.css";
-const WOW = dynamic(() => import('wowjs').then(mod => mod.default), { ssr: false });
+import AnimatedElement from "../components/AnimatedElement";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import Footer3 from "../../components/layout/footer/Footer3";
 
-
 const Marquee = dynamic(() => import("react-fast-marquee"), {
   ssr: false,
+  loading: () => <div className="marquee-placeholder">Loading...</div>,
 });
 
 import Link from "next/link";
 
 export default function HomeClient() {
   const [isActive, setIsActive] = useState({ key: 1 });
-  const [mounted, setMounted] = useState(false);
+  const [isClient, setIsClient] = useState(false);
 
   const handleClick = (key) => {
     setIsActive({ key });
   };
 
   useEffect(() => {
-    setMounted(true);
-    
-    // Only run WOW.js on client side
-    const initializeWOW = async () => {
-      const WOW = (await import('wowjs')).default;
-      const wow = new WOW.WOW({
-        boxClass: 'wow',
-        animateClass: 'animate__animated',
-        offset: 0,
-        mobile: true,
-        live: false // Disable live reloading to prevent hydration issues
-      });
-      
-      // Reset animations before initializing to prevent flickering
-      if (typeof document !== 'undefined') {
-        const wowElements = document.querySelectorAll('.wow');
-        wowElements.forEach(el => {
-          el.classList.remove('animate__animated', 'animate__fadeIn');
-        });
-      }
-      
-      wow.init();
-    };
-    
-    initializeWOW();
-    
-    // Cleanup function
+    // Only run on client
+    setIsClient(true);
     return () => {
-      // Clean up WOW.js instance if needed
+      setIsClient(false);
     };
   }, []);
 

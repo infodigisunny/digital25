@@ -7,31 +7,11 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./assets/css/style.css";
+import "./assets/css/fix-backgrounds.css";
 import "animate.css";
 import Script from "next/script";
-import { useEffect } from 'react';
 import { usePathname } from 'next/navigation';
-
-function WOWInitializer() {
-  const pathname = usePathname();
-  
-  useEffect(() => {
-    // Only run on client side
-    import('wowjs').then(({ default: WOW }) => {
-      new WOW.WOW({
-        boxClass: 'wow',
-        animateClass: 'animated',
-        offset: 0,
-        mobile: true,
-        live: true,
-      }).init();
-    });
-  }, [pathname]);
-
-  return null;
-}
-
-<Script src="/assets/js/bootstrap.bundle.min.js" strategy="afterInteractive" />;
+import BackToTop from "../components/BackToTop";
 
 const urban = Urbanist({
   weight: ["200", "300", "400", "500", "600", "700"],
@@ -43,9 +23,16 @@ const urban = Urbanist({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={urban.variable}>
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <Script src="/assets/js/bootstrap.bundle.min.js" strategy="afterInteractive" />
+      </head>
+      <body className={urban.className}>
         {children}
-        <WOWInitializer />
+        <BackToTop />
       </body>
     </html>
   );
