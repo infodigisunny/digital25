@@ -1,12 +1,11 @@
 'use client';
 
-'use client';
-
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Script from "next/script";
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import ContactForm from '../../components/ContactForm/ContactForm';
+import MobileMenu from '../../../components/layout/MobileMenu';
 
 // Import components with SSR disabled for client-side only components
 const Header1 = dynamic(() => import('../../../components/layout/header/Header1'), { ssr: true });
@@ -15,14 +14,35 @@ const Footer3 = dynamic(() => import('../../../components/layout/footer/Footer3'
 
 export default function DigitalMarketingPage() {
   const [isActive, setIsActive] = useState({ key: 1 });
+  const [isMobileMenu, setIsMobileMenu] = useState(false);
 
   const handleClick = (key) => {
     setIsActive({ key });
   };
+
+  const handleMobileMenu = () => {
+    const newState = !isMobileMenu;
+    setIsMobileMenu(newState);
+    document.body.style.overflow = newState ? 'hidden' : 'auto';
+  };
+
+  // Cleanup function to reset body overflow when component unmounts
+  useEffect(() => {
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, []);
 return (
   
     <>
-      <Header1 />
+      <Header1 
+        isMobileMenu={isMobileMenu}
+        handleMobileMenu={handleMobileMenu}
+      />
+      <MobileMenu 
+        isMobileMenu={isMobileMenu} 
+        handleMobileMenu={handleMobileMenu} 
+      />
       
       <main className="main-page">
         <section className="section-box">

@@ -28,6 +28,7 @@ export const metadata = {
     site: "@adfinityclarity",
     images: ["https://adfinityclarity.com/assets/imgs/template/adfinityclarity.png"],
   },
+  
 };
 
 export default function SEOLayout({ children }) {

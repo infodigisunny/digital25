@@ -14,6 +14,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import Footer3 from "../../components/layout/footer/Footer3";
+import MobileMenu from "../../components/layout/MobileMenu";
 
 const Marquee = dynamic(() => import("react-fast-marquee"), {
   ssr: false,
@@ -25,19 +26,26 @@ import Link from "next/link";
 export default function HomeClient() {
   const [isActive, setIsActive] = useState({ key: 1 });
   const [isClient, setIsClient] = useState(false);
+  const [isMobileMenu, setIsMobileMenu] = useState(false);
 
   const handleClick = (key) => {
     setIsActive({ key });
+  };
+
+  const handleMobileMenu = () => {
+    const newState = !isMobileMenu;
+    setIsMobileMenu(newState);
+    document.body.style.overflow = newState ? 'hidden' : 'auto';
   };
 
   useEffect(() => {
     // Only run on client
     setIsClient(true);
     return () => {
+      document.body.style.overflow = 'auto';
       setIsClient(false);
     };
   }, []);
-
 
   const [faqActive, setFaqActive] = useState(null);
 
@@ -60,7 +68,14 @@ export default function HomeClient() {
   return (
     <>
       {/* ===================== HEADER ===================== */}
-      <Header1 />
+      <Header1 
+        isMobileMenu={isMobileMenu}
+        handleMobileMenu={handleMobileMenu}
+      />
+      <MobileMenu 
+        isMobileMenu={isMobileMenu} 
+        handleMobileMenu={handleMobileMenu} 
+      />
 
       {/* ===================== GTM (OPTIONAL IF NOT IN LAYOUT) ===================== */}
       <Script

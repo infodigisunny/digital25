@@ -1,15 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
-
 export default function BackToTop() {
-    const [isClient, setIsClient] = useState(false);
-
-    useEffect(() => {
-        setIsClient(true);
-        return () => setIsClient(false);
-    }, []);
-
     const scrollToTop = (e) => {
         e.preventDefault();
         window.scrollTo({
@@ -18,20 +9,15 @@ export default function BackToTop() {
         });
     };
 
-    // Only render on client side
-    if (!isClient) {
-        return null;
-    }
-
     return (
         <a 
             id="scrollUp" 
             href="#top" 
             onClick={scrollToTop}
             style={{ 
-                position: 'fixed', 
-                bottom: '20px', 
-                right: '20px', 
+                position: 'fixed',
+                bottom: '20px',
+                right: '20px',
                 zIndex: 2147483647,
                 display: 'flex',
                 alignItems: 'center',
@@ -40,8 +26,6 @@ export default function BackToTop() {
                 height: '50px',
                 borderRadius: '50%',
                 backgroundColor: '#191919',
-                backdropFilter: 'blur(5px)',
-                transition: 'all 0.3s ease',
                 cursor: 'pointer',
                 border: '1px solid rgba(255, 255, 255, 0.2)'
             }}

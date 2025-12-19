@@ -13,6 +13,7 @@ import Script from "next/script";
 import { usePathname } from 'next/navigation';
 import BackToTop from "../components/BackToTop";
 
+
 const urban = Urbanist({
   weight: ["200", "300", "400", "500", "600", "700"],
   subsets: ["latin"],
@@ -31,8 +32,11 @@ export default function RootLayout({ children }) {
         <Script src="/assets/js/bootstrap.bundle.min.js" strategy="afterInteractive" />
       </head>
       <body className={urban.className}>
-        {children}
-        <BackToTop />
+       
+          {children}
+          
+          <BackToTop />
+        
       </body>
     </html>
   );

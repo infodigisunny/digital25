@@ -276,7 +276,7 @@ export default function Header1({
                 </svg>
               </Link> */}
               <div
-                className="burger-icon burger-icon-white"
+                className={`burger-icon burger-icon-white ${isMobileMenu ? 'burger-close' : ''}`}
                 onClick={handleMobileMenu}
               >
                 <span className="burger-icon-top" />
