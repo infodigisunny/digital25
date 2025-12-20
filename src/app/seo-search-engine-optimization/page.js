@@ -777,9 +777,17 @@ strategic options available with SEO Company and how we collaborate with you.</p
       </main>
       
       <Footer3 />
-      
-      <Script src="/assets/js/plugins/scrollup.js" strategy="afterInteractive" />
-      <Script src="/assets/js/plugins/counterup.js" strategy="afterInteractive" />
+      <Script id="seo-scrollup-fallback" strategy="afterInteractive">
+        {`
+          if (typeof window !== 'undefined') {
+            if (!window.scrollToTop) {
+              window.scrollToTop = () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              };
+            }
+          }
+        `}
+      </Script>
     </>
   );
 }

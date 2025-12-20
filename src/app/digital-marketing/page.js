@@ -443,9 +443,15 @@ intrusive.</p>
               </main>
       
       <Footer3 />
-      
-      <Script src="/assets/js/plugins/scrollup.js" strategy="afterInteractive" />
-      <Script src="/assets/js/plugins/counterup.js" strategy="afterInteractive" />
+      <Script id="scrollup-fallback" strategy="afterInteractive">
+        {`
+          if (typeof window !== 'undefined') {
+            window.scrollToTop = () => {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            };
+          }
+        `}
+      </Script>
     </>
   );
 }
