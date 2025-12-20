@@ -444,7 +444,6 @@ intrusive.</p>
       
       <Footer3 />
       
-      <Script src="/assets/js/bootstrap.bundle.min.js" strategy="afterInteractive" />
       <Script src="/assets/js/plugins/scrollup.js" strategy="afterInteractive" />
       <Script src="/assets/js/plugins/counterup.js" strategy="afterInteractive" />
     </>
