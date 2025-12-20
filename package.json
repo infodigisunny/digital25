@@ -12,6 +12,7 @@
     "animate.css": "^4.1.1",
     "axios": "^1.13.2",
     "axioss": "^0.0.1-security",
+    "bootstrap": "^5.3.8",
     "css": "^3.0.0",
     "dotenv": "^17.2.3",
     "marquee": "^0.2.1",

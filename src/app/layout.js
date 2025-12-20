@@ -14,6 +14,7 @@ import { usePathname } from 'next/navigation';
 import BackToTop from "../components/BackToTop";
 
 
+
 const urban = Urbanist({
   weight: ["200", "300", "400", "500", "600", "700"],
   subsets: ["latin"],
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -36,7 +38,6 @@ export default function RootLayout({ children }) {
           {children}
           
           <BackToTop />
-        
       </body>
     </html>
   );
