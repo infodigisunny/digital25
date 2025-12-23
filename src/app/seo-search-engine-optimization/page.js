@@ -664,7 +664,7 @@ strategic options available with SEO Company and how we collaborate with you.</p
                     <div className="text-center mb-70">
                         <h3 className="heading-2 mb-20">Frequently Asked Questions</h3>
                         <p className="text-md neutral-700">
-                            Find answers to common questions about our SEO services
+                            Find answers to common questions about our SEO Company
                         </p>
                     </div>
                     <div className="box-2-col-faqs">
