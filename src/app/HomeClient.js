@@ -15,6 +15,8 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import Footer3 from "../../components/layout/footer/Footer3";
 import MobileMenu from "../../components/layout/MobileMenu";
+import HomeSchema from "@/components/schema/HomeSchema";
+
 
 const Marquee = dynamic(() => import("react-fast-marquee"), {
   ssr: false,
@@ -67,6 +69,8 @@ export default function HomeClient() {
 
   return (
     <>
+
+    <HomeSchema />
       {/* ===================== HEADER ===================== */}
       <Header1 
         isMobileMenu={isMobileMenu}
@@ -77,7 +81,7 @@ export default function HomeClient() {
         handleMobileMenu={handleMobileMenu} 
       />
 
-      {/* ===================== GTM (OPTIONAL IF NOT IN LAYOUT) ===================== */}
+      {/* ===================== GTM (OPTIONAL IF NOT IN LAYOUT) =====================
       <Script
         id="gtm-home"
         strategy="afterInteractive"
@@ -90,7 +94,7 @@ export default function HomeClient() {
             })(window,document,'script','dataLayer','GTM-NDZMJK42');
           `,
         }}
-      />
+      /> */}
 
       {/* ===================== HERO + FORM SECTION ===================== */}
       <section className="section-box">
