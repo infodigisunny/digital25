@@ -77,7 +77,7 @@ export default function HomeClient() {
         handleMobileMenu={handleMobileMenu} 
       />
 
-      {/* ===================== GTM (OPTIONAL IF NOT IN LAYOUT) ===================== */}
+      {/* ===================== GTM (OPTIONAL IF NOT IN LAYOUT) =====================
       <Script
         id="gtm-home"
         strategy="afterInteractive"
@@ -90,7 +90,7 @@ export default function HomeClient() {
             })(window,document,'script','dataLayer','GTM-NDZMJK42');
           `,
         }}
-      />
+      /> */}
 
       {/* ===================== HERO + FORM SECTION ===================== */}
       <section className="section-box">

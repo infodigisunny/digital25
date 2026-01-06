@@ -17,9 +17,19 @@ export const metadata = {
 
 export default function Home() {
   return (
+    
     <>
-    {/* ✅ GTM HEAD SCRIPT */}
-      <Script
+     {/* SEO fallback for crawlers */}
+      <section className="seo-fallback">
+        <h1>Adfinity Clarity – Digital Marketing Agency</h1>
+        <p>
+          Adfinity Clarity helps businesses grow with SEO, PPC, content marketing,
+          and performance-driven digital strategies.
+        </p>
+      </section>
+
+    
+      {/* <Script
         id="gtm-head"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
@@ -31,17 +41,20 @@ export default function Home() {
             })(window,document,'script','dataLayer','GTM-NDZMJK42');
           `,
         }}
-      />
+      /> */}
 
-      {/* ✅ GTM NOSCRIPT */}
+      {/* ✅ GTM NOSCRIPT
       <noscript
         dangerouslySetInnerHTML={{
           __html: `
             <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NDZMJK42"
             height="0" width="0" style="display:none;visibility:hidden"></iframe>
           `,
+
+          
         }}
-      />
+      /> */}
+      
 
   {/* WebSite Schema #1 */}
  <Script
@@ -166,7 +179,7 @@ export default function Home() {
     }}
   />
 
-  {/* WebSite Schema #2 (Alternate name variant) */}
+  {/* WebSite Schema #2 (Alternate name variant)
   <Script
   id="website-schema-2"
   type="application/ld+json"
@@ -185,7 +198,7 @@ export default function Home() {
       "inLanguage": "en-US"
     })
   }}
-/>
+/> */}
 
   {/* Breadcrumb Schema */}
   <Script
@@ -208,7 +221,7 @@ export default function Home() {
     }}
   />
 
-  {/* Article Schema */}
+  {/* Article Schema
   <Script
     id="article-schema"
     type="application/ld+json"
@@ -239,7 +252,7 @@ export default function Home() {
         "inLanguage": "en-US"
       })
     }}
-  />
+  /> */}
 
   {/* FAQ Schema */}
   <Script
@@ -281,7 +294,7 @@ export default function Home() {
   />
 
   {/* ImageObject Schema (Logo) */}
-  <Script
+  {/* <Script
     id="logo-image-schema"
     type="application/ld+json"
     strategy="beforeInteractive"
@@ -295,7 +308,7 @@ export default function Home() {
         "url": "https://adfinityclarity.com/full-logo.webp"
       })
     }}
-  />
+  /> */}
       {/* Page-level schemas or scripts if needed */}
     
       <HomeClient />
