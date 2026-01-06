@@ -18,6 +18,7 @@ const Footer3 = dynamic(() => import('../../../components/layout/footer/Footer3'
 
 
 
+
 export default function SEOPage() {
   // Mobile menu state
   const [isMobileMenu, setIsMobileMenu] = useState(false);
@@ -52,6 +53,7 @@ export default function SEOPage() {
   return (
     <>
         
+
     
 
       <Header1 
