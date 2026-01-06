@@ -20,11 +20,6 @@ export const metadata = {
   title: {
     default: "Adfinity Clarity – Digital Marketing Agency",
     template: "%s | Adfinity Clarity",
-    robots: {
-  index: true,
-  follow: true,
-},
-
   },
   description:
     "Adfinity Clarity is a results-driven digital marketing agency offering SEO, PPC, social media marketing, and growth solutions.",
