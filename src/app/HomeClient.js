@@ -15,7 +15,7 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import Footer3 from "../../components/layout/footer/Footer3";
 import MobileMenu from "../../components/layout/MobileMenu";
-import HomeSchema from "@/components/schema/HomeSchema";
+// import HomeSchema from "../../components/schema/HomeSchema";
 
 
 const Marquee = dynamic(() => import("react-fast-marquee"), {
@@ -70,7 +70,7 @@ export default function HomeClient() {
   return (
     <>
 
-    <HomeSchema />
+    {/* <HomeSchema /> */}
       {/* ===================== HEADER ===================== */}
       <Header1 
         isMobileMenu={isMobileMenu}
