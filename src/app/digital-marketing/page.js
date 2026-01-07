@@ -11,14 +11,6 @@ import MobileMenu from '../../../components/layout/MobileMenu';
 const Header1 = dynamic(() => import('../../../components/layout/header/Header1'), { ssr: true });
 const Footer3 = dynamic(() => import('../../../components/layout/footer/Footer3'), { ssr: true });
 
-/* ===================== PAGE-SPECIFIC METADATA ===================== */
-export const metadata = {
-  title: "Digital Marketing Services - Grow Your Business with Adfinity Clarity",
-  description: "Expert digital marketing agency offering SEO, PPC, social media, content marketing, and web design services. Drive growth with data-driven strategies.",
-  alternates: {
-    canonical: "https://adfinityclarity.com/digital-marketing",
-  },
-};
 
 export default function DigitalMarketingPage() {
   const [isActive, setIsActive] = useState({ key: 1 });
@@ -40,59 +32,9 @@ export default function DigitalMarketingPage() {
       document.body.style.overflow = 'auto';
     };
   }, []);
-
-  return (
+return (
+  
     <>
-      <h1 style={{display: 'none'}}>Digital Marketing Services - Grow Your Business with Adfinity Clarity</h1>
-      
-      {/* Server-rendered SEO content - hidden from UI */}
-      <div style={{display: 'none'}}>
-        <h2>Comprehensive Digital Marketing Solutions</h2>
-        <p>Transform your online presence with Adfinity Clarity&apos;s expert digital marketing services. We specialize in creating data-driven strategies that deliver measurable results, helping businesses achieve growth objectives through targeted digital campaigns across all platforms.</p>
-        
-        <h3>Search Engine Optimization Services</h3>
-        <p>Our SEO services form the foundation of successful digital marketing. We conduct comprehensive keyword research, implement on-page and off-page optimization strategies, and ensure your website meets all technical SEO requirements to improve search engine rankings and drive organic traffic.</p>
-        
-        <h3>Pay-Per-Click Advertising Management</h3>
-        <p>Maximize ROI with our expert PPC management services. We create and manage targeted campaigns across Google Ads, Bing Ads, Facebook Ads, and LinkedIn Ads, ensuring your ad spend delivers optimal results through continuous optimization and detailed performance tracking.</p>
-        
-        <h3>Social Media Marketing Strategies</h3>
-        <p>Build meaningful connections with your audience through our comprehensive social media marketing services. We develop and execute strategies across Facebook, Instagram, Twitter, and LinkedIn to increase brand awareness, engage followers, and drive conversions with consistent brand messaging.</p>
-        
-        <h3>Content Marketing and Copywriting</h3>
-        <p>Quality content drives digital marketing success. Our team creates compelling blog posts, articles, infographics, and videos that educate, engage, and convert your target audience, establishing your brand as an industry authority while driving organic traffic.</p>
-        
-        <h3>Email Marketing Campaigns</h3>
-        <p>Nurture leads and maintain customer relationships through targeted email marketing campaigns. We design and execute email strategies including welcome series, promotional campaigns, and automated drip campaigns to maximize open rates and conversions.</p>
-        
-        <h3>Web Design and Development Services</h3>
-        <p>Your website is your digital storefront. We create responsive, user-friendly websites that convert visitors into customers using WordPress, Webflow, Shopify, and custom development solutions tailored to your business needs and goals.</p>
-        
-        <h3>Conversion Rate Optimization</h3>
-        <p>Improve your website&apos;s performance with our conversion rate optimization services. We analyze user behavior, conduct A/B testing, and implement data-driven changes to increase conversion rates and maximize your marketing ROI.</p>
-        
-        <h3>Affiliate Marketing Management</h3>
-        <p>Expand your reach and increase sales through strategic affiliate marketing partnerships. We help you build and manage affiliate programs that align with your brand values and business objectives, from partner recruitment to performance tracking.</p>
-        
-        <h3>Online PR and Reputation Management</h3>
-        <p>Protect and enhance your online reputation with our comprehensive PR and reputation management services. We monitor brand mentions, respond to reviews, and create positive content that improves your online image and builds authority.</p>
-        
-        <h3>Mobile Marketing Solutions</h3>
-        <p>Reach your audience where they spend most of their time with our mobile marketing services. We create SMS campaigns, push notifications, and mobile-optimized content that engages users on their devices and drives conversions across mobile platforms.</p>
-        
-        <h3>Video Marketing Production</h3>
-        <p>Capture attention and communicate your message effectively with professional video marketing services. We produce engaging video content for social media, websites, and advertising campaigns, from concept development to post-production.</p>
-        
-        <h3>Influencer Marketing Campaigns</h3>
-        <p>Leverage the power of social proof through strategic influencer partnerships. We identify and collaborate with influencers who align with your brand values and target audience to reach new markets and build authentic engagement.</p>
-        
-        <h3>Data-Driven Digital Marketing Strategy</h3>
-        <p>Every successful digital marketing campaign starts with a solid strategy. We develop comprehensive digital marketing plans based on thorough market research, competitor analysis, and audience insights to ensure every marketing decision is backed by measurable data.</p>
-        
-        <h3>Analytics and Performance Reporting</h3>
-        <p>Measure what matters with our comprehensive analytics and reporting services. We provide detailed insights into campaign performance, user behavior, and ROI to help you understand the impact of your digital marketing efforts.</p>
-      </div>
-
       <Header1 
         isMobileMenu={isMobileMenu}
         handleMobileMenu={handleMobileMenu}
