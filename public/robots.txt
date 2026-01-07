@@ -1,5 +1,12 @@
 User-agent: *
+<<<<<<< HEAD
 Allow: /
 
 Sitemap: https://adfinityclarity.com/sitemap_index.xml
 
+=======
+
+Allow: /
+
+Sitemap: https://adfinityclarity.com/sitemap_index.xml
+>>>>>>> 06c6568fe8527c595ba4cbd7050df94354aa5126
