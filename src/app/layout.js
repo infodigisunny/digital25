@@ -17,12 +17,12 @@ const urban = Urbanist({
 
 export const metadata = {
   metadataBase: new URL("https://adfinityclarity.com"),
-  // title: {
-  //   default: "Adfinity Clarity – Digital Marketing Agency",
-  //   template: "%s | Adfinity Clarity",
-  // },
-  // description:
-  //   "Adfinity Clarity is a results-driven digital marketing agency offering SEO, PPC, social media marketing, and growth solutions.",
+  title: {
+    default: "Adfinity Clarity – Digital Marketing Agency",
+    template: "%s | Adfinity Clarity",
+  },
+  description:
+    "Adfinity Clarity is a results-driven digital marketing agency offering SEO, PPC, social media marketing, and growth solutions.",
   icons: {
     icon: "/favicon.ico",
   },
