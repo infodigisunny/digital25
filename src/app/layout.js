@@ -15,28 +15,16 @@ const urban = Urbanist({
   display: "swap",
 });
 
-// export const metadata = {
-//   metadataBase: new URL("https://adfinityclarity.com"),
-//   title: {
-//     default: "Adfinity Clarity – Digital Marketing Agency",
-//     template: "%s | Adfinity Clarity",
-//   },
-//   description:
-//     "Adfinity Clarity is a results-driven digital marketing agency offering SEO, PPC, social media marketing, and growth solutions.",
-//   icons: {
-//     icon: "/favicon.ico",
-//   },
-// };
-
 export const metadata = {
-  title: "Best SEO & Digital Marketing Agency - Adfinity Clarity",
-  description:
-    "Adfinity Clarity is a top-rated Digital Marketing Agency focused on SEO, Performance Marketing, Lead Generation, Content Marketing, and Web Design.",
-  alternates: {
-    canonical: "https://adfinityclarity.com/",
-    icons: {
-   icon: "/favicon.ico",
-   },
+  metadataBase: new URL("https://adfinityclarity.com"),
+  // title: {
+  //   default: "Adfinity Clarity – Digital Marketing Agency",
+  //   template: "%s | Adfinity Clarity",
+  // },
+  // description:
+  //   "Adfinity Clarity is a results-driven digital marketing agency offering SEO, PPC, social media marketing, and growth solutions.",
+  icons: {
+    icon: "/favicon.ico",
   },
 };
 
