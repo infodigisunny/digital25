@@ -15,7 +15,7 @@ const urban = Urbanist({
   display: "swap",
 });
 
-export const metadata = {
+{/*export const metadata = {
   metadataBase: new URL("https://adfinityclarity.com"),
   title: {
     default: "Adfinity Clarity – Digital Marketing Agency",
@@ -26,7 +26,7 @@ export const metadata = {
   icons: {
     icon: "/favicon.ico",
   },
-};
+};*/}
 
 export default function RootLayout({ children }) {
   return (
