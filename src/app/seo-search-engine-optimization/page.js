@@ -14,15 +14,6 @@ import ContactForm from '../../components/ContactForm/ContactForm';
 const Header1 = dynamic(() => import('../../../components/layout/header/Header1'), { ssr: true });
 const Footer3 = dynamic(() => import('../../../components/layout/footer/Footer3'), { ssr: true });
 
-/* ===================== PAGE-SPECIFIC METADATA ===================== */
-export const metadata = {
-  title: "SEO Services - Professional Search Engine Optimization by Adfinity Clarity",
-  description: "Expert SEO company offering comprehensive search engine optimization services. Improve rankings, drive organic traffic, and increase conversions with data-driven SEO strategies.",
-  alternates: {
-    canonical: "https://adfinityclarity.com/seo-search-engine-optimization",
-  },
-};
-
 
 
 
