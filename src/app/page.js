@@ -18,9 +18,9 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <h1 style={{display: 'none'}}>Best SEO & Digital Marketing Agency - Adfinity Clarity</h1>
+      {/*<h1 style={{display: 'none'}}>Best SEO & Digital Marketing Agency - Adfinity Clarity</h1>
       
-      {/* Server-rendered SEO content - hidden from UI */}
+       Server-rendered SEO content - hidden from UI 
       <div style={{display: 'none'}}>
         <h2>Expert Digital Marketing Services</h2>
         <p>Adfinity Clarity is a top-rated digital marketing agency specializing in SEO, performance marketing, lead generation, content marketing, and web design. Our data-driven approach helps businesses achieve remarkable online growth and maximize ROI through targeted digital strategies.</p>
@@ -55,7 +55,7 @@ export default function Home() {
         <h3>Industry-Leading Expertise</h3>
         <p>Adfinity Clarity brings together certified digital marketing experts across various disciplines. Our collective experience spans multiple industries, allowing us to understand unique challenges and deliver tailored solutions that exceed expectations.</p>
       </div>
-
+*/}
     
     ✅ GTM HEAD SCRIPT
       {/* <Script
