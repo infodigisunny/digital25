@@ -34,9 +34,9 @@ export default function DigitalMarketingPage() {
   }, []);
 return (
     <>
-      <h1 style={{display: 'none'}}>Digital Marketing Services - Grow Your Business with Adfinity Clarity</h1>
+      {/*<h1 style={{display: 'none'}}>Digital Marketing Services - Grow Your Business with Adfinity Clarity</h1>
       
-      {/* Server-rendered SEO content - hidden from UI */}
+       Server-rendered SEO content - hidden from UI 
       <div style={{display: 'none'}}>
         <h2>Comprehensive Digital Marketing Solutions</h2>
         <p>Transform your online presence with Adfinity Clarity&apos;s expert digital marketing services. We specialize in creating data-driven strategies that deliver measurable results, helping businesses achieve growth objectives through targeted digital campaigns across all platforms.</p>
@@ -83,7 +83,7 @@ return (
         <h3>Analytics and Performance Reporting</h3>
         <p>Measure what matters with our comprehensive analytics and reporting services. We provide detailed insights into campaign performance, user behavior, and ROI to help you understand the impact of your digital marketing efforts.</p>
       </div>
-
+*/}
       <Header1 />
         <section className="section-box">
           <div className="banner-hero hero-4">

@@ -50,9 +50,9 @@ export default function SEOPage() {
 
   return (
     <>
-      <h1 style={{display: 'none'}}>SEO Services - Professional Search Engine Optimization by Adfinity Clarity</h1>
+       {/*<h1 style={{display: 'none'}}>SEO Services - Professional Search Engine Optimization by Adfinity Clarity</h1>
       
-      {/* Server-rendered SEO content - hidden from UI */}
+       Server-rendered SEO content - hidden from UI *
       <div style={{display: 'none'}}>
         <h2>Professional SEO Services That Drive Organic Growth</h2>
         <p>Transform your online visibility with Adfinity Clarity&apos;s comprehensive SEO services. Our expert team combines technical excellence with strategic insight to deliver sustainable search engine optimization results that increase traffic, improve rankings, and boost conversions for businesses across all industries.</p>
@@ -106,7 +106,7 @@ export default function SEOPage() {
         <p>Ready to transform your search engine presence? Partner with Adfinity Clarity and experience the difference that expert SEO services can make for your business. Our proven track record of success, combined with our commitment to ethical practices, makes us the ideal choice.</p>
       </div>
 
-        
+        */}
 
     
 
