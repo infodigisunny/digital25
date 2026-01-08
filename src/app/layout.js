@@ -7,6 +7,7 @@ import "./assets/css/fix-backgrounds.css";
 import "animate.css";
 import Script from "next/script";
 import BackToTop from "../components/BackToTop";
+import Head from "next/head";  // Import Next.js Head component
 
 const urban = Urbanist({
   weight: ["200", "300", "400", "500", "600", "700"],
@@ -65,6 +66,23 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <meta property="og:title" content={metadata.openGraph.title} />
+        <meta property="og:description" content={metadata.openGraph.description} />
+        <meta property="og:url" content={metadata.openGraph.url} />
+        <meta property="og:site_name" content={metadata.openGraph.siteName} />
+        <meta property="og:type" content={metadata.openGraph.type} />
+        <meta property="og:locale" content={metadata.openGraph.locale} />
+        <meta property="og:image" content={metadata.openGraph.images[0].url} />
+        <meta name="twitter:card" content={metadata.twitter.card} />
+        <meta name="twitter:title" content={metadata.twitter.title} />
+        <meta name="twitter:description" content={metadata.twitter.description} />
+        <meta name="twitter:site" content={metadata.twitter.site} />
+        <meta name="twitter:image" content={metadata.twitter.images[0]} />
+        <link rel="canonical" href={metadata.alternates.canonical} />
+      </Head>
       <body className={urban.className}>
         {children}
         <BackToTop />
