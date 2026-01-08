@@ -537,7 +537,7 @@ strategic options available with SEO Company and how we collaborate with you.</p
                 </div>
             </section>
 
-            <section className="section-box box-preparing">
+            <section className="section-box box-preparing pt-10">
                 <div className="box-preparing-inner">
                     <div className="container">
                         <div className="text-center">
