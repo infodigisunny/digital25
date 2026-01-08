@@ -427,8 +427,6 @@ heavy lifting, so your site earns authority naturally and keeps it, even as algo
                     </div>
                 </div >
             </section >        
-
-
             <section className="section-box box-category-question">
                     <div className="container">
                         <div className="text-center box-help-mw">
