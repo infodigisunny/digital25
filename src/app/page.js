@@ -1,4 +1,4 @@
-/** @format */
+"use client";
 
 import Script from "next/script";
 import HomeClient from "./HomeClient";
