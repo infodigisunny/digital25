@@ -427,7 +427,7 @@ heavy lifting, so your site earns authority naturally and keeps it, even as algo
                     </div>
                 </div >
             </section >        
-            <section className="section-box box-category-question mt-50" >
+            <section className="section-box box-category-question mt-{-50}" >
                     <div className="container">
                         <div className="text-center box-help-mw">
                             <h2 className="heading-2 mb-15 mt-15">Our GROWTH SEO Framework</h2>
