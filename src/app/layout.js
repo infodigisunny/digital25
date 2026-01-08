@@ -1,4 +1,4 @@
-"use client";
+
 import { Urbanist } from "next/font/google";
 import "swiper/css";
 import "swiper/css/navigation";
