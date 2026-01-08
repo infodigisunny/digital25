@@ -1173,7 +1173,7 @@ export default function HomeClient() {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 mb-30">
-              <div className="box-image-neutral-1000">
+              <div className="pt-50">
                 <img
                   src="/assets/imgs/page/homepage1/img-discover.webp"
                   alt="Adfinity Clarity"
