@@ -2,8 +2,7 @@
 
 import Script from "next/script";
 import HomeClient from "./HomeClient";
-
-
+import Head from "next/head";
 
 /* ===================== PAGE-SPECIFIC METADATA ===================== */
 {/*export const metadata = {
@@ -45,6 +44,14 @@ import HomeClient from "./HomeClient";
 export default function Home() {
   return (
     <>
+    <Head>
+        <title>Page Title</title>
+        <meta name="description" content="Description of the page" />
+        <meta property="og:title" content="Page Title" />
+        <meta property="og:description" content="Description of the page" />
+        <link rel="canonical" href="https://yourwebsite.com/" />
+      </Head>
+
       {/*<h1 style={{display: 'none'}}>Best SEO & Digital Marketing Agency - Adfinity Clarity</h1>
       
        Server-rendered SEO content - hidden from UI 
