@@ -5,7 +5,7 @@ import "swiper/css/pagination";
 import "./assets/css/style.css";
 import "./assets/css/fix-backgrounds.css";
 import "animate.css";
-/*import Script from "next/script";*/
+import Script from "next/script";
 import BackToTop from "../components/BackToTop";
 
 
@@ -23,10 +23,10 @@ export default function RootLayout({ children }) {
         <BackToTop />
 
         {/* Bootstrap JS */}
-       {/*} <Script
+        <Script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
           strategy="afterInteractive"
-        />*/}
+        />
       </body>
     </html>
   );
