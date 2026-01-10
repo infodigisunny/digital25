@@ -1,6 +1,5 @@
 
 "use client";
-import Script from "next/script";
 import { useState, useEffect } from "react";
 import ContactForm from "../components/ContactForm";
 import axios from "axios";
@@ -14,13 +13,13 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import Footer3 from "../../components/layout/footer/Footer3";
 import MobileMenu from "../../components/layout/MobileMenu";
-
+import Link from "next/link";
 const Marquee = dynamic(() => import("react-fast-marquee"), {
   ssr: false,
   loading: () => <div className="marquee-placeholder">Loading...</div>,
 });
 
-import Link from "next/link";
+
 
 export default function HomeClient() {
   const [isActive, setIsActive] = useState({ key: 1 });
