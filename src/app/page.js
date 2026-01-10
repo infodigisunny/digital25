@@ -1,8 +1,6 @@
 import HomeClient from "./HomeClient";
 
 
-
-
 export const metadata = {
   title: "Best SEO & Digital Marketing Agency - Adfinity Clarity",
   description:
