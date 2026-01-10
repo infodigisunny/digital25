@@ -16,7 +16,7 @@ import "swiper/css";
 import Footer3 from "../../components/layout/footer/Footer3";
 import MobileMenu from "../../components/layout/MobileMenu";
 const Marquee = dynamic(() => import("react-fast-marquee"), {
-  ssr: true,
+  ssr: false,
   loading: () => <div className="marquee-placeholder">Loading...</div>,
 });
 
