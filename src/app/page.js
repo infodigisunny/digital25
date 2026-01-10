@@ -1,5 +1,7 @@
 import Script from "next/script";
 import HomeClient from "./HomeClient";
+import Head from 'next/head'
+
 
 
 export const metadata = {
