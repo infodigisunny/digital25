@@ -43,7 +43,7 @@ export default function Home() {
   return (
     <> 
     ✅ GTM HEAD SCRIPT
-      {/* <Script
+      <Script
         id="gtm-head"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
@@ -55,9 +55,8 @@ export default function Home() {
             })(window,document,'script','dataLayer','GTM-NDZMJK42');
           `,
         }}
-      /> */}
-
-      {/* ✅ GTM NOSCRIPT
+      /> 
+       ✅ GTM NOSCRIPT
       <noscript
         dangerouslySetInnerHTML={{
           __html: `
@@ -65,7 +64,7 @@ export default function Home() {
             height="0" width="0" style="display:none;visibility:hidden"></iframe>
           `,
         }}
-      /> */}
+      />
   {/* WebSite Schema #1 */}
  <Script
   id="website-schema-1"
