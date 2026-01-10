@@ -5,7 +5,6 @@ import "swiper/css/pagination";
 import "./assets/css/style.css";
 import "./assets/css/fix-backgrounds.css";
 import "animate.css";
-import Script from "next/script";
 import BackToTop from "../components/BackToTop";
 
 
