@@ -1,4 +1,5 @@
 import Script from "next/script";
+import Head from "next/head";  // Import Head component
 import HomeClient from "./HomeClient";
 
 
@@ -42,7 +43,11 @@ export const metadata = {
 export default function Home() {
   return (
     <> 
-    <meta name="google-site-verification" content="u4O0nRNafe3pkIB3d6EG-kBJAl0lTRq7Ntjm_dbH9eA" />
+    <Head>
+        {/* Google Site Verification Meta Tag */}
+        <meta name="google-site-verification" content="u4O0nRNafe3pkIB3d6EG-kBJAl0lTRq7Ntjm_dbH9eA" />
+        {/* Other meta tags can go here */}
+      </Head>
     ✅ GTM HEAD SCRIPT
       {/* <Script
         id="gtm-head"
