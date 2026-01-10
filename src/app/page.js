@@ -42,8 +42,9 @@ export const metadata = {
 export default function Home() {
   return (
     <> 
+    <meta name="google-site-verification" content="u4O0nRNafe3pkIB3d6EG-kBJAl0lTRq7Ntjm_dbH9eA" />
     ✅ GTM HEAD SCRIPT
-       <Script
+      {/* <Script
         id="gtm-head"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
@@ -55,9 +56,9 @@ export default function Home() {
             })(window,document,'script','dataLayer','GTM-NDZMJK42');
           `,
         }}
-      />
+      /> */}
 
-       ✅ GTM NOSCRIPT
+      {/* ✅ GTM NOSCRIPT
       <noscript
         dangerouslySetInnerHTML={{
           __html: `
@@ -65,7 +66,7 @@ export default function Home() {
             height="0" width="0" style="display:none;visibility:hidden"></iframe>
           `,
         }}
-      /> 
+      /> */}
   {/* WebSite Schema #1 */}
  <Script
   id="website-schema-1"
