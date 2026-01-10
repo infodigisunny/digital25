@@ -36,7 +36,14 @@ export const metadata = {
   },
 };
 
-
+// Use Server Side Rendering (SSR) to render metadata properly
+export async function getServerSideProps() {
+  return {
+    props: {
+      metadata,
+    },
+  };
+}
 
 export default function Home() {
   return (
