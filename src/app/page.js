@@ -1,4 +1,3 @@
-import Script from "next/script";
 import HomeClient from "./HomeClient";
 
 
