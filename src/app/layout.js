@@ -1,4 +1,3 @@
-
 import { Urbanist } from "next/font/google";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -16,6 +15,7 @@ const urban = Urbanist({
   variable: "--tg-body-font-family",
   display: "swap",
 });
+{/*}
 export const metadata = {
   title: "Best SEO & Digital Marketing Agency - Adfinity Clarity",
   description:
@@ -49,7 +49,7 @@ export const metadata = {
     ],
   },
 };
-
+*/}
 
 {/*export const metadata = {
   metadataBase: new URL("https://adfinityclarity.com"),
