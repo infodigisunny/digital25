@@ -1,6 +1,7 @@
 import Head from "next/head";
 import HomeClient from "./HomeClient";
 
+
 export const metadata = {
   title: "Best SEO & Digital Marketing Agency - Adfinity Clarity",
   description:
@@ -35,19 +36,9 @@ export const metadata = {
   },
 };
 
-// Fetch metadata during SSR (getServerSideProps)
-export async function getServerSideProps() {
-  return {
-    props: {
-      metadata,
-    },
-  };
-}
-
-export default function Home({ metadata }) {
+export default function Home() {
   return (
-    <>
-      <Head>
+    <>     <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta property="og:title" content={metadata.openGraph.title} />
@@ -64,7 +55,30 @@ export default function Home({ metadata }) {
         <meta name="twitter:image" content={metadata.twitter.images[0]} />
         <link rel="canonical" href={metadata.alternates.canonical} />
       </Head>
+    ✅ GTM HEAD SCRIPT
+      {/* <Script
+        id="gtm-head"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-NDZMJK42');
+          `,
+        }}
+      /> */}
 
+      {/* ✅ GTM NOSCRIPT
+      <noscript
+        dangerouslySetInnerHTML={{
+          __html: `
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NDZMJK42"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+          `,
+        }}
+      /> */}
       <HomeClient />
     </>
   );
