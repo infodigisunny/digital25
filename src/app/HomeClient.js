@@ -6,6 +6,7 @@ import ContactForm from "../components/ContactForm";
 import axios from "axios";
 import Header1 from "../../components/layout/header/Header1";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 import Image from "next/image";
 import "animate.css";
 import AnimatedElement from "../components/AnimatedElement";
@@ -14,7 +15,6 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import Footer3 from "../../components/layout/footer/Footer3";
 import MobileMenu from "../../components/layout/MobileMenu";
-import Link from "next/link";
 const Marquee = dynamic(() => import("react-fast-marquee"), {
   ssr: false,
   loading: () => <div className="marquee-placeholder">Loading...</div>,
