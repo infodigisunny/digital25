@@ -45,7 +45,7 @@ export async function getServerSideProps() {
   };
 }
 
-export default function Home() {
+export default function Home({ metadata }) {
   return (
     <>     <Head>
         <title>{metadata.title}</title>
