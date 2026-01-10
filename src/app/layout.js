@@ -15,35 +15,23 @@ const urban = Urbanist({
   variable: "--tg-body-font-family",
   display: "swap",
 });
+{/*export const metadata = {
+  metadataBase: new URL("https://adfinityclarity.com"),
+  title: {
+    default: "Adfinity Clarity – Digital Marketing Agency",
+    template: "%s | Adfinity Clarity",
+  },
+  description:
+    "Adfinity Clarity is a results-driven digital marketing agency offering SEO, PPC, social media marketing, and growth solutions.",
+  icons: {
+    icon: "/favicon.ico",
+  },
+};*/}
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={urban.className}>✅ GTM HEAD SCRIPT
-            {/* <Script
-              id="gtm-head"
-              strategy="afterInteractive"
-              dangerouslySetInnerHTML={{
-                __html: `
-                  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                  })(window,document,'script','dataLayer','GTM-NDZMJK42');
-                `,
-              }}
-            /> */}
-      
-            {/* ✅ GTM NOSCRIPT
-            <noscript
-              dangerouslySetInnerHTML={{
-                __html: `
-                  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NDZMJK42"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe>
-                `,
-              }}
-            /> */}
-
-      
+      <body className={urban.className}>
         {children}
         <BackToTop />
 
