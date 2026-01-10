@@ -292,7 +292,10 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <> 
+    <> <Head>
+                <title>Nivia - Multipurpose Startup SaaS Nextjs Template</title>
+                <meta name="description" content="Nivia is a powerful and flexible startup SaaS template built with Next.js, perfect for any business looking to make an impact." />
+            </Head>
     ✅ GTM HEAD SCRIPT
       {/* <Script
         id="gtm-head"
