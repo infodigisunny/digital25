@@ -1,4 +1,3 @@
-'use client';
 
 import { useState, useEffect } from 'react';
 import Script from "next/script";
@@ -8,8 +7,8 @@ import ContactForm from '../../components/ContactForm/ContactForm';
 import MobileMenu from '../../../components/layout/MobileMenu';
 
 // Import components with SSR disabled for client-side only components
-const Header1 = dynamic(() => import('../../../components/layout/header/Header1'), { ssr: true });
-const Footer3 = dynamic(() => import('../../../components/layout/footer/Footer3'), { ssr: true });
+const Header1 = dynamic(() => import('../../../components/layout/header/Header1'), { ssr: false });
+const Footer3 = dynamic(() => import('../../../components/layout/footer/Footer3'), { ssr: false });
 
 
 export default function DigitalMarketingPage() {
