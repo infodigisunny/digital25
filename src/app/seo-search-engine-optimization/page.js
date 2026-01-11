@@ -11,8 +11,8 @@ import ContactForm from '../../components/ContactForm/ContactForm';
 
 
 
-const Header1 = dynamic(() => import('../../../components/layout/header/Header1'), );
-const Footer3 = dynamic(() => import('../../../components/layout/footer/Footer3'), );
+const Header1 = dynamic(() => import('../../../components/layout/header/Header1'), { ssr: true });
+const Footer3 = dynamic(() => import('../../../components/layout/footer/Footer3'), { ssr: true });
 
 
 
