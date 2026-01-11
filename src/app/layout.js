@@ -19,10 +19,6 @@ export const metadata = {
   verification: {
     google: "u4O0nRNafe3pkIB3d6EG-kBJAl0lTRq7Ntjm_dbH9eA",
   },
-  title: {
-    default: "Adfinity Clarity – Digital Marketing Agency",
-    template: "%s | Adfinity Clarity",
-  },
 };
 {/*export const metadata = {
   metadataBase: new URL("https://adfinityclarity.com"),
