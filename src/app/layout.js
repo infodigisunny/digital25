@@ -32,7 +32,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta name="google-site-verification" content="u4O0nRNafe3pkIB3d6EG-kBJAl0lTRq7Ntjm_dbH9eA" />
         {/* Google Tag Manager */}
         <Script id="gtm-script" strategy="afterInteractive">
           {`
