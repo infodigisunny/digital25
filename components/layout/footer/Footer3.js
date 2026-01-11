@@ -91,6 +91,7 @@ export default function Footer3() {
                   Copyright © 2025 <Link href="/">Adfinity Clarity</Link>. All
                   rights reserved.
                 </p>
+                <a href="//www.dmca.com/Protection/Status.aspx?ID=4b7fde85-ef3e-497c-9850-2dd47ebdb2e7" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120c.png?ID=4b7fde85-ef3e-497c-9850-2dd47ebdb2e7"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
               </div>
               <div className="col-md-6 text-md-end text-center">
                 <ul className="menu-bottom-footer">
@@ -100,13 +101,6 @@ export default function Footer3() {
                 </ul>
               </div>
             </div>
-            <div className="col-md-6 text-md-end text-center">
-                <ul className="menu-bottom-footer">
-                  <li>
-                    <a href="//www.dmca.com/Protection/Status.aspx?ID=4b7fde85-ef3e-497c-9850-2dd47ebdb2e7" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=4b7fde85-ef3e-497c-9850-2dd47ebdb2e7"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
-                  </li>
-                </ul>
-              </div>
           </div>
         </div>
       </footer>
