@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* Google Tag Manager */}
+        {/* Google Tag Manager 
         <Script id="gtm-script" strategy="afterInteractive">
           {`
             (function(w,d,s,l,i){
@@ -51,11 +51,10 @@ export default function RootLayout({ children }) {
             })(window,document,'script','dataLayer','GTM-NDZMJK42');
           `}
         </Script>
-        {/* End Google Tag Manager */}
+        End Google Tag Manager */}
       </head>
       <body className={urban.className}>
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
+        {/* Google Tag Manager (noscript)         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-NDZMJK42"
             height="0"
@@ -63,7 +62,7 @@ export default function RootLayout({ children }) {
             style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
-        {/* End Google Tag Manager (noscript) */}
+         End Google Tag Manager (noscript) */}
         {children}
         <BackToTop />
 
