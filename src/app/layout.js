@@ -15,6 +15,11 @@ const urban = Urbanist({
   variable: "--tg-body-font-family",
   display: "swap",
 });
+export const metadata = {
+  verification: {
+    google: "u4O0nRNafe3pkIB3d6EG-kBJAl0lTRq7Ntjm_dbH9eA",
+  },
+};
 {/*export const metadata = {
   metadataBase: new URL("https://adfinityclarity.com"),
   title: {
