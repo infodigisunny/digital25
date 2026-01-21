@@ -84,7 +84,14 @@ return (
         <p>Measure what matters with our comprehensive analytics and reporting services. We provide detailed insights into campaign performance, user behavior, and ROI to help you understand the impact of your digital marketing efforts.</p>
       </div>
 */}
-      <Header1 />
+       <Header1 
+              isMobileMenu={isMobileMenu}
+              handleMobileMenu={handleMobileMenu}
+            />
+            <MobileMenu 
+              isMobileMenu={isMobileMenu} 
+              handleMobileMenu={handleMobileMenu} 
+            />
         <section className="section-box">
           <div className="banner-hero hero-4">
             <div className="banner-inner">
