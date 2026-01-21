@@ -46,7 +46,7 @@ export default function Footer3() {
                 <div className="box-socials-footer" />
                 <a
                   className="icon-socials icon-facebook"
-                  href="https://www.facebook.com/people/Adfinity-Clarity/61572600988672/"
+                  href="https://www.facebook.com/adfinityclarity/"
                 >
                   <img
                     alt="Facebook icon"
