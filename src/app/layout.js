@@ -39,15 +39,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="alternate" hreflang="en" href="https://adfinityclarity.com/" />
-<link rel="alternate" hreflang="es" href="https://adfinityclarity.com/es/" />
-<link rel="alternate" hreflang="fr" href="https://adfinityclarity.com/fr/" />
-<link rel="alternate" hreflang="de" href="https://adfinityclarity.com/de/" />
-<link rel="alternate" hreflang="hi" href="https://adfinityclarity.com/hi/" />
-<link rel="alternate" hreflang="pt-BR" href="https://adfinityclarity.com/pt-br/" />
-<link rel="alternate" hreflang="pt-PT" href="https://adfinityclarity.com/pt/" />
-<link rel="alternate" hreflang="x-default" href="https://adfinityclarity.com/" />
-
-      
+        <link rel="alternate" hreflang="x-default" href="https://adfinityclarity.com/" />
         {/* Google Tag Manager 
         <Script id="gtm-script" strategy="afterInteractive">
           {`
