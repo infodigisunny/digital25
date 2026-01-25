@@ -17,6 +17,10 @@ export const metadata = {
     "Adfinity Clarity is a top-rated Digital Marketing Agency focused on SEO, Performance Marketing, Lead Generation, Content Marketing, and Web Design.",
   alternates: {
     canonical: "https://adfinityclarity.com/",
+    languages: {
+      "en": "https://adfinityclarity.com/",
+      "x-default": "https://adfinityclarity.com/",
+  },
   },
   openGraph: {
     title: "Best SEO &amp; Digital Marketing Agency - Adfinity Clarity",

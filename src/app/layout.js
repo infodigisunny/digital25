@@ -38,8 +38,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="alternate" hreflang="en" href="https://adfinityclarity.com/" />
-        <link rel="alternate" hreflang="x-default" href="https://adfinityclarity.com/" />
         {/* Google Tag Manager 
         <Script id="gtm-script" strategy="afterInteractive">
           {`
