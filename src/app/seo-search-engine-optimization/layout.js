@@ -5,7 +5,11 @@ export const metadata = {
   description: "Professional SEO Agency for Traffic & Revenue Generation. Get expert SEO services that boost website ranking and results & Get a free consultation today!",
   alternates: {
     canonical: "https://adfinityclarity.com/seo-search-engine-optimization",
+    languages: {
+      "en": "https://adfinityclarity.com/seo-search-engine-optimization",
+      "x-default": "https://adfinityclarity.com/seo-search-engine-optimization",
   },
+},
   openGraph: {
     title: "SEO Services For Ranking & Revenue: #1 Rated SEO Agency",
     description: "Professional SEO Agency for Traffic & Revenue Generation. Get expert SEO services that boost website ranking and results & Get a free consultation today!",
