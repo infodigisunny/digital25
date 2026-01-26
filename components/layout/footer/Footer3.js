@@ -81,12 +81,12 @@ export default function Footer3() {
                   />
                 </a>
                  <a
-                  className="icon-socials icon-linedin"
+                  className="icon-socials icon-x"
                   href="https://www.linkedin.com/in/adinity-clarity/"
                 >
                   <img
-                    alt="Linkedin"
-                    src="/assets/imgs/template/icons/linkedin.svg"
+                    alt="x"
+                    src="/assets/imgs/template/icons/x.svg"
                   />
                 </a>
                 <p />
