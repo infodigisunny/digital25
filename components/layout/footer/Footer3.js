@@ -80,6 +80,15 @@ export default function Footer3() {
                     src="/assets/imgs/template/icons/instagram.svg"
                   />
                 </a>
+                 <a
+                  className="icon-socials icon-linedin"
+                  href="https://www.linkedin.com/in/adinity-clarity/"
+                >
+                  <img
+                    alt="Linkedin"
+                    src="/assets/imgs/template/icons/linkedin.svg"
+                  />
+                </a>
                 <p />
               </div>
             </div>
