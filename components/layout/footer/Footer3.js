@@ -82,7 +82,7 @@ export default function Footer3() {
                 </a>
                  <a
                   className="icon-socials icon-x"
-                  href="https://www.linkedin.com/in/adinity-clarity/"
+                  href="https://x.com/adfinityclarity"
                 >
                   <img
                     alt="x"
