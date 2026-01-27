@@ -112,7 +112,7 @@ export default function Home() {
         { "@type": "Place", "name": "India" }
       ],
       "sameAs": [
-        "https://www.linkedin.com/company/adfinityclarity/",
+        "https://www.linkedin.com/company/adfinity-clarity/",
         "https://www.facebook.com/adfinityclarity/",
         "https://www.youtube.com/@AdfinityClarity",
         "https://www.instagram.com/adfinityclarity/"
@@ -170,7 +170,7 @@ export default function Home() {
           "https://www.facebook.com/adfinityclarity/",
           "https://www.youtube.com/@AdfinityClarity",
           "https://www.instagram.com/adfinityclarity/",
-          "https://www.linkedin.com/in/adinity-clarity/"
+          "https://www.linkedin.com/company/adfinity-clarity/"
         ]
       })
     }}

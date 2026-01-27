@@ -55,7 +55,7 @@ export default function Footer3() {
                 </a>
                 <a
                   className="icon-socials icon-linedin"
-                  href="https://www.linkedin.com/in/adinity-clarity/"
+                  href="https://www.linkedin.com/company/adfinity-clarity/"
                 >
                   <img
                     alt="Linkedin"
