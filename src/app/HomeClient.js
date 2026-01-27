@@ -66,7 +66,7 @@ export default function HomeClient() {
 
   return (
     <>
-      {/* ===================== HEADER ===================== */}
+     {/* ===================== HEADER =====================*/}
       <Header1 
         isMobileMenu={isMobileMenu}
         handleMobileMenu={handleMobileMenu}
