@@ -1,4 +1,4 @@
-
+"use client";
 import { useState, useEffect } from "react";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import Header1 from "../../../components/layout/header/Header1";
