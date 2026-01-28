@@ -1,5 +1,5 @@
 
-
+"use client";
 import Script from "next/script";
 import { useState, useEffect } from "react";
 import ContactForm from "../components/ContactForm";
