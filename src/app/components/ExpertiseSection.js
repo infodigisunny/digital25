@@ -56,6 +56,7 @@ export default function ExpertiseSection() {
   ];
 
   return (
+    
     <section className="section-box wow animate__animated animate__fadeIn box-discover">
       <div className="container">
         <div className="row align-items-center">
