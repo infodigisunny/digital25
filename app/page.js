@@ -176,7 +176,7 @@ export default function Home() {
           "https://www.facebook.com/adfinityclarity/",
           "https://www.youtube.com/@AdfinityClarity",
           "https://www.instagram.com/adfinityclarity/",
-          "https://www.linkedin.com/in/adinity-clarity/"
+          "https://www.linkedin.com/company/adfinity-clarity/"
         ]
       })
     }}
