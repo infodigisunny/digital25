@@ -28,7 +28,7 @@ export default function Section8() {
         <div className='container'>
           <div className='row align-items-center'>
             <div className='col-lg-6 mb-30'>
-              <div className='box-image-neutral-1000'>
+              <div className='pt-50'>
                 <img
                   src='/assets/imgs/page/homepage1/img-discover.png'
                   alt='Adfinity Clarity'
