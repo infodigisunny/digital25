@@ -14,6 +14,10 @@ export const metadata = {
   description: "Digital Marketing Services, like SEO, PPC, Content Marketing, Email and Performance Marketing, Lead Generation with Adfinity Clarity online marketing services",
    alternates: {
     canonical: "https://adfinityclarity.com/digital-marketing", // 🔁 Replace with your page's actual canonical URL
+    languages: {
+      "en": "https://adfinityclarity.com/digital-marketing",
+      "x-default": "https://adfinityclarity.com/digital-marketing",
+  },
   },
   openGraph: {
     title: "Digital Marketing Services - Web Marketing & Branding Agency",
