@@ -38,6 +38,9 @@ export default function LogoTicker() {
                 <li className="carouselTicker__item">
                     <div className="item-logo"><img src="/assets/imgs/page/homepage3/ubersuggest.svg" alt="UberSuggest" /></div>
                 </li>
+                <li className="carouselTicker__item">
+                    <div className="item-logo"><img src="/assets/imgs/page/homepage3/yoastseo.svg" alt="Yoast SEO" /></div>
+                </li>
                 </Marquee>
         </>
     )
