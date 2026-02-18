@@ -26,7 +26,15 @@ export default function Footer3() {
                         <div className="col-lg-3 col-md-4 col-xs-6 text-start text-md-end">
                             <div className="text-start d-inline-block mt-70">
                                 <p className="text-lg title-follow neutral-0">Follow us
-                                </p><div className="box-socials-footer" /><a className="icon-socials icon-facebook" href="https://www.facebook.com/adfinityclarity/"><img alt="Facebook" src="/assets/imgs/template/icons/fb.svg" /></a><a className="icon-socials icon-linedin" href="https://www.linkedin.com/company/adfinity-clarity/"><img alt="Linkedin" src="/assets/imgs/template/icons/linkedin.svg" /></a><a className="icon-socials icon-youtube" href="https://www.youtube.com/@AdfinityClarity"><img alt="Youtube" src="/assets/imgs/template/icons/youtube.svg" /></a><a className="icon-socials icon-instagram" href="https://www.instagram.com/adfinityclarity/"><img alt="Instagram" src="/assets/imgs/template/icons/instagram.svg" /></a>
+                                </p><div className="box-socials-footer" /><a className="icon-socials icon-facebook" href="https://www.facebook.com/adfinityclarity/"><img alt="Facebook" src="/assets/imgs/template/icons/fb.svg" /></a><a className="icon-socials icon-linedin" href="https://www.linkedin.com/company/adfinity-clarity/"><img alt="Linkedin" src="/assets/imgs/template/icons/linkedin.svg" /></a><a className="icon-socials icon-youtube" href="https://www.youtube.com/@AdfinityClarity"><img alt="Youtube" src="/assets/imgs/template/icons/youtube.svg" /></a><a className="icon-socials icon-instagram" href="https://www.instagram.com/adfinityclarity/"><img alt="Instagram" src="/assets/imgs/template/icons/instagram.svg" /></a>  <a
+                  className="icon-socials icon-x"
+                  href="https://x.com/adfinityclarity"
+                >
+                  <img
+                    alt="x"
+                    src="/assets/imgs/template/icons/x.svg"
+                  />
+                </a>
                                 <p />
                             </div>
                         </div>
