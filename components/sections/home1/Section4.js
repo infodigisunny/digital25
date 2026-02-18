@@ -16,7 +16,7 @@ We offer services like SEO, social media marketing, and paid advertising. Our go
 you get more website visitors, more leads, more traffic and hence, more sales. We make
 sure everything we do works in the direction of your marketing goals. Our commitment is
 clear communication. We provide simple analytics reports so that you can always be up to
-date with the progress. We also stay on top of the latest trends to keep your business ahead
+date with the progress. We lso stay on top of the latest trends to keep your business ahead
 of the competition. Choose us as your partner. Together, we can help your business succeed
 online.
             </p>
