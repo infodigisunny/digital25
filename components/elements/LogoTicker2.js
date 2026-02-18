@@ -9,15 +9,8 @@ export default function LogoTicker2() {
                 pauseOnHover={true}
                 direction="left" className="carouselTicker__list list-logos">
                 <li className="carouselTicker__item">
-                    <div className="item-logo"><img src="/assets/imgs/page/homepage3/logo1.png" alt="Adfinity Clarity" /></div>
+                    <div className="item-logo"><img src="/assets/imgs/page/homepage3/ahrefs.svg" alt="Ahrefs" /></div>
                 </li>
-                <li className="carouselTicker__item">
-                <a href="https://analytics.google.com" target="_blank" rel="noopener noreferrer">
-                    <div className="item-logo">
-                        <img src="/assets/imgs/page/homepage3/googleanalytics.svg" alt="Google Analytics" />
-                    </div>
-                </a>
-            </li>
                 <li className="carouselTicker__item">
                     <div className="item-logo"><img src="/assets/imgs/page/homepage3/logo2.png" alt="Adfinity Clarity" /></div>
                 </li>
