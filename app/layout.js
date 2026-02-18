@@ -15,6 +15,25 @@ const urban = Urbanist({
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
+      <head><Script
+  id="website-schema-1"
+  type="application/ld+json"
+  strategy="beforeInteractive"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://adfinityclarity.com/#website",
+      "url": "https://adfinityclarity.com/",
+      "name": "Adfinity Clarity",
+      "description": "Unlock Your Business Revenue With Internet Marketing Agency",
+      "publisher": {
+        "@id": "https://adfinityclarity.com/#organization"
+      },
+      "inLanguage": "en-US"
+    })
+  }}
+/></head>
       <body className={urban.variable}>{children}</body>
     </html>
   );
