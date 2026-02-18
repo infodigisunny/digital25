@@ -23,7 +23,7 @@ online.
           </div><br></br>
           <div className='text-center'>
             <h2 className='mb-15'><br></br>
-              Tailored Digital Marketing Services, PPC, and SEO strategies for long-term growth
+              Tailored Digital Marketing, PPC, and SEO strategies for long-term growth
             </h2>
             <p className='text-lg neutral-700'>
               Your business can easily grow with digital marketing. We use SEO, PPC, and other tools to
