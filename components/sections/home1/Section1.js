@@ -45,15 +45,7 @@ export default function Section1()
   };
   return (
     <>
-    {/* ✅ GTM noscript in body */}
-      <noscript
-        dangerouslySetInnerHTML={{
-          __html: `
-            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NDZMJK42"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
-          `,
-        }}
-      />
+  
       
             <section className="section-box">
   <div className="banner-hero hero-4">
