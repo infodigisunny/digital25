@@ -54,38 +54,6 @@ export default function Home3() {
     return (
         <>
         <Script
-  id="seo-article-schema"
-  type="application/ld+json"
-  strategy="beforeInteractive"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "@id": "https://adfinityclarity.com/seo-search-engine-optimization#article",
-      "isPartOf": {
-        "@id": "https://adfinityclarity.com/seo-search-engine-optimization"
-      },
-      "author": [
-        {
-          "@id": "https://adfinityclarity.com/seo-search-engine-optimization#/schema/"
-        }
-      ],
-      "headline": "SEO Services",
-      "datePublished": "2024-03-01T07:03:00+00:00",
-      "dateModified": "2025-07-03T14:42:10+00:00",
-      "mainEntityOfPage": {
-        "@id": "https://adfinityclarity.com/seo-search-engine-optimization"
-      },
-      "wordCount": 1500,
-      "publisher": {
-        "@id": "https://adfinityclarity.com/#organization"
-      },
-      "inLanguage": "en-US"
-    })
-  }}
-/>
-
-<Script
   id="seo-breadcrumb-schema"
   type="application/ld+json"
   strategy="beforeInteractive"
@@ -201,9 +169,9 @@ export default function Home3() {
       "image": {
         "@type": "ImageObject",
         "inLanguage": "en-US",
-        "@id": "https://adfinityclarity.com/full-logo.png",
-        "url": "https://adfinityclarity.com/full-logo.png",
-        "contentUrl": "https://adfinityclarity.com/full-logo.png",
+        "@id": "https://adfinityclarity.com/full-logo.webp",
+        "url": "https://adfinityclarity.com/full-logo.webp",
+        "contentUrl": "https://adfinityclarity.com/full-logo.webp",
         "caption": "SEO SERVICES"
       },
       "description": "If you have a website that is not ranking as highly as it could on search engines, we can help. Our SEO agency is here to improve your visibility and performance.",
