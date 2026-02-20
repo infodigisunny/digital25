@@ -1,17 +1,9 @@
-User-agent: Google-Extended
-Allow: /
-
-User-agent: DuckAssistBot
-Allow: /
-
 User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
+User-agent: ChatGPT-User/2.0
 Allow: /
-
-User-agent: GPTBot
-Allow: /           
 
 User-agent: GPTBot
 Allow: /           
@@ -21,33 +13,30 @@ Allow: /
 
 User-agent: ClaudeBot         # chat citation fetch
 User-agent: claude-web        # web-focused crawl
-Allow: /     
+Allow: /    
 
 User-agent: PerplexityBot     # index builder
 Allow: /
 User-agent: Perplexity-User   # human-triggered visit
 Allow: /
 
+User-agent: Google-Extended
+Allow: /
+
 User-agent: DuckAssistBot
 Allow: /
 
 # Allow traditional search indexing  
-User-agent: Googlebot  
-User-agent: Bingbot  
+User-agent: Googlebot
 Allow: /
 
+User-agent: Bingbot
+Allow: /
 
-User-agent: ia_archiver
-Disallow: /
-
-# Disallow AI training data collection    
-User-agent: CCBot    
-Disallow: /
-
-
-User-Agent: *
-Disallow:
-Disallow: /*?s=
-
+User-agent: *
+Allow: /
 
 Sitemap: https://adfinityclarity.com/sitemap_index.xml
+
+
+
