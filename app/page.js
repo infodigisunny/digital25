@@ -257,6 +257,84 @@ export default function Home() {
     })
   }}
 />
+{/* FAQPage Schema */}
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  strategy="beforeInteractive"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does an internet marketing agency do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An internet marketing agency helps businesses grow online. It offers services like SEO, online ads, content creation, email marketing, and digital PR. These services work together to attract more visitors, generate leads, and increase sales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is SEO important for my business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SEO improves your website's visibility in search engines like Google, helping it appear higher in search results. This means more people can find your business when searching online. It is one of the most affordable ways to get long-term traffic and build trust."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is email marketing still effective?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, email marketing consistently delivers results. Well-timed emails outperform many newer channels by building lasting customer relationships, driving repeat business, and delivering some of the highest ROI in digital marketing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are digital marketing agencies and how can they help my business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Digital marketing agencies help you promote your business online using SEO, social media marketing, paid ads, and email campaigns. These tools work together to help you reach more people, get new leads, and increase sales by sharing the right message with the right audience."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to see results from SEO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SEO is a long-term strategy. Most businesses start seeing noticeable improvements within 3 to 6 months, depending on competition, website age, and content quality. Consistent effort leads to sustainable rankings and traffic growth."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does digital marketing cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Digital marketing costs vary based on your goals, industry, and services needed. At Adfinity Clarity, we offer flexible pricing plans tailored to businesses of all sizes from startups to enterprises. Contact us for a free consultation and custom quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes Adfinity Clarity different from other digital marketing agencies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Adfinity Clarity combines AI-powered strategies with proven digital marketing techniques to deliver measurable results. We focus on revenue growth, not just traffic — using data-driven SEO, performance marketing, and content strategies built for the AI era of search."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need SEO if I am already running paid ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Paid ads stop the moment you stop paying. SEO builds long-term organic visibility that compounds over time. The best strategy combines both — paid ads for immediate results and SEO for sustainable, cost-effective growth."
+          }
+        }
+      ]
+    })
+  }}
+/>
   
 </>
 
