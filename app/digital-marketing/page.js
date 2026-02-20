@@ -51,39 +51,6 @@ export default function Home4() {
     return (
         <>
         <Script
-  id="digital-breadcrumb-schema"
-  type="application/ld+json"
-  strategy="beforeInteractive"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "@id": "https://adfinityclarity.com/digital-marketing#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.seo.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Digital Marketing Services",
-          "item": "https://adfinityclarity.com/digital-marketing"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "SEO Services",
-          "item": "https://adfinityclarity.com/seo-search-engine-optimization"
-        }
-      ]
-    })
-  }}
-/>
-
-<Script
   id="digital-solutions-schema"
   type="application/ld+json"
   strategy="beforeInteractive"
@@ -99,36 +66,42 @@ export default function Home4() {
           "@type": "ListItem",
           "position": 1,
           "name": "Search Engine Optimization (SEO)",
+          "url": "https://adfinityclarity.com/seo-search-engine-optimization",
           "description": "Our SEO services help your business get found on Google and Bing search engine by improving your organic search visibility."
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Social Media Marketing (SMM)",
+          "url": "https://adfinityclarity.com/digital-marketing",
           "description": "This will help you to know new people and bring back existing ones with smart ad campaigns on platforms like Facebook, LinkedIn, and YouTube."
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Pay-Per-Click (PPC) Advertising",
+          "url": "https://adfinityclarity.com/digital-marketing",
           "description": "Need quick traffic and leads? PPC puts your brand where intent meets action, right when your audience is ready to choose."
         },
         {
           "@type": "ListItem",
           "position": 4,
           "name": "Content Marketing",
+          "url": "https://adfinityclarity.com/digital-marketing",
           "description": "Content marketing helps people to understand what your business offers, who it's for, and why it's helpful to them."
         },
         {
           "@type": "ListItem",
           "position": 5,
           "name": "Email marketing",
+          "url": "https://adfinityclarity.com/digital-marketing",
           "description": "Email marketing helps you to stay connected with those people who are already interested in your business."
         },
         {
           "@type": "ListItem",
           "position": 6,
           "name": "Affiliate Marketing",
+          "url": "https://adfinityclarity.com/digital-marketing",
           "description": "Affiliate marketing lets other people promote your business and earn a small share when they help you to make a sale."
         }
       ]
