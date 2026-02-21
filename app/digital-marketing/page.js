@@ -152,7 +152,7 @@ export default function Home4() {
       "dateModified": "2025-07-03T14:42:10+00:00",
       "image": {
         "@type": "ImageObject",
-        "url": "https://adfinityclarity.com/digital-marketing-og.jpg",
+        "url": "https://adfinityclarity.com/assets/imgs/page/homepage4/img-track.png",
         "width": 1200,
         "height": 630
       },
