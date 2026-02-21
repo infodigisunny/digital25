@@ -61,6 +61,7 @@ const organizationSchema = {
     "https://www.youtube.com/@AdfinityClarity",
     "https://www.instagram.com/adfinityclarity/",
     "https://www.linkedin.com/company/adfinity-clarity/"
+    "https://x.com/adfinityclarity",
   ]
 }
 
@@ -71,7 +72,7 @@ const localBusinessSchema = {
   "name": "Adfinity Clarity",
   "description": "Adfinity Clarity is a top-rated Digital Marketing Agency focused on SEO, Performance Marketing, Lead Generation, Content Marketing, and Web Design.",
   "url": "https://adfinityclarity.com/",
-  "image": "https://adfinityclarity.com/full-logo.webp",
+  "image": "https://adfinityclarity.com/full-logo.png",
   "telephone": "+1 7906159557",
   "email": "contact@adfinityclarity.com",
   "priceRange": "$$",
@@ -100,6 +101,7 @@ const localBusinessSchema = {
     "https://www.facebook.com/adfinityclarity/",
     "https://www.youtube.com/@AdfinityClarity",
     "https://www.instagram.com/adfinityclarity/"
+    "https://x.com/adfinityclarity",
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
