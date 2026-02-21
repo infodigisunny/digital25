@@ -60,7 +60,7 @@ const organizationSchema = {
     "https://www.facebook.com/adfinityclarity/",
     "https://www.youtube.com/@AdfinityClarity",
     "https://www.instagram.com/adfinityclarity/",
-    "https://www.linkedin.com/company/adfinity-clarity/"
+    "https://www.linkedin.com/company/adfinity-clarity/",
     "https://x.com/adfinityclarity",
   ]
 }
@@ -100,7 +100,7 @@ const localBusinessSchema = {
     "https://www.linkedin.com/company/adfinity-clarity/",
     "https://www.facebook.com/adfinityclarity/",
     "https://www.youtube.com/@AdfinityClarity",
-    "https://www.instagram.com/adfinityclarity/"
+    "https://www.instagram.com/adfinityclarity/",
     "https://x.com/adfinityclarity",
   ],
   "hasOfferCatalog": {
