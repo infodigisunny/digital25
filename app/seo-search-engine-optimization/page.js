@@ -173,7 +173,7 @@ export default function Home3() {
     })
   }}
 />
-/>
+
             {/* <Layout headerStyle={1} footerStyle={3} headerCls="header-style-2" topBar> */}
                  <Layout headerStyle={1} footerStyle={1} logoWhite>
                 <Section1 />
