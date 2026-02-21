@@ -34,7 +34,7 @@ export default function Header1({
             <div className='header-left'>
               <div className='header-logo'>
                 <Link className='d-flex' href='/'>
-                  <img alt='logo' src='/full-logo.png' className='img1' />
+                  <img alt='logo' src='/full-logo.webp' className='img1' />
                 </Link>
               </div>
               <div className='header-nav'>
