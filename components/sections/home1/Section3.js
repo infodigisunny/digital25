@@ -10,7 +10,7 @@ export default function Section3() {
           <div className='row align-items-center'>
             <div className='col-lg-6 text-center mb-40'>
               <img
-                src='/assets/imgs/page/homepage1/img-track.png'
+                src='/assets/imgs/page/homepage1/img-track.webp'
                 alt='Adfinity Clarity'
               />
             </div>
