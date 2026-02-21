@@ -18,7 +18,7 @@ export default function Section2() {
                                             <div className="item-list-feature">
                                                 <div className="feature-left"> <img src="/assets/imgs/page/features/img-feature.png" alt="Digital Marketing Service" /></div>
                                                 <div className="feature-right">
-                                                    <h4 className="heading-4 mb-20">Drive Qualified Traffic That Converts</h4>
+                                                    <h3 className="heading-4 mb-20">Drive Qualified Traffic That Converts</h3>
                                                     <p className="text-lg neutral-700">We bring the right audience to your doorstep with a well planned and successful blend of SEO,
 SMM, PPC, and content strategies.</p>
                                                     <div className="box-list-check">
@@ -33,7 +33,7 @@ SMM, PPC, and content strategies.</p>
                                             <div className="item-list-feature">
                                                 <div className="feature-left"> <img src="/assets/imgs/page/features/img-feature2.png" alt="Digital Marketing Services" /></div>
                                                 <div className="feature-right">
-                                                    <h4 className="heading-4 mb-20">Turn Insights Into ROI</h4>
+                                                    <h3 className="heading-4 mb-20">Turn Insights Into ROI</h3>
                                                     <p className="text-lg neutral-700">With the analytics of real-time , we not only report metrics but also act on them.</p>
                                                     <div className="box-list-check">
                                                         <ul className="list-check">
@@ -47,7 +47,7 @@ SMM, PPC, and content strategies.</p>
                                             <div className="item-list-feature">
                                                 <div className="feature-left"> <img src="/assets/imgs/page/features/img-feature3.png" alt="Digital Marketing Company" /></div>
                                                 <div className="feature-right">
-                                                    <h4 className="heading-4 mb-20">Build Real Connections & Scale Without Breaking Things</h4>
+                                                    <h3 className="heading-4 mb-20">Build Real Connections & Scale Without Breaking Things</h3>
                                                     <p className="text-lg neutral-700">Smart <Link href="/digital-marketing">digital marketing services</Link> that bring in quality leads and turn them into loyal customers.</p>
                                                     <div className="box-list-check">
                                                         <ul className="list-check">
@@ -75,7 +75,7 @@ SMM, PPC, and content strategies.</p>
                                     <div className="card-question card-question-2">
                                         <div className="card-image"> <img src="/assets/imgs/page/features/feature.png" alt="SEO" /></div>
                                         <div className="card-info">
-                                            <h6>Search Engine Optimization (SEO)</h6>
+                                            <h3>Search Engine Optimization (SEO)</h3>
                                             <p className="text-md neutral-600">Our <Link href="/seo-search-engine-optimization">SEO services</Link> help your business get found on Google and Bing search engine by improving your organic
 search visibility. We handle keyword research, on-page & off-page optimization, technical SEO (Core Web
 Vitals, structured data), and high-quality link building.<br></br> Local SEO ensures your business
@@ -89,7 +89,7 @@ growth. Looking for top-notch SEO optimization services?, you have found the rig
                                     <div className="card-question card-question-2">
                                         <div className="card-image"> <img src="/assets/imgs/page/features/feature2.png" alt="SMM" /></div>
                                         <div className="card-info">
-                                            <h6>Social Media Marketing (SMM)</h6>
+                                            <h3>Social Media Marketing (SMM)</h3>
                                             <p className="text-md neutral-600">In this contemporary era, social media isn’t just a platform. It&#39;s a place where real
 conversations between brands and people take place.<br></br> We create run targeted ads, posts, and
 manage your social presence in an exclusive way that fits your goals and speaks attracts your
@@ -105,7 +105,7 @@ LinkedIn, and YouTube.
                                     <div className="card-question card-question-2">
                                         <div className="card-image"> <img src="/assets/imgs/page/features/feature3.png" alt="PPC" /></div>
                                         <div className="card-info">
-                                            <h6>Pay-Per-Click (PPC) Advertising</h6>
+                                            <h3>Pay-Per-Click (PPC) Advertising</h3>
                                             <p className="text-md neutral-600">Need quick traffic and leads? PPC puts your brand where intent meets action, right when your
 audience is ready to choose. Whether it&#39;s Google Ads, Bing, Meta, or LinkedIn, we build and
 manage ad campaigns that deliver qualified users directly to your website.
@@ -121,7 +121,7 @@ measure.</p>
                                     <div className="card-question card-question-2">
                                         <div className="card-image"> <img src="/assets/imgs/page/features/feature4.png" alt="Content" /></div>
                                         <div className="card-info">
-                                            <h6>Content Marketing</h6>
+                                            <h3>Content Marketing</h3>
                                             <p className="text-md neutral-600">Content marketing helps people to understand what your business offers, who it&#39;s for, and why
 it&#39;s helpful to them. It presents a clear information that supports their decisions. We create
 content that is easy to read and is useful for the audience. Whether it&#39;s for your website, blog,
@@ -135,7 +135,7 @@ trustworthy, and more likely to turn visitors into customers.</p>
                                     <div className="card-question card-question-2">
                                         <div className="card-image"> <img src="/assets/imgs/page/features/feature5.png" alt="Email" /></div>
                                         <div className="card-info">
-                                            <h6>Email marketing</h6>
+                                            <h3>Email marketing</h3>
                                             <p className="text-md neutral-600">Email marketing helps you to stay connected with those people who are already interested in
 your business. You can share updates, news, or offers straight to their inbox. We make
 your campaigns ready, track results and manage your contact lists. We use various tools like
@@ -149,7 +149,7 @@ back to your site. We create such email campaigns which gets more opens, clicks,
                                     <div className="card-question card-question-2">
                                         <div className="card-image"> <img src="/assets/imgs/page/features/feature6.png" alt="Addiliate" /></div>
                                         <div className="card-info">
-                                            <h6>Affiliate Marketing</h6>
+                                            <h3>Affiliate Marketing</h3>
                                             <p className="text-md neutral-600">Affiliate marketing lets other people promote your business and earn a small share when they
 help you to make a sale. It’s a simple way to reach more customers without paying upfront for
 ads. We set up and scale your affiliate network for long-term growth from picking the right tools
@@ -164,7 +164,7 @@ to grow efficiently with low risk.
                                     <div className="card-question card-question-2">
                                         <div className="card-image"> <img src="/assets/imgs/page/features/feature7.png" alt="Website" /></div>
                                         <div className="card-info">
-                                            <h6>Website Design & Development</h6>
+                                            <h3>Website Design & Development</h3>
                                             <p className="text-md neutral-600">Website is a place where visitors learn about your business and take action accordingly. It
 should be fast, easy to use, and built to work across all devices.<br></br>
 Our team of expert, works across different platforms which includes WordPress, Webflow, and
@@ -178,7 +178,7 @@ visitors to navigate with ease and clarity.</p>
                                     <div className="card-question card-question-2">
                                         <div className="card-image"> <img src="/assets/imgs/page/features/feature8.png" alt="CRO" /></div>
                                         <div className="card-info">
-                                            <h6>Conversion Rate Optimization (CRO)</h6>
+                                            <h3>Conversion Rate Optimization (CRO)</h3>
                                             <p className="text-md neutral-600">Getting traffic is useful only when it leads to action. CRO helps to improve how visitors move
 through your website, so that more of them fill out forms, make purchases, or reach out.
 We look at user behaviour using tools like heatmaps, analytics, and A/B testing. <br></br>Based on real
@@ -192,7 +192,7 @@ needing more ad spend.</p>
                                     <div className="card-question card-question-2">
                                         <div className="card-image"> <img src="/assets/imgs/page/features/feature9.png" alt="online pr" /></div>
                                         <div className="card-info">
-                                            <h6>Online PR & Reputation Management</h6>
+                                            <h3>Online PR & Reputation Management</h3>
                                             <p className="text-md neutral-600">Online PR helps the brand to appear on trusted blogs, media sites, and podcasts. Our team
 pitches relevant stories to the right platforms to enhance visibility, build authority, and earn
 backlinks that support your long-term SEO.
@@ -207,7 +207,7 @@ Facebook, LinkedIn, and Google Business.</p>
                                     <div className="card-question card-question-2">
                                         <div className="card-image"> <img src="/assets/imgs/page/features/feature2.png" alt="SMM" /></div>
                                         <div className="card-info">
-                                            <h6>Mobile Marketing</h6>
+                                            <h3>Mobile Marketing</h3>
                                             <p className="text-md neutral-600">Mobile marketing is about reaching your audience where they spend most of their time on their
 phones. We help you to connect through SMS, push notifications, app messages, and
 location-based alerts. Whether it&#39;s an in-app update, a quick offer, or a promotion, our
@@ -222,7 +222,7 @@ intrusive.</p>
                                     <div className="card-question card-question-2">
                                         <div className="card-image"> <img src="/assets/imgs/page/features/feature7.png" alt="Website" /></div>
                                         <div className="card-info">
-                                            <h6>Video Marketing</h6>
+                                            <h3>Video Marketing</h3>
                                             <p className="text-md neutral-600">Video is one of the simplest ways to capture attention and explain what your business offers.<br></br> We create short videos, product explainers, and brand stories that feel clear, engaging, and is made for real people.<br></br> From social reels to YouTube content, each video is planned around your goals and how your audience watches it. With the right visuals and messaging, video marketing helps you brand to connect faster, establish trust, and stay memorable across platforms.</p>
                                         </div>
                                     </div>
@@ -231,7 +231,7 @@ intrusive.</p>
                                     <div className="card-question card-question-2">
                                         <div className="card-image"> <img src="/assets/imgs/page/features/feature4.png" alt="Content" /></div>
                                         <div className="card-info">
-                                            <h6>Influencer Marketing</h6>
+                                            <h3>Influencer Marketing</h3>
                                             <p className="text-md neutral-600">Influencer promotion can help your brand connect with real people through trusted voices. Our team conducts research and finds creators, large and small, who speak to your audience while maintaining your brand's ethos.We handle outreach, logistics, and reporting on social platforms like Instagram, YouTube, TikTok, and LinkedIn. Whether it’s a story post, a product review, or a long video, we make sure the content feels real. This method builds trust, increases awareness, and produces actual results through content that people really care about.</p>
                                         </div>
                                     </div>
