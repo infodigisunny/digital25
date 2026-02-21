@@ -53,102 +53,34 @@ export default function Home3() {
 
     return (
         <>
-
-{/* WebPage Schema - SEO Page */}
 <Script
-  id="seo-webpage-schema"
+  id="seo-breadcrumb-schema"
   type="application/ld+json"
   strategy="beforeInteractive"
   dangerouslySetInnerHTML={{
     __html: JSON.stringify({
       "@context": "https://schema.org",
-      "@type": "WebPage",
-      "@id": "https://adfinityclarity.com/seo-search-engine-optimization#webpage",
-      "url": "https://adfinityclarity.com/seo-search-engine-optimization",
-      "name": "SEO Services",
-      "description": "Rank Higher with Professional SEO Services for Driving Traffic & Revenue",
-      "isPartOf": {
-        "@id": "https://adfinityclarity.com/#website"
-      },
-      "publisher": {
-        "@id": "https://adfinityclarity.com/#organization"
-      },
-      "inLanguage": "en-US"
-    })
-  }}
-/>
-
-<Script
-  id="seo-howto-schema"
-  type="application/ld+json"
-  strategy="beforeInteractive"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      "@context": "https://schema.org/",
-      "@type": "HowTo",
-      "name": "Get Professional SEO Services",
-      "description": "A Complete Guide to Securing Professional SEO Services",
-      "image": "https://adfinityclarity.com/assets/imgs/page/homepage3/img-feature.png",
-      "step": [
+      "@type": "BreadcrumbList",
+      "@id": "https://adfinityclarity.com/seo-search-engine-optimization#breadcrumb",
+      "itemListElement": [
         {
-          "@type": "HowToStep",
-          "text": "Research: Analyze your business, competitors, and keywords to create an informed SEO strategy."
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://adfinityclarity.com/"
         },
         {
-          "@type": "HowToStep",
-          "text": "Optimization: Fix technical issues, improve speed, mobile responsiveness, and meta content."
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Digital Marketing Services",
+          "item": "https://adfinityclarity.com/digital-marketing"
         },
         {
-          "@type": "HowToStep",
-          "text": "Strategy: Create goal-focused content that matches your audience's search intent."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Growth: Track performance, build links, and continuously improve your site's visibility."
+          "@type": "ListItem",
+          "position": 3,
+          "name": "SEO Services"
         }
       ]
-    })
-  }}
-/>
-<Script
-  id="digital-definedterm-schema"
-  type="application/ld+json"
-  strategy="beforeInteractive"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "DefinedTerm",
-      "@id": "https://adfinityclarity.com/seo-search-engine-optimization#definedterm-search-engine-optimization",
-      "name": "Professional SEO Agency for Traffic &amp; Revenue Generation. Get expert SEO services that boost website ranking and results &amp; Get a free consultation today!",
-      "inDefinedTermSet": "SEO SERVICES"
-    })
-  }}
-/>
-<Script
-  id="seo-person-schema"
-  type="application/ld+json"
-  strategy="beforeInteractive"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "@id": "https://adfinityclarity.com/seo-search-engine-optimization#/schema/",
-      "name": "SEO SERVICES",
-      "image": {
-        "@type": "ImageObject",
-        "inLanguage": "en-US",
-        "@id": "https://adfinityclarity.com/full-logo.webp",
-        "url": "https://adfinityclarity.com/full-logo.webp",
-        "contentUrl": "https://adfinityclarity.com/full-logo.webp",
-        "caption": "SEO SERVICES"
-      },
-      "description": "If you have a website that is not ranking as highly as it could on search engines, we can help. Our SEO agency is here to improve your visibility and performance.",
-      "sameAs": [
-        "https://adfinityclarity.com/seo-search-engine-optimization"
-      ],
-      "knowsAbout": ["SEO", "Digital Marketing"],
-      "jobTitle": "Lead SEO Agency",
-      "worksFor": "Adfinity Clarity"
     })
   }}
 />
