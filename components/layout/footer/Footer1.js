@@ -6,7 +6,7 @@ export default function Footer3() {
             <footer className="footer footer-style-3">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-3 col-md-3 col-sm-12"><Link href="/"><img alt="Adfinity Clarity" src="/full-logo.webp" class="img1" /></Link>
+                        <div className="col-lg-3 col-md-3 col-sm-12"><Link href="/"><img alt="Adfinity Clarity Logo" src="/full-logo.webp" class="img1" /></Link>
                             <div className="mt-20 mb-20">
                                  <p className="text-lg neutral-700"><a href="mailto:contact@adfinityclarity.com" className="text-18-bold brand-1-1">contact@adfinityclarity.com
 </a></p>
