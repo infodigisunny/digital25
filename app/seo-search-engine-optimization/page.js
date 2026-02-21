@@ -53,7 +53,8 @@ export default function Home3() {
 
     return (
         <>
-        <Script
+       {/* Breadcrumb Schema - SEO Page */}
+<Script
   id="seo-breadcrumb-schema"
   type="application/ld+json"
   strategy="beforeInteractive"
@@ -66,14 +67,19 @@ export default function Home3() {
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "SEO Company",
-          "item": "https://adfinityclarity.com/seo-search-engine-optimization"
+          "name": "Home",
+          "item": "https://adfinityclarity.com/"
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "SEO Services",
-          "item": "https://adfinityclarity.com/seo-search-engine-optimization"
+          "name": "Digital Marketing Services",
+          "item": "https://adfinityclarity.com/digital-marketing"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "SEO Services"
         }
       ]
     })
