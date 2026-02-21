@@ -53,7 +53,7 @@ we are the right choice for you:
                   </svg>
                 </div>
                 <div className='card-info'>
-                  <h5 className='text-22-bold'>Data Driven Decisions</h5>
+                  <h3 className='text-22-bold'>Data Driven Decisions</h3>
                   <p className='text-md neutral-700'>
                     Data guides us in everything we do. This helps us make sure every marketing decision we
 make is focused on getting the best results
@@ -77,7 +77,7 @@ make is focused on getting the best results
                   </svg>
                 </div>
                 <div className='card-info'>
-                  <h5 className='text-22-bold'>Plans Made Just for You</h5>
+                  <h3 className='text-22-bold'>Plans Made Just for You</h3>
                  <p className='text-md neutral-700'>
                     Every business is different. That’s why we make sure our marketing plans fit your business,
 goals, and needs instead of using a one size fits all approach.
@@ -125,7 +125,7 @@ goals, and needs instead of using a one size fits all approach.
                   </svg>
                 </div>
                 <div className='card-info'>
-                  <h5 className='text-22-bold'> Real, Tangible Results</h5>
+                  <h3 className='text-22-bold'> Real, Tangible Results</h3>
                  <p className='text-md neutral-700'>
                     {" "}
                    We’ve helped many businesses grow by increasing traffic, generating more leads, and
@@ -162,7 +162,7 @@ driving sales. Our clients trust us because we deliver the best results that the
                   </svg>
                 </div>
                 <div className='card-info'>
-                  <h5 className='text-22-bold'> Getting the Best Value</h5>
+                  <h3 className='text-22-bold'> Getting the Best Value</h3>
                  <p className='text-md neutral-700'>
                     {" "}
                     We know how important it is to make every dollar count. Our job is to ensure you get the
@@ -195,7 +195,7 @@ most value out of your marketing budget.
                   </svg>
                 </div>
                 <div className='card-info'>
-                 <h5 className='text-22-bold'> Always Improving</h5>
+                 <h3 className='text-22-bold'> Always Improving</h3>
                   <p className='text-md neutral-700'>
                     We don’t just launch campaigns and forget about them. We keep track of what’s working
 and make changes to get even better results.
@@ -231,7 +231,7 @@ and make changes to get even better results.
                   </svg>
                 </div>
                 <div className='card-info'>
-                  <h5 className='text-22-bold'>We Use Multiple Channels</h5>
+                  <h3 className='text-22-bold'>We Use Multiple Channels</h3>
                   <p className='text-md neutral-700'>
                     Your customers are spread out across different platforms. We use SEO, paid ads, content
 marketing, and social media to ensure we are reaching them wherever they are.

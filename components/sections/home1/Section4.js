@@ -43,7 +43,7 @@ At Adfinity Clarity, we’re here to help you succeed.
                   />
                 </div>
                 <div className='card-info'>
-                <h4>SEO Services</h4>
+                <h3>SEO Services</h3>
                   <p className='text-lg neutral-700 w-85 mx-auto'>
                     We can help you reach top rankings on major search engines
                   </p>
@@ -69,7 +69,7 @@ At Adfinity Clarity, we’re here to help you succeed.
                   />
                 </div>
                 <div className='card-info'>
-                 <h4>Paid Advertisement Services</h4> 
+                 <h3>Paid Advertisement Services</h3> 
                   <p className='text-lg neutral-700 w-85 mx-auto'>
                     This is all you need to drive instant results with Social Media Ads
                   </p>
@@ -86,7 +86,7 @@ At Adfinity Clarity, we’re here to help you succeed.
                   />
                 </div>
                 <div className='card-info'>
-                  <h4>Web Design Services</h4>
+                  <h3>Web Design Services</h3>
                   <p className='text-lg neutral-700 w-85 mx-auto'>
                     We create custom websites, landing pages, and UI/UX designs
                   </p>
