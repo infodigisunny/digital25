@@ -35,19 +35,19 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                                 <nav>
                                     <ul className="mobile-menu font-heading">
                                         <li className={isActive.key == 1 ? "has-children active" : "has-children"}>
-                                            <Link className="active" href="/">Home</Link>
+                                            <Link className="active" href="/" aria-label="Home">Home</Link>
                                         </li>
                                         <li className={isActive.key == 2 ? "has-children active" : "has-children"}>
-                                            <Link href="/digital-marketing">Digital Marketing</Link>
+                                            <Link href="/digital-marketing" aria-label="Digital Marketing">Digital Marketing</Link>
                                         </li>
                                         <li className={isActive.key == 3 ? "has-children active" : "has-children"}>
-                                        <Link href="/seo-search-engine-optimization">SEO</Link>
+                                        <Link href="/seo-search-engine-optimization" aria-label="SEO">SEO</Link>
                                         </li>
                                     </ul>
                                 </nav><br></br>
                             </div>
                             <div className="mobile-social-icon mb-50">
-                                <div className="mb-25">Follow Us</div><Link className="icon-socials icon-facebook" href="https://www.facebook.com/adfinityclarity/"><img alt="Facebook icon" src="/assets/imgs/template/icons/fb.svg" /></Link><Link className="icon-socials icon-linkedin" href="https://www.linkedin.com/company/adfinity-clarity/"><img alt="Linkedin" src="/assets/imgs/template/icons/linkedin.svg" /></Link><Link className="icon-socials icon-youtube" href="https://www.youtube.com/@AdfinityClarity"><img alt="Youtube" src="/assets/imgs/template/icons/youtube.svg" /></Link><Link className="icon-socials icon-instagram" href="https://www.instagram.com/adfinityclarity/"><img alt="Instagram" src="/assets/imgs/template/icons/instagram.svg" /></Link><Link className="icon-socials icon-x" href="https://x.com/adfinityclarity"><img alt="X" src="/assets/imgs/template/icons/x.svg" /></Link>
+                                <div className="mb-25">Follow Us</div><Link className="icon-socials icon-facebook" href="https://www.facebook.com/adfinityclarity/" aria-label="Facebook"><img alt="Facebook icon" src="/assets/imgs/template/icons/fb.svg" /></Link><Link className="icon-socials icon-linkedin" href="https://www.linkedin.com/company/adfinity-clarity/" aria-label="LinkedIn"><img alt="Linkedin" src="/assets/imgs/template/icons/linkedin.svg" /></Link><Link className="icon-socials icon-youtube" href="https://www.youtube.com/@AdfinityClarity" aria-label="YouTube"><img alt="Youtube" src="/assets/imgs/template/icons/youtube.svg" /></Link><Link className="icon-socials icon-instagram" href="https://www.instagram.com/adfinityclarity/" aria-label="Instagram"><img alt="Instagram" src="/assets/imgs/template/icons/instagram.svg" /></Link><Link className="icon-socials icon-x" href="https://x.com/adfinityclarity" aria-label="X (Twitter)"><img alt="X" src="/assets/imgs/template/icons/x.svg" /></Link>
                             </div>
                             <div className="site-copyright">Copyright 2025 © Adfinity Clarity.</div>
                         </div>
