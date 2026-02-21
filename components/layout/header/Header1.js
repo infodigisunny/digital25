@@ -41,7 +41,7 @@ export default function Header1({
                 <nav className='nav-main-menu d-none d-xl-block'>
                   <ul className='main-menu'>
                     <li className='has-children'>
-                      <Link className='active' href='/'>
+                      <Link className='active' href='/' aria-label='Home'>
                         Home
                       </Link>
                       {/* <ul className='sub-menu'>
