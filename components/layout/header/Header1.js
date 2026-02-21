@@ -33,7 +33,7 @@ export default function Header1({
           <div className='main-header'>
             <div className='header-left'>
               <div className='header-logo'>
-                <Link className='d-flex' href='/'>
+                <Link className='d-flex' href='/' aria-label='Adfinity Clarity Logo'>
                   <img alt='Adfinity Clarity Logo' src='/full-logo.webp' className='img1' />
                 </Link>
               </div>
