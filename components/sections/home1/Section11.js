@@ -37,9 +37,9 @@ Platform Online Advertising. If you still can’t find the answer you’re looki
                         <div className="col-lg-7">
                             <div className="accordion accordion-flush accordion-style-2" id="accordionFAQS">
                                 <div className="accordion-item">
-                                    <h2 className="accordion-header" id="flush-headingOne" onClick={() => handleClick(1)}>
+                                    <h3 className="accordion-header" id="flush-headingOne" onClick={() => handleClick(1)}>
                                         <button className={isActive.key == 1 ? "accordion-button " : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">What does an internet marketing agency do?</button>
-                                    </h2>
+                                    </h3>
                                     <div className={isActive.key == 1 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} id="flush-collapseOne" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFAQS">
                                         <div className="accordion-body">
                                             <p>An <Link href="/">internet marketing agency</Link> helps businesses grow online. It offers services like SEO,
@@ -49,9 +49,9 @@ to attract more visitors, generate leads, and increase sales.</p>
                                     </div>
                                 </div>
                                 <div className="accordion-item">
-                                    <h2 className="accordion-header" id="flush-headingTwo" onClick={() => handleClick(2)}>
+                                    <h3 className="accordion-header" id="flush-headingTwo" onClick={() => handleClick(2)}>
                                         <button className={isActive.key == 2 ? "accordion-button " : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Why is SEO important for my business?</button>
-                                    </h2>
+                                    </h3>
                                     <div className={isActive.key == 2 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} id="flush-collapseTwo" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFAQS">
                                         <div className="accordion-body">SEO improves your website’s visibility in search engines like Google, helping it appear higher
 in search results. This means more people can find your business when they’re searching
@@ -59,17 +59,17 @@ online. It’s one of the most affordable ways to get long-term traffic and buil
                                     </div>
                                 </div>
                                 <div className="accordion-item">
-                                    <h2 className="accordion-header" id="flush-headingThree" onClick={() => handleClick(3)}>
+                                    <h3 className="accordion-header" id="flush-headingThree" onClick={() => handleClick(3)}>
                                         <button className={isActive.key == 3 ? "accordion-button " : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Is email marketing still effective?</button>
-                                    </h2>
+                                    </h3>
                                     <div className={isActive.key == 3 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} id="flush-collapseThree" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFAQS">
                                         <div className="accordion-body">Yes, email marketing consistently delivers, and well-timed emails outperform many newer channels by building lasting customer relationships, driving repeat business, and delivering some of the highest ROI in digital marketing.</div>
                                     </div>
                                 </div>
                                 <div className="accordion-item">
-                                    <h2 className="accordion-header" id="flush-headingFour" onClick={() => handleClick(4)}>
+                                    <h3 className="accordion-header" id="flush-headingFour" onClick={() => handleClick(4)}>
                                         <button className={isActive.key == 4 ? "accordion-button " : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">What are digital marketing agency, and how can they help my business?</button>
-                                    </h2>
+                                    </h3>
                                     <div className={isActive.key == 4 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} id="flush-collapseFour" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFAQS">
                                         <div className="accordion-body"><Link href="/digital-marketing">Digital marketing agencies</Link> help you promote your business online. They include things like
 SEO, social media marketing, paid ads, and email campaigns. These tools work together to
