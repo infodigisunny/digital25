@@ -130,28 +130,28 @@ const localBusinessSchema = {
   "review": [
     {
       "@type": "Review",
-      "author": { "@type": "Person", "name": "James Carter" },
+      "author": { "@type": "Person", "name": "Orlaigh Smith" },
       "datePublished": "2025-01-15",
       "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
       "reviewBody": "Adfinity Clarity transformed our online presence. Organic traffic increased by 180% in just 4 months. Their SEO strategy is data-driven and results-focused."
     },
     {
       "@type": "Review",
-      "author": { "@type": "Person", "name": "Sarah Mitchell" },
+      "author": { "@type": "Person", "name": "Pierre Tamer" },
       "datePublished": "2025-02-03",
       "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
       "reviewBody": "Best digital marketing agency we have worked with. Their team understood our business goals and delivered measurable results through SEO and content marketing."
     },
     {
       "@type": "Review",
-      "author": { "@type": "Person", "name": "David Thompson" },
+      "author": { "@type": "Person", "name": "Natalie Peters" },
       "datePublished": "2025-03-10",
       "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
       "reviewBody": "Highly recommend Adfinity Clarity. We went from page 3 to page 1 on Google for our main keywords within 5 months."
     },
     {
       "@type": "Review",
-      "author": { "@type": "Person", "name": "Emily Rodriguez" },
+      "author": { "@type": "Person", "name": "Nicole Herbeck" },
       "datePublished": "2025-04-22",
       "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
       "reviewBody": "Their performance marketing and lead generation campaigns delivered outstanding ROI. Our sales increased by 40% within the first quarter."
