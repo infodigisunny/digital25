@@ -72,38 +72,10 @@ export default function Home4() {
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Social Media Marketing (SMM)",
+          "name": "Digital Marketing",
           "url": "https://adfinityclarity.com/digital-marketing",
-          "description": "This will help you to know new people and bring back existing ones with smart ad campaigns on platforms like Facebook, LinkedIn, and YouTube."
+          "description": "Our digital marketing services help you reach your target audience through various online channels like social media, email, and paid advertising."
         },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Pay-Per-Click (PPC) Advertising",
-          "url": "https://adfinityclarity.com/digital-marketing",
-          "description": "Need quick traffic and leads? PPC puts your brand where intent meets action, right when your audience is ready to choose."
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Content Marketing",
-          "url": "https://adfinityclarity.com/digital-marketing",
-          "description": "Content marketing helps people to understand what your business offers, who it's for, and why it's helpful to them."
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "Email marketing",
-          "url": "https://adfinityclarity.com/digital-marketing",
-          "description": "Email marketing helps you to stay connected with those people who are already interested in your business."
-        },
-        {
-          "@type": "ListItem",
-          "position": 6,
-          "name": "Affiliate Marketing",
-          "url": "https://adfinityclarity.com/digital-marketing",
-          "description": "Affiliate marketing lets other people promote your business and earn a small share when they help you to make a sale."
-        }
       ]
     })
   }}
