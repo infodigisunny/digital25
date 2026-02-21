@@ -134,6 +134,46 @@ export default function Home3() {
     })
   }}
 />      
+<Script
+  id="article-schema"
+  type="application/ld+json"
+  strategy="beforeInteractive"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "@id": "https://adfinityclarity.com/seo-search-engine-optimization#article",
+      "url": "https://adfinityclarity.com/seo-search-engine-optimization",
+      "isPartOf": {
+        "@id": "https://adfinityclarity.com/#website"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Adfinity Clarity",
+        "url": "https://adfinityclarity.com/"
+      },
+      "headline": "SEO Services",
+      "description": "Rank Higher with Professional SEO Services for Driving Traffic & Revenue",
+      "datePublished": "2024-03-01T07:03:00+00:00",
+      "dateModified": "2025-07-03T14:42:10+00:00",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://adfinityclarity.com/assets/imgs/page/homepage3/img-feature.png",
+        "width": 1200,
+        "height": 630
+      },
+      "mainEntityOfPage": {
+        "@id": "https://adfinityclarity.com/seo-search-engine-optimization#article"
+      },
+      "publisher": {
+        "@id": "https://adfinityclarity.com/#organization"
+      },
+      "wordCount": 2200,
+      "inLanguage": "en-US"
+    })
+  }}
+/>
+/>
             {/* <Layout headerStyle={1} footerStyle={3} headerCls="header-style-2" topBar> */}
                  <Layout headerStyle={1} footerStyle={1} logoWhite>
                 <Section1 />
