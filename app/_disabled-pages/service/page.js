@@ -343,7 +343,7 @@ export default function Service() {
                     <section className="section-box wow animate__animated animate__fadeIn box-our-track">
                         <div className="container">
                             <div className="row align-items-center">
-                                <div className="col-lg-6 text-center mb-40"><img src="/assets/imgs/page/homepage1/img-track.png" alt="Adfinity Clarity" /></div>
+                                <div className="col-lg-6 text-center mb-40"><img src="/assets/imgs/page/homepage1/img-track.webp" alt="Adfinity Clarity" /></div>
                                 <div className="col-lg-6 mb-40">
                                     <div className="box-padding-left-50">
                                         <div className="strate-icon"><span /> Strategies that work</div>
