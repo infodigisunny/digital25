@@ -127,8 +127,9 @@ export default function Home4() {
   }}
 />
 
+{/* Article Schema - Digital Marketing */}
 <Script
-  id="digital-article-schema"
+  id="article-schema"
   type="application/ld+json"
   strategy="beforeInteractive"
   dangerouslySetInnerHTML={{
@@ -136,24 +137,32 @@ export default function Home4() {
       "@context": "https://schema.org",
       "@type": "Article",
       "@id": "https://adfinityclarity.com/digital-marketing#article",
+      "url": "https://adfinityclarity.com/digital-marketing",
       "isPartOf": {
-        "@id": "https://adfinityclarity.com/digital-marketing"
+        "@id": "https://adfinityclarity.com/#website"
       },
-      "author": [
-        {
-          "@id": "https://adfinityclarity.com/digital-marketing#/schema/"
-        }
-      ],
+      "author": {
+        "@type": "Organization",
+        "name": "Adfinity Clarity",
+        "url": "https://adfinityclarity.com/"
+      },
       "headline": "Digital Marketing Services",
+      "description": "We shape our online marketing services around your industry goals and audience needs to support measurable growth.",
       "datePublished": "2024-03-01T07:03:00+00:00",
       "dateModified": "2025-07-03T14:42:10+00:00",
-      "mainEntityOfPage": {
-        "@id": "https://adfinityclarity.com/digital-marketing"
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://adfinityclarity.com/digital-marketing-og.jpg",
+        "width": 1200,
+        "height": 630
       },
-      "wordCount": 1200,
+      "mainEntityOfPage": {
+        "@id": "https://adfinityclarity.com/digital-marketing#article"
+      },
       "publisher": {
         "@id": "https://adfinityclarity.com/#organization"
       },
+      "wordCount": 1200,
       "inLanguage": "en-US"
     })
   }}
