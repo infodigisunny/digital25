@@ -98,7 +98,7 @@ solutions that work for you. Here’s how:
                     <Swiper {...swiperOptions}>
                       <SwiperSlide>
                         <div className='item-review-discover'>
-                          <h5>B2B Marketing</h5>
+                          <h3>B2B Marketing</h3>
                           <p className='text-lg'>
                             We help businesses build strong relationships. Our goal is to make your
 brand stand out and be remembered by your clients.
@@ -107,7 +107,7 @@ brand stand out and be remembered by your clients.
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className='item-review-discover'>
-                          <h5>Education</h5>
+                          <h3>Education</h3>
                           <p className='text-lg'>
                             We help schools and universities connect with students and families. We
 highlight what makes your institution special so people find you.
@@ -116,7 +116,7 @@ highlight what makes your institution special so people find you.
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className='item-review-discover'>
-                          <h5>Automotive</h5>
+                          <h3>Automotive</h3>
                           <p className='text-lg'>
                             The automotive market is tough. We help car brands reach more customers
 and turn interest into trust.
@@ -126,7 +126,7 @@ and turn interest into trust.
 
                       <SwiperSlide>
                         <div className='item-review-discover'>
-                          <h5>Healthcare</h5>
+                          <h3>Healthcare</h3>
                           <p className='text-lg'>
                             Trust is everything in healthcare. We help clinics and providers get noticed and
 make sure patients feel confident in their care.
@@ -136,7 +136,7 @@ make sure patients feel confident in their care.
 
                       <SwiperSlide>
                         <div className='item-review-discover'>
-                          <h5>Hospitality</h5>
+                          <h3>Hospitality</h3>
                           <p className='text-lg'>
                             Guests want more than a place to stay. They want an experience. We help you
 create great experiences that keep visitors coming back.
@@ -146,7 +146,7 @@ create great experiences that keep visitors coming back.
 
                       <SwiperSlide>
                         <div className='item-review-discover'>
-                          <h5>Real Estate</h5>
+                          <h3>Real Estate</h3>
                           <p className='text-lg'>
                             We help you show properties in a way that connects with buyers. We tell the
 story of each home to help people picture themselves living there.
@@ -156,7 +156,7 @@ story of each home to help people picture themselves living there.
 
                       <SwiperSlide>
                         <div className='item-review-discover'>
-                          <h5>E-Commerce</h5>
+                          <h3>E-Commerce</h3>
                           <p className='text-lg'>
                            Shopping online is always changing. We help e-commerce businesses make
 their websites easy to use and increase sales.
@@ -166,7 +166,7 @@ their websites easy to use and increase sales.
 
                       <SwiperSlide>
                         <div className='item-review-discover'>
-                          <h5>Dental</h5>
+                          <h3>Dental</h3>
                           <p className='text-lg'>
                            For dental practices, trust is key. We help you bring in new patients and build a
 reputation people rely on.
@@ -176,7 +176,7 @@ reputation people rely on.
 
                       <SwiperSlide>
                         <div className='item-review-discover'>
-                          <h5>Law</h5>
+                          <h3>Law</h3>
                           <p className='text-lg'>
                             In law, your reputation counts. We help law firms stand out, attract clients, and show
 their expertise.
@@ -186,7 +186,7 @@ their expertise.
 
                       <SwiperSlide>
                         <div className='item-review-discover'>
-                          <h5>Schools</h5>
+                          <h3>Schools</h3>
                           <p className='text-lg'>
                             We help schools connect with students, parents, and staff. We make sure everyone
 knows why your school is the right choice.
