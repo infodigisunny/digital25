@@ -66,8 +66,8 @@ export default function Home3() {
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "Home",
-          "item": "https://adfinityclarity.com/"
+          "name": "SEO Company",
+          "item": "https://adfinityclarity.com/seo-search-engine-optimization"
         },
         {
           "@type": "ListItem",
