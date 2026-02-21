@@ -32,7 +32,7 @@ export default function Section8() {
                                         <div className="item-preparing-left" />
                                         <div className="item-preparing-right">
                                             <div className="internet-icon"><span /> Our Features</div>
-                                            <h2 className="heading-2 mb-20">International SEO</h2>
+                                            <h3 className="heading-2 mb-20">International SEO</h3>
                                             <p className="text-lg neutral-700">Our international SEO services expand companies on a worldwide scale. We optimize the website in multiple languages and cultures to produce maximum visibility in the targeted markets. We engage in hreflang tags, geo-targeting, and specifically local search engines to increase international traffic and generate conversions. By building international SEO strategies based on specific business requirements, we will improve your online presence in foreign markets.</p>
                                             <div className="box-list-check">
                                                 <ul className="list-check">
@@ -51,7 +51,7 @@ export default function Section8() {
                                         <div className="item-preparing-left img-2" />
                                         <div className="item-preparing-right">
                                             <div className="internet-icon"><span /> Our Features</div>
-                                            <h2 className="heading-2 mb-20">Ecommerce SEO</h2>
+                                            <h3 className="heading-2 mb-20">Ecommerce SEO</h3>
                                             <p className="text-lg neutral-700">Ecommerce SEO is an integral part of an online store because the competition is fierce. Our ecommerce <Link href="/seo-search-engine-optimization">SEO services</Link> will help you rank in the search engines by optimizing product pages, product categories, and money pages (website content). Our ecommerce SEO services improve website structure, user experience, and conversion with the outcome being a higher rank in the search engines. Finally, our ecommerce SEO techniques are supported by data through product schema markup and faceted navigation to give the company the highest visibility. Our ecommerce professionals can increase your website traffic with targeted prospects, convert visitors to sales, and improve brand credibility using ecommerce SEO strategies.</p>
                                             <div className="box-list-check">
                                                 <ul className="list-check">
@@ -70,7 +70,7 @@ export default function Section8() {
                                         <div className="item-preparing-left img-3" />
                                         <div className="item-preparing-right">
                                             <div className="internet-icon"><span /> Our Features</div>
-                                            <h2 className="heading-2 mb-20">AI SEO</h2>
+                                            <h3 className="heading-2 mb-20">AI SEO</h3>
                                             <p className="text-lg neutral-700">AI SEO drives search engine Optimization. With the advancement of machine learning algorithms and programs that collect user behaviour and trends, we can help you create and optimize content quickly and easily through our Artificial Intelligence platforms. In addition, we can automate many of your manual and tedious processes and allocate those resources back to the planning phase. Our AI SEO marketing tools make it easy to deliver efficient and effective results for content optimization, keywords, and link building using machine learning algorithms to find patterns and predict trends. Since the digital world is constantly evolving, utilizing our AI platforms will keep you ahead of the competition.</p>
                                             <div className="box-list-check">
                                                 <ul className="list-check">
@@ -89,7 +89,7 @@ export default function Section8() {
                                         <div className="item-preparing-left img-4" />
                                         <div className="item-preparing-right">
                                             <div className="internet-icon"><span /> Our Features</div>
-                                            <h2 className="heading-2 mb-20">Local SEO</h2>
+                                            <h3 className="heading-2 mb-20">Local SEO</h3>
                                             <p className="text-lg neutral-700">Local SEO helps companies and businesses grow and expand in a specific area. We can optimize Google My Business listings, build relevant and high quality local citations, and create and publish content for a specific location. Ultimately, the goal is to get into the top local search results to drive foot traffic and conversions. Our team understands the local search algorithms of search engines and the importance of local intent, so we make sure that businesses are well represented in local searches and are in front of local customers.</p>
                                             <div className="box-list-check">
                                                 <ul className="list-check">
@@ -108,7 +108,7 @@ export default function Section8() {
                                         <div className="item-preparing-left img-5" />
                                         <div className="item-preparing-right">
                                             <div className="internet-icon"><span /> Our Features</div>
-                                            <h2 className="heading-2 mb-20">Enterprise SEO</h2>
+                                            <h3 className="heading-2 mb-20">Enterprise SEO</h3>
                                             <p className="text-lg neutral-700">Enterprise SEO is a big-time scalable strategy. In enterprise SEO, we help large companies scale through strategic planning. With enterprise SEO, you are responsible for a large, complex website and thousands of pieces of content -- no problem! For us, we can work together to create a scalable SEO strategy when we understand where and how best to be effective with technical SEO. We also understand that we are here to help stakeholders drive the business and increase brand visibility and conversions as well. We approach this through data-driven SEO activities.</p>
                                             <div className="box-list-check">
                                                 <ul className="list-check">
