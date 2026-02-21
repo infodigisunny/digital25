@@ -83,6 +83,56 @@ export default function Home3() {
       ]
     })
   }}
+/>
+<Script
+  id="seo-howto-schema"
+  type="application/ld+json"
+  strategy="beforeInteractive"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How to Get Professional SEO Services",
+      "description": "A complete guide to securing professional SEO services that drive traffic and revenue for your business.",
+      "totalTime": "PT30M",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://adfinityclarity.com/assets/imgs/page/homepage3/img-feature.png",
+        "width": 1200,
+        "height": 630
+      },
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Research",
+          "text": "Analyze your business, competitors, and keywords to create an informed SEO strategy.",
+          "url": "https://adfinityclarity.com/seo-search-engine-optimization#step1"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Optimization",
+          "text": "Fix technical issues, improve speed, mobile responsiveness, and meta content.",
+          "url": "https://adfinityclarity.com/seo-search-engine-optimization#step2"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Strategy",
+          "text": "Create goal-focused content that matches your audience's search intent.",
+          "url": "https://adfinityclarity.com/seo-search-engine-optimization#step3"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Growth",
+          "text": "Track performance, build links, and continuously improve your site's visibility.",
+          "url": "https://adfinityclarity.com/seo-search-engine-optimization#step4"
+        }
+      ]
+    })
+  }}
 />      
             {/* <Layout headerStyle={1} footerStyle={3} headerCls="header-style-2" topBar> */}
                  <Layout headerStyle={1} footerStyle={1} logoWhite>
