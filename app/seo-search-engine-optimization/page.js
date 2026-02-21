@@ -53,33 +53,26 @@ export default function Home3() {
 
     return (
         <>
-       
 
+{/* WebPage Schema - SEO Page */}
 <Script
-  id="seo-website-schema"
+  id="seo-webpage-schema"
   type="application/ld+json"
   strategy="beforeInteractive"
   dangerouslySetInnerHTML={{
     __html: JSON.stringify({
       "@context": "https://schema.org",
-      "@type": "WebSite",
-      "@id": "https://adfinityclarity.com/seo-search-engine-optimization#website",
+      "@type": "WebPage",
+      "@id": "https://adfinityclarity.com/seo-search-engine-optimization#webpage",
       "url": "https://adfinityclarity.com/seo-search-engine-optimization",
       "name": "SEO Services",
       "description": "Rank Higher with Professional SEO Services for Driving Traffic & Revenue",
+      "isPartOf": {
+        "@id": "https://adfinityclarity.com/#website"
+      },
       "publisher": {
         "@id": "https://adfinityclarity.com/#organization"
       },
-      "potentialAction": [
-        {
-          "@type": "SearchAction",
-          "target": {
-            "@type": "EntryPoint",
-            "urlTemplate": "https://adfinityclarity.com/seo-search-engine-optimization"
-          },
-          "query-input": "required name=search_term_string"
-        }
-      ],
       "inLanguage": "en-US"
     })
   }}
