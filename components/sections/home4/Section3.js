@@ -8,7 +8,7 @@ export default function Section3() {
             <section className="section-box wow animate__animated animate__fadeIn box-our-track box-our-track-3">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 text-center mb-40"><img src="/assets/imgs/page/homepage4/img-track.png" alt="Digital Marketing" /></div>
+                        <div className="col-lg-6 text-center mb-40"><img src="/assets/imgs/page/homepage4/img-track.webp" alt="Digital Marketing" /></div>
                         <div className="col-lg-6 mb-40">
                             <div className="box-padding-left-50">
                                 <div className="strate-icon"><span /> Strategies that work</div>
