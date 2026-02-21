@@ -147,7 +147,7 @@ export default function Home4() {
         "url": "https://adfinityclarity.com/"
       },
       "headline": "Digital Marketing Services",
-      "description": "We shape our online marketing services around your industry goals and audience needs to support measurable growth.",
+      "description": "We shape AI Digital Marketing Services around your industry goals and audience needs to support measurable growth.",
       "datePublished": "2024-03-01T07:03:00+00:00",
       "dateModified": "2025-07-03T14:42:10+00:00",
       "image": {
