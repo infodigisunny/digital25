@@ -41,14 +41,17 @@ const organizationSchema = {
   "name": "Adfinity Clarity",
   "url": "https://adfinityclarity.com/",
   "logo": {
+    "@context": "https://schema.org",
     "@type": "ImageObject",
     "inLanguage": "en-US",
     "@id": "https://adfinityclarity.com/#/schema/logo/image/",
-    "url": "https://adfinityclarity.com/full-logo.webp",
-    "contentUrl": "https://adfinityclarity.com/full-logo.webp",
+    "url": "https://adfinityclarity.com/full-logo.png",
+    "contentUrl": "https://adfinityclarity.com/full-logo.png",
     "width": 289,
     "height": 76,
-    "caption": "Adfinity Clarity"
+    "caption": "Adfinity Clarity",
+    "name": "Adfinity Clarity Logo",
+    "description": "Official logo of Adfinity Clarity SEO & Digital Marketing Agency"
   },
   "image": {
     "@id": "https://adfinityclarity.com/#/schema/logo/image/"
@@ -166,10 +169,14 @@ const localBusinessSchema = {
 const imageSchema = {
   "@context": "https://schema.org",
   "@type": "ImageObject",
-  "contentUrl": "https://adfinityclarity.com/full-logo.webp",
-  "url": "https://adfinityclarity.com/full-logo.webp",
+  "@id": "https://adfinityclarity.com/#/schema/logo/image/",
+  "contentUrl": "https://adfinityclarity.com/full-logo.png",
+  "url": "https://adfinityclarity.com/full-logo.png",
   "width": 289,
-  "height": 76
+  "height": 76,
+  "caption": "Adfinity Clarity",
+  "name": "Adfinity Clarity Logo",
+  "description": "Official logo of Adfinity Clarity SEO & Digital Marketing Agency"
 }
 
 export default function RootLayout({ children }) {
