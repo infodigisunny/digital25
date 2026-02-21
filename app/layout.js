@@ -1,6 +1,7 @@
 /** @format */
 
 import { Urbanist } from "next/font/google";
+import Script from "next/script";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
