@@ -84,6 +84,29 @@ export default function Home3() {
     })
   }}
 />
+{/* WebPage Schema - SEO Page */}
+<Script
+  id="seo-webpage-schema"
+  type="application/ld+json"
+  strategy="beforeInteractive"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://adfinityclarity.com/seo-search-engine-optimization#webpage",
+      "url": "https://adfinityclarity.com/seo-search-engine-optimization",
+      "name": "SEO Services",
+      "description": "Rank Higher with Professional SEO Services for Driving Traffic & Revenue",
+      "isPartOf": {
+        "@id": "https://adfinityclarity.com/#website"
+      },
+      "publisher": {
+        "@id": "https://adfinityclarity.com/#organization"
+      },
+      "inLanguage": "en-US"
+    })
+  }}
+/>
 
         
             {/* <Layout headerStyle={1} footerStyle={3} headerCls="header-style-2" topBar> */}
