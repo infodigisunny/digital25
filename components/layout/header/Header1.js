@@ -248,10 +248,10 @@ export default function Header1({
                           <Link href='/blog-post'>Blog post</Link>
                         </li>
                       </ul>
-                    </li>
+                    </li>*/}
                     <li className='has-children'>
                       <Link href='/contact'>Contact</Link>
-                    </li> */}
+                    </li> 
                   </ul>
                 </nav>
               </div>
