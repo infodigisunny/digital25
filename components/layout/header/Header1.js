@@ -259,7 +259,7 @@ export default function Header1({
             <div className='header-right'>
             {/* <SearchForm />*/}
               <Link className='btn btn-brand-4-medium hover-up' href='#'>
-                Get Started
+                Get SEO Proposal
                 <svg
                   width={22}
                   height={22}
