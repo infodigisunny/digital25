@@ -257,7 +257,7 @@ export default function Header1({
               </div>
             </div>
             <div className='header-right'>
-             <SearchForm />
+            {/* <SearchForm />*/}
               <Link className='btn btn-brand-4-medium hover-up' href='#'>
                 Get Started
                 <svg
