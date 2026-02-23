@@ -213,7 +213,7 @@ export default function Section1() {
               ✕
             </button>
 
-            <h3 style={{ marginBottom: "20px", fontWeight: "700" }}>Get a Free Proposal</h3>
+           <h3 style={{ marginBottom: "20px", fontWeight: "700", textAlign: "center" }}>Get a Free Proposal</h3>
 
             <form onSubmit={handleSubmit}>
               <div className="form-group mb-3">
