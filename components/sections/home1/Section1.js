@@ -117,14 +117,16 @@ export default function Section1() {
                     />
                   </div>
                   <div className="form-group mb-4">
-                    <PhoneInput
-  country={'in'}
-  enableSearch={true}
-  value={form.mobile}
-  onChange={(phone) => setForm({ ...form, mobile: phone })}
-  inputStyle={{ width: "100%", padding: "10px 10px 10px 50px", height: "44px", marginTop: "6px" }}
-  containerStyle={{ width: "100%" }}
-/>
+                    <input
+                      type="tel"
+                      name="mobile"
+                      value={form.mobile}
+                      onChange={handleChange}
+                      required
+                      placeholder="MOBILE*"
+                      className="form-control"
+                      style={{ width: "100%", padding: "10px", marginTop: "6px" }}
+                    />
                   </div>
                   <div className="form-group mb-4">
                     <input
