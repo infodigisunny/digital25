@@ -259,23 +259,26 @@ export default function Header1({
             <div className='header-right'>
               {/* <SearchForm />*/}
               <a
-                className='btn btn-brand-4-medium hover-up'
-                href='#'
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.dispatchEvent(new CustomEvent("openProposalModal"));
-                }}
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  fontSize: "13px",
-                  padding: "8px 18px",
-                  whiteSpace: "nowrap",
-                }}
-              >
-                Get SEO Proposal
-              </a>
+             className='btn btn-brand-4-medium hover-up'
+  href='#'
+  onClick={(e) => {
+    e.preventDefault();
+    window.dispatchEvent(new CustomEvent("openProposalModal"));
+  }}
+  style={{
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    fontSize: "11px",
+    padding: "6px 12px",
+    whiteSpace: "nowrap",
+    maxWidth: "120px",
+    lineHeight: "1.3",
+    textAlign: "center",
+  }}
+>
+  Get SEO Proposal
+</a>
 
               <div
                 className='burger-icon burger-icon-white'
