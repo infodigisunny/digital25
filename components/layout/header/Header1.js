@@ -265,14 +265,6 @@ export default function Header1({
                   e.preventDefault();
                   window.dispatchEvent(new CustomEvent("openProposalModal"));
                 }}
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  fontSize: "13px",
-                  padding: "8px 18px",
-                  whiteSpace: "nowrap",
-                }}
               >
                 Get SEO Proposal
               </a>
