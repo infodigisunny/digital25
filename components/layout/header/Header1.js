@@ -256,27 +256,35 @@ export default function Header1({
                 </nav>
               </div>
             </div>
-            <div className='header-right'>
-            {/* <SearchForm />*/}
-             <Link
-   className='btn btn-brand-4-medium hover-up'
-  href='#'
-  onClick={(e) => {
-    e.preventDefault();
-    window.dispatchEvent(new CustomEvent("openProposalModal"));
-  }}
-  style={{ display: "flex", alignItems: "center", justifyContent: "center" }}
->
-  Get SEO Proposal
-</Link>
-              <div
-                className='burger-icon burger-icon-white'
-                onClick={handleMobileMenu}>
-                <span className='burger-icon-top' />
-                <span className='burger-icon-mid' />
-                <span className='burger-icon-bottom' />
-              </div>
-            </div>
+           <div className='header-right'>
+  {/* <SearchForm />*/}
+  
+    className='btn btn-brand-4-medium hover-up'
+    href='#'
+    onClick={(e) => {
+      e.preventDefault();
+      window.dispatchEvent(new CustomEvent("openProposalModal"));
+    }}
+    style={{
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      fontSize: "13px",
+      padding: "8px 18px",
+      whiteSpace: "nowrap",
+    }}
+  >
+    Get SEO Proposal
+  </link>
+
+  <div
+    className='burger-icon burger-icon-white'
+    onClick={handleMobileMenu}>
+    <span className='burger-icon-top' />
+    <span className='burger-icon-mid' />
+    <span className='burger-icon-bottom' />
+  </div>
+</div>
           </div>
         </div>
       </header>
