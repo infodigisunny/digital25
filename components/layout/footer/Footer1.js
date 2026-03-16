@@ -8,7 +8,7 @@ export default function Footer3() {
                     <div className="row">
                         <div className="col-lg-3 col-md-3 col-sm-12">
 
-                            {/* Fix 1 — Footer Logo aria-label */}
+                            {/* Footer Logo */}
                             <Link className='d-flex' href='/' aria-label='Adfinity Clarity - Go to Homepage'>
                                 <img alt="Adfinity Clarity Logo" src="/full-logo.webp" className="img1" />
                             </Link>
@@ -37,21 +37,51 @@ export default function Footer3() {
                                 <p className="text-lg title-follow neutral-0">Follow us</p>
                                 <div className="box-socials-footer" />
 
-                                {/* Fix 2 — Footer Social Links aria-label */}
-                                <a className="icon-socials icon-facebook" href="https://www.facebook.com/adfinityclarity/" aria-label="Follow Adfinity Clarity on Facebook">
-                                    <img alt="Facebook" src="/assets/imgs/template/icons/fb.svg" />
+                                {/* Social Media Icons — SEO fixed with nofollow, noopener, noreferrer, target="_blank" and improved alt text */}
+                                <a
+                                    className="icon-socials icon-facebook"
+                                    href="https://www.facebook.com/adfinityclarity/"
+                                    target="_blank"
+                                    rel="noopener noreferrer nofollow"
+                                    aria-label="Follow Adfinity Clarity on Facebook"
+                                >
+                                    <img alt="Adfinity Clarity on Facebook" src="/assets/imgs/template/icons/fb.svg" />
                                 </a>
-                                <a className="icon-socials icon-linedin" href="https://www.linkedin.com/company/adfinity-clarity/" aria-label="Follow Adfinity Clarity on LinkedIn">
-                                    <img alt="Linkedin" src="/assets/imgs/template/icons/linkedin.svg" />
+                                <a
+                                    className="icon-socials icon-linedin"
+                                    href="https://www.linkedin.com/company/adfinity-clarity/"
+                                    target="_blank"
+                                    rel="noopener noreferrer nofollow"
+                                    aria-label="Follow Adfinity Clarity on LinkedIn"
+                                >
+                                    <img alt="Adfinity Clarity on LinkedIn" src="/assets/imgs/template/icons/linkedin.svg" />
                                 </a>
-                                <a className="icon-socials icon-youtube" href="https://www.youtube.com/@AdfinityClarity" aria-label="Subscribe to Adfinity Clarity on YouTube">
-                                    <img alt="Youtube" src="/assets/imgs/template/icons/youtube.svg" />
+                                <a
+                                    className="icon-socials icon-youtube"
+                                    href="https://www.youtube.com/@AdfinityClarity"
+                                    target="_blank"
+                                    rel="noopener noreferrer nofollow"
+                                    aria-label="Subscribe to Adfinity Clarity on YouTube"
+                                >
+                                    <img alt="Adfinity Clarity on YouTube" src="/assets/imgs/template/icons/youtube.svg" />
                                 </a>
-                                <a className="icon-socials icon-instagram" href="https://www.instagram.com/adfinityclarity/" aria-label="Follow Adfinity Clarity on Instagram">
-                                    <img alt="Instagram" src="/assets/imgs/template/icons/instagram.svg" />
+                                <a
+                                    className="icon-socials icon-instagram"
+                                    href="https://www.instagram.com/adfinityclarity/"
+                                    target="_blank"
+                                    rel="noopener noreferrer nofollow"
+                                    aria-label="Follow Adfinity Clarity on Instagram"
+                                >
+                                    <img alt="Adfinity Clarity on Instagram" src="/assets/imgs/template/icons/instagram.svg" />
                                 </a>
-                                <a className="icon-socials icon-x" href="https://x.com/adfinityclarity" aria-label="Follow Adfinity Clarity on X Twitter">
-                                    <img alt="X" src="/assets/imgs/template/icons/x.svg" />
+                                <a
+                                    className="icon-socials icon-x"
+                                    href="https://x.com/adfinityclarity"
+                                    target="_blank"
+                                    rel="noopener noreferrer nofollow"
+                                    aria-label="Follow Adfinity Clarity on X Twitter"
+                                >
+                                    <img alt="Adfinity Clarity on X Twitter" src="/assets/imgs/template/icons/x.svg" />
                                 </a>
                                 <p />
                             </div>
