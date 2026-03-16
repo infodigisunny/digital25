@@ -53,7 +53,7 @@ export default function Section1() {
 
     return (
         <>
-            <section className="section-box" style={{ marginTop: "95px" }}>
+            <section className="section-box hero-banner-section">
   <div className="banner-hero hero-3">
     <div className="banner-inner">
       <div
