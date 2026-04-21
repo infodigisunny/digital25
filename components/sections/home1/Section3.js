@@ -49,7 +49,7 @@ services</Link> can optimize your revenue growth.
                   <div className='col-lg-6 col-sm-6'>
                     <div className='card-feature-2'>
                       <div className='card-image'>
-                        <img src="/assets/imgs/page/homepage3/digital.svg" alt="SMM" />
+                        <img src="/assets/imgs/page/homepage3/social-media-marketing.svg" alt="SMM" />
                       </div>
                       <div className='card-info'>
                         <Link href="/digital-marketing">
