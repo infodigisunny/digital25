@@ -31,7 +31,7 @@ to success.
                   <div className='col-lg-6 col-sm-6'>
                     <div className='card-feature-2'>
                       <div className='card-image'>
-                        <img src="/assets/imgs/page/homepage3/marketing.svg"  alt="SEO" />
+                        <img src="/assets/imgs/page/homepage3/seo-service.svg"  alt="SEO" />
                       </div>
                       <div className='card-info'>
                         <Link href="/seo-search-engine-optimization">
