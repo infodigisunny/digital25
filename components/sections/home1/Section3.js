@@ -67,7 +67,7 @@ don’t need a dedicated in-house staff to run your campaigns.
                   <div className='col-lg-6 col-sm-6'>
                     <div className='card-feature-2'>
                       <div className='card-image'>
-                        <img src="/assets/imgs/page/homepage3/product.svg"  alt="ppc" />
+                        <img src="/assets/imgs/page/homepage3/ppc.svg"  alt="ppc" />
                       </div>
                       <div className='card-info'>
                         <Link href="/digital-marketing">
@@ -83,7 +83,7 @@ previously known as AdWords, is a prime example of pay-per-click (PPC) marketing
                   <div className='col-lg-6 col-sm-6'>
                     <div className='card-feature-2'>
                       <div className='card-image'>
-                        <img src="/assets/imgs/page/homepage3/social.svg" alt="Web Design" />
+                        <img src="/assets/imgs/page/homepage3/website-design-and-development.svg" alt="Web Design" />
                       </div>
                       <div className='card-info'>
                         <Link href="/digital-marketing">
