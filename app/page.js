@@ -11,7 +11,7 @@ import Section3 from "@/components/sections/home1/Section3";
 import Section4 from "@/components/sections/home1/Section4";
 import Section5 from "@/components/sections/home1/Section5";
 import Section6 from "@/components/sections/home1/Section6";
-//import Section7 from "@/components/sections/home1/Section7";
+import Section7 from "@/components/sections/home1/Section7";
 import Section8 from "@/components/sections/home1/Section8";
 //import Section9 from "@/components/sections/home1/Section9";
 export const metadata = {
@@ -219,7 +219,7 @@ export default function Home() {
         <Section4 />
         <Section5 />
         <Section6 />
-       {/* <Section7 /> */}
+        <Section7 />
         <Section8 />
         {/* <Section9 /> */}
         {/* <Section10 /> */}
