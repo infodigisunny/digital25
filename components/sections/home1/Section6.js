@@ -31,9 +31,8 @@ we are the right choice for you:
                                 <div className="card-info"><Link href="#">
                                     <h5 className="text-22-bold">Content Marketing</h5>
                                 </Link>
-                                    <p className="text-md neutral-700">Strategic approach that involves creating and
-                                        distributing valuable, relevant, and engaging content to attract and retain a target
-                                        audience, ultimately driving brand awareness.</p>
+                                    <p className="text-md neutral-700">Data guides us in everything we do. This helps us make sure every marketing decision we
+make is focused on getting the best results</p>
                                 </div>
                             </div>
                         </div>
@@ -43,11 +42,10 @@ we are the right choice for you:
                                     <path d="M28.7954 12.9735C29.4131 11.7516 29.1573 10.301 28.159 9.36409L26.7553 8.0466C26.4416 7.75228 26.258 7.43422 26.1599 7.01534L25.7208 5.14097C25.4085 3.80784 24.2802 2.86109 22.9131 2.78503L20.991 2.67816C20.5615 2.65428 20.2163 2.52866 19.8719 2.27091L18.3307 1.11728C17.2345 0.296844 15.7617 0.296844 14.6655 1.11728L13.1243 2.27084C12.7799 2.52866 12.4348 2.65428 12.0053 2.67816L10.0831 2.78503C8.71602 2.86109 7.58771 3.80784 7.27546 5.14097L6.83639 7.01534C6.73827 7.43422 6.55464 7.75228 6.24102 8.0466L4.83727 9.36409C3.83889 10.3011 3.58314 11.7516 4.20083 12.9735L5.06933 14.6917C5.26339 15.0756 5.32714 15.4373 5.27614 15.8644L5.04771 17.7759C4.88521 19.1354 5.62164 20.411 6.88027 20.95L8.32777 21.57L5.36789 27.9273C5.25308 28.174 5.28458 28.4613 5.45002 28.6773C5.61552 28.8933 5.88489 28.9983 6.15289 28.9515L9.26221 28.4082L10.8481 31.1372C10.9791 31.3628 11.2178 31.4993 11.4766 31.4993C11.4878 31.4993 11.499 31.4991 11.5103 31.4986C11.7821 31.4863 12.0223 31.3254 12.1372 31.0787L14.9326 25.0743L15.9027 24.7812C16.3145 24.6568 16.6818 24.6568 17.0935 24.7812L18.0636 25.0744L20.859 31.0788C20.9738 31.3255 21.2141 31.4863 21.4857 31.4987C21.497 31.4992 21.5082 31.4994 21.5194 31.4994C21.7783 31.4994 22.017 31.3628 22.1481 31.1373L23.734 28.4083L26.8433 28.9515C27.1114 28.9984 27.3807 28.8933 27.5462 28.6773C27.7117 28.4614 27.7431 28.174 27.6283 27.9274L24.6686 21.57L26.1161 20.9502C27.3748 20.4111 28.1112 19.1355 27.9487 17.776L27.7202 15.8645C27.6692 15.4373 27.733 15.0757 27.927 14.6917L28.7954 12.9735ZM11.4507 30.1839L9.95183 27.6045C9.84664 27.4235 9.64002 27.3271 9.43346 27.3632L6.49464 27.8766L9.20508 22.0547C9.33758 22.1726 9.45502 22.3097 9.56208 22.4734L10.6158 24.0845C11.29 25.1155 12.478 25.6263 13.664 25.43L11.4507 30.1839ZM23.5628 27.3632C23.3565 27.327 23.1496 27.4234 23.0444 27.6045L21.5455 30.1839L19.3321 25.4298C19.4998 25.4576 19.6676 25.4717 19.8339 25.4717C20.8438 25.4717 21.8015 24.9697 22.3804 24.0845L23.4341 22.4733C23.5411 22.3096 23.6586 22.1725 23.7911 22.0547L26.5015 27.8765L23.5628 27.3632ZM27.0345 14.2405C26.7539 14.7956 26.6534 15.3655 26.7271 15.9831L26.9556 17.8946C27.0667 18.8238 26.5826 19.6623 25.7223 20.0308L23.9526 20.7887C23.381 21.0335 22.9376 21.4055 22.5972 21.926L21.5435 23.5372C21.0313 24.3204 20.1215 24.6516 19.2256 24.3809L17.3828 23.824C17.0851 23.734 16.7916 23.689 16.4981 23.689C16.2046 23.689 15.9111 23.734 15.6135 23.824L13.7706 24.3809C12.8749 24.6515 11.965 24.3205 11.4528 23.5372L10.3991 21.9261C10.0588 21.4056 9.61539 21.0336 9.04358 20.7887L7.27396 20.0308C6.41364 19.6623 5.92952 18.8238 6.04064 17.8945L6.26908 15.983C6.34289 15.3655 6.24239 14.7955 5.96183 14.2405L5.09333 12.5223C4.67114 11.6871 4.83927 10.7336 5.52164 10.0932L6.92539 8.77566C7.37883 8.35003 7.66821 7.84878 7.81002 7.24328L8.24908 5.36891C8.46252 4.45772 9.20427 3.83534 10.1387 3.78334L12.0608 3.67647C12.6818 3.64191 13.2256 3.44397 13.7236 3.07128L15.2648 1.91766C16.014 1.35697 16.9822 1.35691 17.7315 1.91766L19.2726 3.07134C19.7706 3.44403 20.3145 3.64197 20.9354 3.67653L22.8575 3.78341C23.792 3.83541 24.5336 4.45772 24.7471 5.36897L25.1862 7.24334C25.3281 7.84891 25.6175 8.35016 26.0709 8.77572L27.4746 10.0932C28.157 10.7337 28.3251 11.6872 27.9029 12.5224L27.0345 14.2405ZM16.4981 4.60297C11.8756 4.60297 8.11483 8.36366 8.11483 12.9862C8.11483 17.6087 11.8755 21.3694 16.4981 21.3694C21.1206 21.3694 24.8813 17.6087 24.8813 12.9862C24.8813 8.36366 21.1206 4.60297 16.4981 4.60297ZM16.4981 20.3694C12.427 20.3694 9.11483 17.0573 9.11483 12.9862C9.11483 8.91503 12.427 5.60297 16.4981 5.60297C20.5692 5.60297 23.8813 8.91509 23.8813 12.9862C23.8813 17.0573 20.5692 20.3694 16.4981 20.3694ZM18.3218 13.094C18.9398 12.5735 19.3335 11.7947 19.3335 10.9252C19.3335 9.36178 18.0616 8.08985 16.4981 8.08985C14.9347 8.08985 13.6628 9.36178 13.6628 10.9252C13.6628 11.7946 14.0565 12.5735 14.6745 13.094C12.9201 13.7598 11.6193 15.3613 11.4087 17.3293C11.3936 17.4703 11.4391 17.6112 11.534 17.7167C11.6288 17.8222 11.764 17.8825 11.9058 17.8825H21.0904C21.2323 17.8825 21.3675 17.8222 21.4623 17.7167C21.5571 17.6112 21.6026 17.4703 21.5875 17.3293C21.377 15.3614 20.0761 13.7598 18.3218 13.094ZM14.6628 10.9252C14.6628 9.91322 15.4861 9.08984 16.4981 9.08984C17.5102 9.08984 18.3335 9.91316 18.3335 10.9252C18.3335 11.9368 17.5108 12.7598 16.4994 12.7605C16.499 12.7605 16.4986 12.7605 16.4981 12.7605C16.4977 12.7605 16.4973 12.7605 16.4969 12.7605C15.4855 12.7599 14.6628 11.9368 14.6628 10.9252ZM12.5002 16.8825C12.9473 15.069 14.5772 13.7612 16.4968 13.7606C16.4973 13.7606 16.4977 13.7607 16.4981 13.7607C16.4986 13.7607 16.499 13.7606 16.4995 13.7606C18.419 13.7612 20.0489 15.069 20.496 16.8825H12.5002Z" fill="true" />
                                 </svg></Link>
                                 <div className="card-info"><Link href="#">
-                                    <h5 className="text-22-bold">Business Reform</h5>
+                                    <h5 className="text-22-bold">Plans Made Just for You</h5>
                                 </Link>
-                                    <p className="text-md neutral-700">Refers to the process of reevaluating and improving the
-                                        internal operations, structure, and strategies of a company to adapt to changing
-                                        market conditions and achieve better efficiency, profitability.</p>
+                                    <p className="text-md neutral-700">Every business is different. That’s why we make sure our marketing plans fit your business,
+goals, and needs instead of using a one size fits all approach.</p>
                                 </div>
                             </div>
                         </div>
@@ -67,11 +65,10 @@ we are the right choice for you:
                                     </defs>
                                 </svg></Link>
                                 <div className="card-info"><Link href="#">
-                                    <h5 className="text-22-bold">IT Management</h5>
+                                    <h5 className="text-22-bold">Real, Tangible Results</h5>
                                 </Link>
-                                    <p className="text-md neutral-700"> Involves overseeing an organization's technology
-                                        resources, including hardware, software, networks, and personnel, to ensure the
-                                        efficient and secure operation of IT systems in alignment with business objectives.
+                                    <p className="text-md neutral-700"> We’ve helped many businesses grow by increasing traffic, generating more leads, and
+driving sales. Our clients trust us because we deliver the best results that they desire.
                                     </p>
                                 </div>
                             </div>
@@ -87,7 +84,7 @@ we are the right choice for you:
                                 <div className="card-info"><Link href="#">
                                     <h5 className="text-22-bold">Infrastructure Plan</h5>
                                 </Link>
-                                    <p className="text-md neutral-700"> An infrastructure plan outlines a comprehensive strategy
+                                    <p className="text-md neutral-700">An infrastructure plan outlines a comprehensive strategy
                                         for designing, building, and maintaining physical and digital infrastructure,
                                         ensuring scalability, resilience, and sustainable development.</p>
                                 </div>
@@ -101,11 +98,10 @@ we are the right choice for you:
                                     <path d="M10 12.2495C10.1326 12.2495 10.2598 12.1968 10.3536 12.103C10.4473 12.0093 10.5 11.8821 10.5 11.7495V7.11449L16 10.287V15.2495C16 15.3821 16.0527 15.5093 16.1464 15.603C16.2402 15.6968 16.3674 15.7495 16.5 15.7495C16.6326 15.7495 16.7598 15.6968 16.8536 15.603C16.9473 15.5093 17 15.3821 17 15.2495V10.287L22.5 7.11449V11.7495C22.5 11.8821 22.5527 12.0093 22.6464 12.103C22.7402 12.1968 22.8674 12.2495 23 12.2495C23.1326 12.2495 23.2598 12.1968 23.3536 12.103C23.4473 12.0093 23.5 11.8821 23.5 11.7495V6.24949C23.4999 6.16181 23.4768 6.07569 23.4329 5.99978C23.389 5.92387 23.3259 5.86083 23.25 5.81699L16.75 2.06699C16.674 2.0231 16.5878 2 16.5 2C16.4122 2 16.326 2.0231 16.25 2.06699L9.75 5.81699C9.67407 5.86083 9.611 5.92387 9.56712 5.99978C9.52324 6.07569 9.50009 6.16181 9.5 6.24949V11.7495C9.5 11.8821 9.55268 12.0093 9.64645 12.103C9.74021 12.1968 9.86739 12.2495 10 12.2495ZM16.5 3.07699L22 6.24949L16.5 9.42199L11 6.24949L16.5 3.07699Z" fill="true" />
                                 </svg></Link>
                                 <div className="card-info"><Link href="#">
-                                    <h5 className="text-22-bold">Firewall Advance</h5>
+                                    <h5 className="text-22-bold">Getting the Best Value</h5>
                                 </Link>
-                                    <p className="text-md neutral-700">Signifies the enhancement of security measures, typically
-                                        through the use of advanced firewall technology, to protect networks and systems
-                                        from unauthorized access, malware, and cyber threats.</p>
+                                    <p className="text-md neutral-700">We know how important it is to make every dollar count. Our job is to ensure you get the
+most value out of your marketing budget.</p>
                                 </div>
                             </div>
                         </div>
@@ -118,11 +114,10 @@ we are the right choice for you:
                                     <path d="M24.5 24.75C20.155 24.75 17 22.1225 17 18.5C17 18.3674 16.9473 18.2402 16.8536 18.1464C16.7598 18.0527 16.6326 18 16.5 18C16.3674 18 16.2402 18.0527 16.1464 18.1464C16.0527 18.2402 16 18.3674 16 18.5C16 22.6325 19.655 25.75 24.5 25.75C24.6326 25.75 24.7598 25.6973 24.8536 25.6036C24.9473 25.5098 25 25.3826 25 25.25C25 25.1174 24.9473 24.9902 24.8536 24.8964C24.7598 24.8027 24.6326 24.75 24.5 24.75Z" fill="true" />
                                 </svg></Link>
                                 <div className="card-info"><Link href="#">
-                                    <h5 className="text-22-bold">Data Security</h5>
+                                    <h5 className="text-22-bold">Always Improving</h5>
                                 </Link>
-                                    <p className="text-md neutral-700">The practice of safeguarding sensitive information from
-                                        unauthorized access. It involves implementing robust security protocols, encryption,
-                                        and access control measures to protect data integrity and privacy.</p>
+                                    <p className="text-md neutral-700">We don’t just launch campaigns and forget about them. We keep track of what’s working
+and make changes to get even better results.</p>
                                 </div>
                             </div>
                         </div>
