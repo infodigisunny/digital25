@@ -23,7 +23,7 @@ simple yet effective process :
                 <div className='col-lg-12'>
                   <div className='card-feature-2'>
                     <div className='card-image'>
-                      <img src="/assets/imgs/page/homepage3/discover.svg" alt="Adfinity Clarity" />
+                      <img src="/assets/imgs/page/homepage3/targeted-marketing.svg" alt="targeted-marketing" />
                     </div>
                     <div className='card-info'>
                     <h3 className='text-22-bold'>Targeted Marketing</h3>
@@ -37,7 +37,7 @@ connect with people who are most likely to become customers.
                 <div className='col-lg-12'>
                   <div className='card-feature-2'>
                     <div className='card-image'>
-                      <img src="/assets/imgs/page/homepage3/keep.svg" alt="Adfinity Clarity" />
+                      <img src="/assets/imgs/page/homepage3/conversion-rate-optimizer.svg" alt="conversion-rate-optimizer" />
                     </div>
                     <div className='card-info'>
                       <h3 className='text-22-bold'>Conversion Strategies</h3>
@@ -51,7 +51,7 @@ social media to keep prospects interested and guide them to buy from you.
                 <div className='col-lg-12'>
                   <div className='card-feature-2'>
                     <div className='card-image'>
-                      <img src="/assets/imgs/page/homepage3/keep.svg" alt="Adfinity Clarity" />
+                      <img src="/assets/imgs/page/homepage3/campaign.svg" alt="campaign" />
                     </div>
                     <div className='card-info'>
                       <h3 className='text-22-bold'>
