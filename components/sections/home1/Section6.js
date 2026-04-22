@@ -8,10 +8,9 @@ export default function Section6() {
             <section className="section-box wow animate__animated animate__fadeIn box-preparing-3">
                 <div className="container">
                     <div className="text-center">
-                        <h2 className="neutral-0 mb-20">Preparing For Your Success,<br className="d-none d-lg-block" />We Provide
-                            Truly Prominent IT Solutions</h2>
-                        <p className="text-lg neutral-700">Nivia is an independent web design studio with a rich history.
-                            Founded in 1999, it<br className="d-none d-lg-block" />gathered the best web designers  developers.
+                        <h2 className="neutral-0 mb-20">Why Choose Adfinity Clarity for Digital Marketing?</h2>
+                        <p className="text-lg neutral-700">At Adfinity Clarity, we help businesses grow by focusing on what really works.<br className="d-none d-lg-block" />Here’s why
+we are the right choice for you:
                         </p>
                     </div>
                     <div className="row mt-90">
