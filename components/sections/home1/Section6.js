@@ -43,7 +43,15 @@ export default function Section6() {
                         </div>
 
                         {/* Card 3 - [Settings/Discount icon] */}
-                        <div className="col-lg-4 col-md-6">...</div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="card-preparing-2">
+                                <Link className="card-image" href="#"><svg>...</svg></Link>
+                                <div className="card-info">
+                                    <Link href="#"><h5 className="text-22-bold">Business Reform</h5></Link>
+                                    <p>...process of reevaluating and improving internal operations...</p>
+                                </div>
+                            </div>
+                        </div>
 
                         {/* Card 4 - Infrastructure Plan */}
                         <div className="col-lg-4 col-md-6">
