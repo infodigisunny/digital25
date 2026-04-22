@@ -230,6 +230,16 @@ and make changes to get even better results.
                     />
                   </svg>
                 </div>
+                {/* Card 2 - Business Reform */}
+                        <div className="col-lg-4 col-md-6">
+                            <div className="card-preparing-2">
+                                <Link className="card-image" href="#"><svg>...</svg></Link>
+                                <div className="card-info">
+                                    <Link href="#"><h5 className="text-22-bold">Business Reform</h5></Link>
+                                    <p>...process of reevaluating and improving internal operations...</p>
+                                </div>
+                            </div>
+                        </div>
                 <div className='card-info'>
                   <h3 className='text-22-bold'>We Use Multiple Channels</h3>
                   <p className='text-md neutral-700'>
