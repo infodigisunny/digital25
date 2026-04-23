@@ -14,8 +14,8 @@ export default function Footer3() {
                             </Link>
                             <div className="mt-20 mb-20">
                                 <p className="text-lg neutral-700">
-                                    <a href="mailto:official@adfinityclarity.com" className="text-18-bold brand-1-1">official@adfinityclarity.com</a>
-                                    <a href="mailto:contact@adfinityclarity.com" className="text-18-bold brand-1-1">contact@adfinityclarity.com</a>
+                                    <a href="mailto:official@adfinityclarity.com" className="text-16-bold brand-1-1">official@adfinityclarity.com</a><br></br>
+                                    <a href="mailto:contact@adfinityclarity.com" className="text-16-bold brand-1-1">contact@adfinityclarity.com</a>
                                 </p>
                                 <p className="text-md neutral-600">Hours: 8:00 - 17:00, Mon - Sat</p>
                             </div>
