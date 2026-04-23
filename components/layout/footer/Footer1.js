@@ -12,7 +12,12 @@ export default function Footer3() {
                             <Link className='d-flex' href='/' aria-label='Adfinity Clarity - Go to Homepage'>
                                 <img alt="Adfinity Clarity Logo" src="/full-logo.webp" className="img1" />
                             </Link>
-
+                            <div className="mt-20 mb-20">
+                                <p className="text-md neutral-700"><span className="neutral-1000">Phone:</span> (000) 123 456 789</p>
+                                <p className="text-md neutral-700"><span className="neutral-1000">Email:</span> youremail@gmail.com</p>
+                               <p className="text-md neutral-700"><span className="neutral-1000">Address:</span> 102 Seddon Park,
+                                    Hamilton New Zealnd</p>
+                            </div>
                             <div className="mt-20 mb-20">
                                 <p className="text-lg neutral-700">
                                     <a href="mailto:contact@adfinityclarity.com" className="text-18-bold brand-1-1">contact@adfinityclarity.com</a>
