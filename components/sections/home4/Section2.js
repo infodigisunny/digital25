@@ -73,7 +73,7 @@ SMM, PPC, and content strategies.</p>
                             <div className="row">
                                 <div className="col-lg-4 col-md-6">
                                     <div className="card-question card-question-2">
-                                        <div className="card-image"> <img src="/assets/imgs/page/features/feature.png" alt="SEO" /></div>
+                                        <div className="card-image"> <img src="/assets/imgs/page/features/seo.svg" alt="SEO" /></div>
                                         <div className="card-info">
                                             <h3>Search Engine Optimization (SEO)</h3>
                                             <p className="text-md neutral-600">Our <Link href="/seo-search-engine-optimization">SEO services</Link> help your business get found on Google and Bing search engine by improving your organic
@@ -87,7 +87,7 @@ growth. Looking for top-notch SEO optimization services?, you have found the rig
                                 </div>
                                 <div className="col-lg-4 col-md-6">
                                     <div className="card-question card-question-2">
-                                        <div className="card-image"> <img src="/assets/imgs/page/features/feature2.png" alt="SMM" /></div>
+                                        <div className="card-image"> <img src="/assets/imgs/page/features/social-media-marketing.svg" alt="SMM" /></div>
                                         <div className="card-info">
                                             <h3>Social Media Marketing (SMM)</h3>
                                             <p className="text-md neutral-600">In this contemporary era, social media isn’t just a platform. It&#39;s a place where real
