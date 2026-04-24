@@ -1,4 +1,4 @@
-
+{/*
 'use client'
 import Link from 'next/link'
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
@@ -93,3 +93,4 @@ export default function Section12() {
         </>
     )
 }
+*/}

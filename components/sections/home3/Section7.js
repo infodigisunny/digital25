@@ -1,5 +1,6 @@
 
-import CounterUp from '@/components/elements/CounterUp'
+{/* 
+    import CounterUp from '@/components/elements/CounterUp'
 import Link from 'next/link'
 
 export default function Section7() {
@@ -52,3 +53,5 @@ export default function Section7() {
         </>
     )
 }
+
+*/}

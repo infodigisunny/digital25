@@ -1,4 +1,4 @@
-
+{/*
 import Link from 'next/link'
 
 export default function Section11() {
@@ -20,3 +20,4 @@ export default function Section11() {
         </>
     )
 }
+*/}

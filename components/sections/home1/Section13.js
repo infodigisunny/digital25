@@ -1,4 +1,4 @@
-
+{/*
 import NewsSlider from '@/components/slider/NewsSlider'
 
 export default function Section13() {
@@ -37,3 +37,4 @@ export default function Section13() {
         </>
     )
 }
+*/}
