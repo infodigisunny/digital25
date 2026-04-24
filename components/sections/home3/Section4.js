@@ -18,7 +18,7 @@ export default function Section4() {
                             <div className="row mt-50">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="card-feature-2">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage3/marketing.svg" alt="SEO Marketing" /></div>
+                                        <div className="card-image"><img src="/assets/imgs/page/homepage3/search-engine-marketing.svg" alt="search engine marketing" /></div>
                                         <div className="card-info">
                                             <h3 className="text-22-bold">Search Engine Marketing</h3>
                                         <p className="text-md neutral-700">We don’t just use SEO to make you rank higher. We 
@@ -28,7 +28,7 @@ export default function Section4() {
                                 </div>
                                 <div className="col-lg-6 col-md-6">
                                     <div className="card-feature-2">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage3/digital.svg" alt="SMM" /></div>
+                                        <div className="card-image"><img src="/assets/imgs/page/homepage3/digital-marketing.svg" alt="digital marketing" /></div>
                                         <div className="card-info">
                                             <h3 className="text-22-bold">Digital Marketing</h3>
                                         <p className="text-md neutral-700">Our Marketing Strategies stand out due to innovation and efficiency, and so will you!</p>
@@ -37,7 +37,7 @@ export default function Section4() {
                                 </div>
                                 <div className="col-lg-6 col-md-6">
                                     <div className="card-feature-2">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage3/product.svg" alt="ppc"/></div>
+                                        <div className="card-image"><img src="/assets/imgs/page/homepage3/roi-assured" alt="roi assured"/></div>
                                         <div className="card-info">
                                             <h3 className="text-22-bold">ROI Assured</h3>
                                          <p className="text-md neutral-700"><Link href="/seo-search-engine-optimization">SEO Services</Link> is not a marketing strategy; it is an investment on which we promise high-quality returns.</p>
@@ -46,7 +46,7 @@ export default function Section4() {
                                 </div>
                                 <div className="col-lg-6 col-md-6">
                                     <div className="card-feature-2">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage3/social.svg" alt="Web Design" /></div>
+                                        <div className="card-image"><img src="/assets/imgs/page/homepage3/technical-services.svg" alt="technical services" /></div>
                                         <div className="card-info">
                                             <h3 className="text-22-bold">Technical Services</h3>
                                         <p className="text-md neutral-700">We not only provide quality marketing solutions but also balance them with technical expertise.</p>

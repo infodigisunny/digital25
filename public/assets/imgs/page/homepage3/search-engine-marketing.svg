@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#222233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Magnifying glass outer ring -->
+  <circle cx="26" cy="26" r="17"/>
+  <!-- Handle -->
+  <line x1="38.5" y1="38.5" x2="53" y2="53" stroke-width="3"/>
+  <!-- Bar chart inside glass -->
+  <line x1="17" y1="33" x2="17" y2="27" stroke-width="2"/>
+  <line x1="22" y1="33" x2="22" y2="21" stroke-width="2"/>
+  <line x1="27" y1="33" x2="27" y2="24" stroke-width="2"/>
+  <line x1="32" y1="33" x2="32" y2="18" stroke-width="2"/>
+  <!-- Chart base line -->
+  <line x1="15" y1="34" x2="35" y2="34" stroke-width="1.5"/>
+  <!-- Trend arrow up-right -->
+  <polyline points="17,27 22,21 27,24 32,18" stroke-width="1.5" stroke="#222233"/>
+  <polyline points="29,17 33,17 33,21" stroke-width="1.5"/>
+</svg>
