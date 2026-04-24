@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="g6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a8e063"/>
+      <stop offset="100%" stop-color="#2bc0b4"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer circle -->
+  <circle cx="30" cy="32" r="22" fill="url(#g6)"/>
+  <!-- Middle ring -->
+  <circle cx="30" cy="32" r="15" fill="white" opacity="0.3"/>
+  <!-- Inner ring -->
+  <circle cx="30" cy="32" r="8" fill="white" opacity="0.5"/>
+  <!-- Center dot -->
+  <circle cx="30" cy="32" r="3" fill="white"/>
+  <!-- Arrow from top right -->
+  <line x1="46" y1="14" x2="33" y2="29" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <polyline points="40,13 47,13 47,20" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

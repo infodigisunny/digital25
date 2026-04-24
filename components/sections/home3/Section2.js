@@ -15,7 +15,7 @@ export default function Section2() {
                         <div className="lists-our-features mt-35">
                             <div className="item-our-feature feature-big">
                                 <div className="card-enjoy-style-2">
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/global.png" alt="keyword research" /></div>
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/keyword-research.svg" alt="keyword research" /></div>
                                     <div className="card-info">
                                         <h3 className="heading-5">Keyword Research</h3>
                                         <p className="text-md neutral-600">The right keywords will do more than get you traffic; they will connect your business to real search intent. We research not only how your customers search and what your competitors rank for, but also what keywords have the most value in your industry. Then we build a well-informed, focused plan, prioritizing the keywords that have a more qualified traffic opportunity and ultimately support your goals, whether you want conversions, visibility, or market share. SEO keyword research using tools like Semrush, Ahrefs, MOZ Keyword Explorer, Google Keyword Planner, Uber Suggest, Google Trends, Google Suggest, and Bing Websmaster.</p>
@@ -34,7 +34,7 @@ export default function Section2() {
                             </div>
                             <div className="item-our-feature feature-mid">
                                 <div className="card-enjoy-style-2">
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/planner.png" alt="onpage" /></div>
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/on-page-seo.svg" alt="on page seo" /></div>
                                     <div className="card-info">
                                         <h3 className="heading-5">On-Page SEO</h3>
                                         <p className="text-md neutral-600">Once we have the right keywords, we will optimize your website with the best keyword fit for the search intent of your target audience.<br></br> We optimize both the structure and content of your site to be relevant to both. Ranking Factors that means everything from title tags and other headers to content, internal linking, image optimization and mobile usability; and we do all this based on best practices that will be used accurately for your business based on available data and insight. The end result will be a website that ranks well and also performs better.</p>
@@ -53,7 +53,7 @@ export default function Section2() {
                             </div>
                             <div className="item-our-feature feature-sm">
                                 <div className="card-enjoy-style-2">
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/report.png" alt="technical seo" /></div>
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/technical-seo.svg" alt="technical seo" /></div>
                                     <div className="card-info">
                                         <h3 className="heading-5">Technical SEO</h3>
                                         <p className="text-md neutral-600">To help a website rank well, search engines need to understand it first. From UI fixes to mobile compatibility, to ease of navigation, we make it easier for a user to engage with your website. We are also optimizing access to your content and helping search
@@ -73,7 +73,7 @@ optimized to rank.</p><div className="btn btn-link">Learn More
                             </div>
                             <div className="item-our-feature feature-sm">
                                 <div className="card-enjoy-style-2">
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/trusted.png" alt="off page" /></div>
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/off-page-seo.svg" alt="off page seo" /></div>
                                     <div className="card-info">
                                         <h3 className="heading-5">Off-Page SEO</h3>
                                         <p className="text-md neutral-600">Off-page SEO is used by search engines to gauge the authority of your website. By obtaining quality links back to your website, we build trust and credibility for your domain and improve your reputation. We are talking about real links to real sites, creating relevant shareable content & monitoring your brand to see how it is represented on third-party platforms. We clean up what damages, promote what helps, and put your reputation to work for your rankings. Keep in mind, off-page SEO is not your shortcut; it is your visibility long-game, done the right way.</p>
@@ -92,7 +92,7 @@ optimized to rank.</p><div className="btn btn-link">Learn More
                             </div>
                             <div className="item-our-feature feature-mid">
                                 <div className="card-enjoy-style-2">
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/payment.png" alt="content seo" /></div>
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/content-seo.svg" alt="content seo" /></div>
                                     <div className="card-info">
                                         <h3 className="heading-5">Content SEO</h3>
                                         <p className="text-md neutral-600">Our useful content suits what Search Engines and Users want on your website. Our team always writes for people first, but with a search intent crafted in (whether that is blog posts, landing pages, product descriptions). From optimizing existing copy to new posts
@@ -112,7 +112,7 @@ that gain links and traffic, we help you build a site that is a valuable resourc
                             </div>
                             <div className="item-our-feature feature-big">
                                 <div className="card-enjoy-style-2">
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/support.png" alt="competitor analysis" /></div>
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/competitor-analysis.svg" alt="competitor analysis" /></div>
                                     <div className="card-info">
                                         <h3 className="heading-5">Competitor Analysis</h3>
                                         <p className="text-md neutral-600">We will determine who is competing for your keywords, how they are ranking, and why. Then we will dissect their content, backlink profile, and technical strengths to identify where you can settle your differences. From keyword targeting and backlink profiles to content gaps and technical SEO, we will dissect their methods to find
@@ -132,7 +132,7 @@ every opportunity you can own. This analysis will formulate a more focused <Link
                             </div>
                            <div className="item-our-feature feature-mid">
                                 <div className="card-enjoy-style-2">
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/planner.png" alt="voice search" />
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/voice-search-optimization.svg" alt="voice search optimization" />
                                     </div>
                                     <div className="card-info">
                                         <h3 className="heading-5">Voice Search Optimization</h3>
@@ -152,7 +152,7 @@ every opportunity you can own. This analysis will formulate a more focused <Link
                             </div>
                             <div className="item-our-feature feature-mid">
                                 <div className="card-enjoy-style-2">
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/planner.png" alt="AI Engine" /></div>
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/ai-engine-optimization.svg" alt="ai engine optimization" /></div>
                                     <div className="card-info">
                                         <h3 className="heading-5">AI Engine Optimization</h3>
                                         <p className="text-md neutral-600">With AI models like Google Gemini integrated into search engines, we optimize your site for them too. Tools like ChatGPT, Gemini, and Copilot are changing how users find answers. We optimize your content so it's clear, direct, and easy for AI platforms to understand and recommend. That means using structured formats, question-based on language, and strong topic focus. Whether someone types a query or asks an AI tool, we make sure your content is ready to appear, answer clearly, and earn trust.</p>
@@ -171,7 +171,7 @@ every opportunity you can own. This analysis will formulate a more focused <Link
                             </div>
                             <div className="item-our-feature feature-mid">
                                 <div className="card-enjoy-style-2">
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/planner.png" alt="link building" /></div>
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage3/link-building.svg" alt="link building" /></div>
                                     <div className="card-info">
                                         <h3 className="heading-5">Link Building</h3>
                                         <p className="text-md neutral-600">Link Building still matters, but the right ones matter more. We focus on earning backlinks that search engines trust and users click. That means placements on real sites, in real content, for fundamental reasons. No shortcuts, no spam. <br></br>Just innovative outreach, content worth linking to, and relationships built over time. Our team handles the
