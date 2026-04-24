@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#1a1a2e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Chart axes -->
+  <line x1="12" y1="52" x2="12" y2="12" stroke="#1a1a2e" stroke-width="2"/>
+  <line x1="12" y1="52" x2="56" y2="52" stroke="#1a1a2e" stroke-width="2"/>
+  <!-- Y-axis arrow -->
+  <polyline points="9,16 12,11 15,16" stroke="#1a1a2e" stroke-width="1.8" fill="none"/>
+  <!-- X-axis arrow -->
+  <polyline points="51,49 56,52 51,55" stroke="#1a1a2e" stroke-width="1.8" fill="none"/>
+  <!-- Bar 1 -->
+  <rect x="18" y="40" width="7" height="12" stroke="#1a1a2e" stroke-width="1.5"/>
+  <!-- Bar 2 -->
+  <rect x="29" y="30" width="7" height="22" stroke="#1a1a2e" stroke-width="1.5"/>
+  <!-- Bar 3 -->
+  <rect x="40" y="18" width="7" height="34" stroke="#1a1a2e" stroke-width="1.5"/>
+  <!-- Trend arrow -->
+  <polyline points="19,42 30,32 41,20" stroke="#1a1a2e" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <polyline points="38,18 43,19 42,24" stroke="#1a1a2e" stroke-width="1.5" fill="none"/>
+</svg>
