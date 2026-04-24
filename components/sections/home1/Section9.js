@@ -1,4 +1,4 @@
-import CounterUp from '@/components/elements/CounterUp'
+{/*import CounterUp from '@/components/elements/CounterUp'
 
 
 export default function Section9() {
@@ -38,3 +38,4 @@ export default function Section9() {
         </>
     )
 }
+*/}
