@@ -2,7 +2,6 @@
 
 import CounterUp from "@/components/elements/CounterUp";
 import ResizeContainer from "@/components/elements/ResizeContainer";
-import VideoPopup from "@/components/elements/VideoPopup";
 import Layout from "@/components/layout/Layout";
 import OfficeSlider from "@/components/slider/OfficeSlider";
 import Team2Slider from "@/components/slider/Team2Slider";
