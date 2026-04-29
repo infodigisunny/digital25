@@ -26,11 +26,6 @@ export default function AboutUs() {
                                 date information on the latest trends in the industry.
                               </p>
                             </div>
-                            <div className='box-list-news mt-100'>
-                              <div className='row'>
-                                <BlogPost showItem={6} style={1} showPagination />
-                              </div>
-                            </div>
                           </div>
                         </section>
                 <section className="section-box box-content-term">
