@@ -7,6 +7,7 @@ export default function AboutUs() {
         <>
 
             <Layout headerStyle={1} footerStyle={1} headerCls="header-style-1 header-style-1" >
+               <div style={{ marginTop: "100px" }}>
                 <section className="section-box box-content-term">
                     <div className="container">
                         <div className="text-center contact-head"><span className="btn btn-bg-brand-4 mb-15"><span>
@@ -124,7 +125,7 @@ export default function AboutUs() {
                         </div>
                     </div>
                 </section>
-
+</div>
             </Layout >
         </>
     )
