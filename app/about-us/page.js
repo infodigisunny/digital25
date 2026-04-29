@@ -9,10 +9,10 @@ export default function AboutUs() {
             <Layout headerStyle={1} footerStyle={1} headerCls="header-style-1 header-style-1" >
               
                 <section
-                          className='section-box box-content-blog'
-                          style={{ marginTop: "100px" }}>
+                          className='section-box box-content-about'
+                          style={{ marginTop: "80px" }}>
                           <div className='container'>
-                            <div className='text-center blog-head'>
+                            <div className='text-center about-head'>
                               <span className='icon-1 shape-1' />
                               <span className='icon-2 shape-2' />
                               <span className='icon-3 shape-3' />
