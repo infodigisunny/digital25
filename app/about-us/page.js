@@ -16,11 +16,10 @@ export default function AboutUs() {
                               <span className='icon-1 shape-1' />
                               <span className='icon-2 shape-2' />
                               <span className='icon-3 shape-3' />
-                              <span className='btn btn-brand-4-sm'>Our Inside</span>
-                              <h2 className='heading-2 mb-20 mt-15'>Blog Resources</h2>
+                              <span className='btn btn-brand-4-sm'>ABOUT US</span>
+                              <h2 className='heading-2 mb-20 mt-15'>We started with a question: Why do good businesses stay invisible online?</h2>
                               <p className='text-lg'>
-                                Explore our blog and resources for valuable insights, expert
-                                opinions, and up-to-
+                                It turns out that most of them just never had the right people to help them.
                                 <br className='d-none d-lg-block' />
                                 date information on the latest trends in the industry.
                               </p>
