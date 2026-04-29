@@ -1,494 +1,131 @@
-/** @format */
 
-import CounterUp from "@/components/elements/CounterUp";
-import ResizeContainer from "@/components/elements/ResizeContainer";
-import Layout from "@/components/layout/Layout";
-import OfficeSlider from "@/components/slider/OfficeSlider";
-import Team2Slider from "@/components/slider/Team2Slider";
-import Link from "next/link";
-import Head from "next/head";
-
+import Layout from "@/components/layout/Layout"
+import Link from 'next/link'
 export default function AboutUs() {
-  return (
-    <>
-      <Head>
-        <title>About Us | Adfinity Clarity – Transparent & Smart Ad Management</title>
-        <meta
-          name="description"
-          content="Learn about Adfinity Clarity – our mission is to bring complete transparency, smart automation, and data-driven insights to digital advertising management. Meet the team behind the platform."
-        />
-        <meta property="og:title" content="About Us | Adfinity Clarity" />
-        <meta
-          property="og:description"
-          content="Discover how Adfinity Clarity is redefining digital ad management with transparency, clarity, and intelligent automation."
-        />
-        <meta property="og:type" content="website" />
-      </Head>
 
-      <ResizeContainer />
-      <Layout headerStyle={1} footerStyle={1} headerCls="header-style-1 header-style-1">
-        <div style={{ marginTop: "100px" }}>
+    return (
+        <>
 
-          {/* ── Section 1: Hero ── */}
-          <section className="section-box box-about-section-1">
-            <div className="container-fluid">
-              <div className="row align-items-center">
-                <div className="col-lg-6">
-                  <div className="padding-left-auto">
-                    <Link className="btn btn-tag-black" href="#">
-                      About Us
-                    </Link>
-                    <h2 className="display-2 mt-15 mb-25">
-                      This is Who We Are
-                    </h2>
-                    <p className="text-xl mb-45">
-                      The true secret of our success lies in the people behind
-                      the screen. And with them, our culture of clarity,
-                      transparency, and relentless focus on results.
-                    </p>
-                    <div className="box-buttons-feature-4">
-                      <Link className="btn btn-brand-4-medium mr-20" href="#">
-                        Get Started
-                        <svg width={22} height={8} viewBox="0 0 22 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M22 3.99934L18.4791 0.478516V3.30642H0V4.69236H18.4791V7.52031L22 3.99934Z" fill="true" />
-                        </svg>
-                      </Link>
-                      <Link className="btn btn-learmore-2" href="#">
-                        <span>
-                          <svg width={39} height={38} viewBox="0 0 39 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="0.5" width={38} height={38} rx={19} fill="#191919" />
-                            <g clipPath="url(#clip0_about_hero)">
-                              <path d="M24.1537 16.8139L15.218 25.7497L13.75 24.2817L22.6847 15.3459H14.81V13.2695H26.2301V24.6897H24.1537V16.8139Z" fill="#C5FF55" />
-                            </g>
-                            <defs>
-                              <clipPath id="clip0_about_hero">
-                                <rect width={13} height={13} fill="white" transform="translate(13.5 13)" />
-                              </clipPath>
-                            </defs>
-                          </svg>
-                        </span>
-                        Learn More
-                      </Link>
-                    </div>
-                    <div className="box-border-left-author">
-                      <p className="text-22-bold">
-                        We facilitate the creation of strategy, design, and
-                        implementation for digital advertising excellence
-                      </p>
-                      <div className="box-joined">
-                        <div className="box-authors">
-                          <span className="item-author">
-                            <img src="/assets/imgs/page/homepage1/author.png" alt="Adfinity Clarity" />
-                          </span>
-                          <span className="item-author">
-                            <img src="/assets/imgs/page/homepage1/author2.png" alt="Adfinity Clarity" />
-                          </span>
-                          <span className="item-author">
-                            <img src="/assets/imgs/page/homepage1/author3.png" alt="Adfinity Clarity" />
-                          </span>
-                          <span className="item-author">
-                            <span className="text-num-author text-md-bold color-brand-2">+2k</span>
-                          </span>
+            <Layout headerStyle={1} footerStyle={1} headerCls="header-style-2 header-style-4" >
+                <section className="section-box box-content-term">
+                    <div className="container">
+                        <div className="text-center contact-head"><span className="btn btn-bg-brand-4 mb-15"><span>
+                            <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22.0532 15.1551L12.3032 1.65509C12.2684 1.60707 12.2228 1.56797 12.17 1.54102C12.1172 1.51406 12.0587 1.5 11.9994 1.5C11.9402 1.5 11.8817 1.51406 11.8289 1.54102C11.7761 1.56797 11.7305 1.60707 11.6957 1.65509L1.9457 15.1551C1.91663 15.1955 1.89588 15.2412 1.88466 15.2897C1.87344 15.3381 1.87198 15.3883 1.88035 15.4374C1.88873 15.4864 1.90678 15.5333 1.93345 15.5753C1.96012 15.6173 1.99487 15.6535 2.0357 15.682L11.7857 22.432C11.8485 22.4755 11.923 22.4988 11.9994 22.4988C12.0758 22.4988 12.1504 22.4755 12.2132 22.432L21.9632 15.682C22.004 15.6535 22.0388 15.6173 22.0654 15.5753C22.0921 15.5333 22.1102 15.4864 22.1185 15.4374C22.1269 15.3883 22.1254 15.3381 22.1142 15.2897C22.103 15.2412 22.0823 15.1955 22.0532 15.1551ZM11.9994 15.6445L8.6882 12.9951L11.9994 3.05946L15.3107 12.997L11.9994 15.6445ZM7.94945 12.832L3.22257 14.6676L10.8744 4.08134L7.94945 12.832ZM8.18382 13.5463L11.6244 16.312V21.4157L3.11195 15.5151L8.18382 13.5463ZM12.3744 16.312L15.8169 13.5501L20.9469 15.4738L12.3744 21.4082V16.312ZM16.0494 12.8432L13.1244 4.08134L20.7126 14.5813L16.0494 12.8432Z" fill="true" />
+                            </svg></span>Agreement</span>
+                            <h2 className="heading-2 mb-20">Terms and Conditions</h2>
+                            <div className="text-center">
+                                <nav className="container-breadcrumb" style={{ bsBreadcrumbDivider: 'url("data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="8" height="8"%3E%3Cpath d="M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z" fill="currentColor"/%3E%3C/svg%3E")' }} aria-label="breadcrumb">
+                                    <ul className="breadcrumb">
+                                        <li className="breadcrumb-item"><Link href="#">Home</Link></li>
+                                        <li className="breadcrumb-item active" aria-current="page">Terms and Conditions</li>
+                                    </ul>
+                                </nav>
+                            </div>
                         </div>
-                        <span className="text-lg d-inline-block">
-                          Join thousands of users in using
-                          <br className="d-none d-md-block" />
-                          the Adfinity Clarity platform!
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="box-image-rect">
-                    <img src="/assets/imgs/page/about/img-about.png" alt="Adfinity Clarity" />
-                    <VideoPopup />
-                  </div>
-                </div>
-              </div>
-
-              {/* Strategy Row */}
-              <div className="row align-items-center">
-                <div className="col-lg-6">
-                  <div className="box-image-rect box-image-rect-both">
-                    <img src="/assets/imgs/page/about/img-about2.png" alt="Adfinity Clarity" />
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="padding-right-auto">
-                    <div className="box-padding-left-50 box-padding-right-50">
-                      <div className="strate-icon">
-                        <span /> Strategies that work
-                      </div>
-                      <h2 className="heading-2 mb-20">
-                        Track the progress towards objectives with key results
-                      </h2>
-                      <p className="text-lg neutral-700">
-                        Adfinity Clarity is an independent ad management studio
-                        with a rich history. We have gathered the best minds in
-                        digital advertising, analytics, and automation to deliver
-                        campaigns that truly convert.
-                      </p>
-                      <div className="row mt-50">
-                        <div className="col-xl-6 col-lg-12 col-sm-6">
-                          <div className="card-feature-2">
-                            <div className="card-image">
-                              <img src="/assets/imgs/page/homepage3/discover.svg" alt="Ad Tools" />
+                        <div className="row detail-term">
+                            <div className="col-lg-1" />
+                            <div className="col-lg-10">
+                                <div className="row">
+                                    <div className="col-lg-9 mb-40">
+                                        <div className="card-casestudy">
+                                            <div className="card-title">
+                                                <h6 id="step-1"><span className="number">1</span>Signup for Service</h6>
+                                            </div>
+                                            <div className="card-desc">
+                                                <p>Design comps, layouts, wireframes—will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever.</p>
+                                                <p>Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.</p>
+                                                <p>The toppings you may chose for that TV dinner pizza slice when you forgot to shop for foods, the paint you may slap on your face to impress the new boss is your business. But what about your daily bread?</p>
+                                            </div>
+                                        </div>
+                                        <ul className="list-check-black">
+                                            <li>5,000 Monthly Word Limit</li>
+                                            <li>5,000 Monthly Word Limit</li>
+                                            <li>50+ Languages</li>
+                                            <li>50+ Languages</li>
+                                            <li>Advance Editor Tool</li>
+                                            <li>Advance Editor Tool</li>
+                                            <li>50 Accounts</li>
+                                            <li>50 Accounts</li>
+                                        </ul>
+                                        <hr />
+                                        <div className="card-casestudy">
+                                            <div className="card-title">
+                                                <h6 id="step-2"><span className="number">2</span>Privacy Policy</h6>
+                                            </div>
+                                            <div className="card-desc">
+                                                <p>Design comps, layouts, wireframes—will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever.</p>
+                                                <p>Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.</p>
+                                                <p>The toppings you may chose for that TV dinner pizza slice when you forgot to shop for foods, the paint you may slap on your face to impress the new boss is your business. But what about your daily bread?</p>
+                                            </div>
+                                        </div>
+                                        <hr />
+                                        <div className="card-casestudy">
+                                            <div className="card-title">
+                                                <h6 id="step-3"><span className="number">3</span>User Policy</h6>
+                                            </div>
+                                            <div className="card-desc">
+                                                <p>Design comps, layouts, wireframes—will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever.</p>
+                                                <p>Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.</p>
+                                                <p>The toppings you may chose for that TV dinner pizza slice when you forgot to shop for foods, the paint you may slap on your face to impress the new boss is your business. But what about your daily bread?</p>
+                                            </div>
+                                        </div>
+                                        <hr />
+                                        <div className="card-casestudy">
+                                            <div className="card-title">
+                                                <h6 id="step-4"><span className="number">4</span>Copyrights</h6>
+                                            </div>
+                                            <div className="card-desc">
+                                                <p>Design comps, layouts, wireframes—will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever.</p>
+                                                <p>Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.</p>
+                                                <p>The toppings you may chose for that TV dinner pizza slice when you forgot to shop for foods, the paint you may slap on your face to impress the new boss is your business. But what about your daily bread?</p>
+                                            </div>
+                                        </div>
+                                        <hr />
+                                        <div className="card-casestudy">
+                                            <div className="card-title">
+                                                <h6 id="step-5"><span className="number">5</span>Cookies</h6>
+                                            </div>
+                                            <div className="card-desc">
+                                                <p>Design comps, layouts, wireframes—will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever.</p>
+                                                <p>Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.</p>
+                                                <p>The toppings you may chose for that TV dinner pizza slice when you forgot to shop for foods, the paint you may slap on your face to impress the new boss is your business. But what about your daily bread?</p>
+                                            </div>
+                                        </div>
+                                        <hr />
+                                        <div className="card-casestudy">
+                                            <div className="card-title">
+                                                <h6 id="step-6"><span className="number">6</span>Account  Billing</h6>
+                                            </div>
+                                            <div className="card-desc">
+                                                <p>Design comps, layouts, wireframes—will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever.</p>
+                                                <p>Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.</p>
+                                                <p>The toppings you may chose for that TV dinner pizza slice when you forgot to shop for foods, the paint you may slap on your face to impress the new boss is your business. But what about your daily bread?</p>
+                                            </div>
+                                        </div>
+                                        <hr />
+                                        <h6>Adfinity Clarity Team</h6>
+                                        <p className="text-sm neutral-700">Last update: 23 October 2023</p>
+                                    </div>
+                                    <div className="col-lg-3 mb-40">
+                                        <div className="sidebar-border-left">
+                                            <ul className="list-categories">
+                                                <li><Link href="/#step-1">Terms  Conditions</Link></li>
+                                                <li><Link href="/#step-2">Privacy Policy</Link></li>
+                                                <li><Link href="/#step-3">User Policy</Link></li>
+                                                <li><Link href="/#step-4">Copyrights</Link></li>
+                                                <li><Link href="/#step-5">Cookies</Link></li>
+                                                <li><Link href="/#step-6">Account  Billing</Link></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div className="card-info">
-                              <Link href="#">
-                                <h3 className="text-22-bold">
-                                  Ad Analytics &amp; Premium Tools
-                                </h3>
-                              </Link>
-                            </div>
-                          </div>
                         </div>
-                        <div className="col-xl-6 col-lg-12 col-sm-6">
-                          <div className="card-feature-2">
-                            <div className="card-image">
-                              <img src="/assets/imgs/page/homepage3/keep.svg" alt="Brand Building" />
-                            </div>
-                            <div className="card-info">
-                              <Link href="#">
-                                <h3 className="text-22-bold">
-                                  Leading Brand Building Expert
-                                </h3>
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+                </section>
 
-          {/* ── Section 2: Prepared / Values ── */}
-          <section className="section-box box-prepared-section">
-            <div className="container">
-              <div className="row align-items-end">
-                <div className="col-lg-6 mb-30">
-                  <h2 className="heading-2">
-                    When you are more prepared, your future will be brighter
-                  </h2>
-                </div>
-                <div className="col-lg-6 mb-30">
-                  <h6 className="neutral-500">
-                    Since 2010 we've been working with amazing organisations to
-                    create meaningful ad impact and compelling campaign
-                    experiences across the globe.
-                  </h6>
-                </div>
-              </div>
-              <div className="row mt-45">
-                <div className="col-lg-4">
-                  <div className="card-feature-2 card-feature-list">
-                    <div className="card-image">
-                      <img src="/assets/imgs/page/homepage3/marketing.svg" alt="Philosophy" />
-                    </div>
-                    <div className="card-info">
-                      <Link href="#">
-                        <h3 className="text-22-bold">Our Philosophy</h3>
-                        <p className="text-lg neutral-500">
-                          We believe transparency is the foundation of every
-                          successful advertising partnership — no black boxes,
-                          ever.
-                        </p>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="card-feature-2 card-feature-list">
-                    <div className="card-image">
-                      <img src="/assets/imgs/page/homepage3/digital.svg" alt="Mission" />
-                    </div>
-                    <div className="card-info">
-                      <Link href="#">
-                        <h3 className="text-22-bold">Our Mission</h3>
-                        <p className="text-lg neutral-500">
-                          To empower businesses of all sizes with the clarity
-                          and tools they need to make every ad dollar count.
-                        </p>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="card-feature-2 card-feature-list">
-                    <div className="card-image">
-                      <img src="/assets/imgs/page/homepage3/product.svg" alt="Identity" />
-                    </div>
-                    <div className="card-info">
-                      <Link href="#">
-                        <h3 className="text-22-bold">Our Identity</h3>
-                        <p className="text-lg neutral-500">
-                          Our commitment to our clients is central to our
-                          success — clarity in data, honesty in results, and
-                          consistency in delivery.
-                        </p>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* ── Section 3: Offices ── */}
-          <section className="section-box box-our-offices">
-            <div className="container">
-              <div className="row align-items-end">
-                <div className="col-lg-8">
-                  <h2 className="neutral-0">Our Offices</h2>
-                </div>
-                <div className="col-lg-4">
-                  <div className="box-button-slider box-button-slider-black">
-                    <div className="swiper-button-prev swiper-button-prev-testimonials swiper-button-prev-3">
-                      <svg width={16} height={16} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6.66667 3.33398L2 8.00065M2 8.00065L6.66667 12.6673M2 8.00065H14" stroke="true" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
-                      </svg>
-                    </div>
-                    <div className="swiper-button-next swiper-button-next-testimonials swiper-button-next-3">
-                      <svg width={16} height={16} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9.33333 3.33398L14 8.00065M14 8.00065L9.33333 12.6673M14 8.00065H2" stroke="true" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="box-swiper mt-45">
-                <div className="swiper-container swiper-group-1">
-                  <OfficeSlider />
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* ── Section 4: Team ── */}
-          <section className="section-box wow animate__animated animate__fadeIn box-our-team-2">
-            <div className="box-our-team-2-inner">
-              <div className="container">
-                <div className="text-center">
-                  <Link className="btn btn-brand-4-sm" href="#">
-                    Our People
-                  </Link>
-                  <h2 className="mb-20 mt-20">Meet Our Team</h2>
-                  <p className="text-md neutral-500">
-                    A passionate group of ad tech experts, strategists, and
-                    engineers who work hard to
-                    <br className="d-none d-lg-block" />
-                    empower your campaigns with clarity and precision.
-                  </p>
-                </div>
-                <div className="box-swiper mt-60">
-                  <Team2Slider />
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* ── Section 5: Awards ── */}
-          <section className="section-box box-awards-section">
-            <div className="container">
-              <div className="row align-items-end">
-                <div className="col-lg-4 mb-30">
-                  <h2 className="mb-15">Our Awards</h2>
-                  <p className="text-md neutral-700">
-                    Recognized globally for our commitment to transparent
-                    advertising and data-driven campaign excellence. These
-                    awards reflect our team's dedication to client success.
-                  </p>
-                </div>
-                <div className="col-lg-8 mb-30">
-                  <div className="row align-items-end">
-                    <div className="col-sm-3 col-6 mb-30">
-                      <img src="/assets/imgs/page/about/award.png" alt="Adfinity Clarity Award" />
-                    </div>
-                    <div className="col-sm-3 col-6 mb-30">
-                      <img src="/assets/imgs/page/about/award2.png" alt="Adfinity Clarity Award" />
-                    </div>
-                    <div className="col-sm-3 col-6 mb-30">
-                      <img src="/assets/imgs/page/about/award3.png" alt="Adfinity Clarity Award" />
-                    </div>
-                    <div className="col-sm-3 col-6 mb-30">
-                      <img src="/assets/imgs/page/about/award4.png" alt="Adfinity Clarity Award" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* ── Section 6: Get in Touch ── */}
-          <section className="section-box box-get-touch-section">
-            <div className="container">
-              <div className="row align-items-center">
-                <div className="col-lg-6">
-                  <div className="box-image-get-touch">
-                    <span className="setup">
-                      <img src="/assets/imgs/page/about/setup.png" alt="Adfinity Clarity" />
-                    </span>
-                    <span className="icon-1">
-                      <img src="/assets/imgs/page/about/icon.png" alt="Adfinity Clarity" />
-                    </span>
-                    <img src="/assets/imgs/page/about/img-touch.png" alt="Adfinity Clarity" />
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <Link className="btn btn-brand-4-sm" href="#">
-                    Contact Us
-                  </Link>
-                  <h2 className="mb-20 mt-20">Get in Touch</h2>
-                  <p className="text-md neutral-700">
-                    Contact us below and we will get back to you shortly.
-                  </p>
-                  <div className="block-form-contact mt-45">
-                    <form action="#">
-                      <div className="form-group">
-                        <label htmlFor="fullname">Your Name *</label>
-                        <input className="form-control" type="text" placeholder="Name" />
-                      </div>
-                      <div className="form-group">
-                        <label htmlFor="email">Your Email *</label>
-                        <input className="form-control" type="text" placeholder="email@website.com" />
-                      </div>
-                      <div className="form-group">
-                        <label htmlFor="message">Message *</label>
-                        <textarea className="form-control" rows={7} placeholder="How can we help you?" />
-                      </div>
-                      <div className="form-group">
-                        <button className="btn btn-black btn-rounded" type="submit">
-                          Send Message
-                          <svg width={22} height={8} viewBox="0 0 22 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M22 3.99934L18.4791 0.478516V3.30642H0V4.69236H18.4791V7.52031L22 3.99934Z" fill="true" />
-                          </svg>
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* ── Section 7: Stats ── */}
-          <section className="section-box box-why-trusted box-why-trusted-black">
-            <div className="container">
-              <div className="row align-items-end">
-                <div className="col-lg-4 mb-30">
-                  <h2 className="text-32-bold">
-                    See why we are
-                    <br className="d-none d-lg-block" /> trusted the world over
-                  </h2>
-                </div>
-                <div className="col-lg-8 mb-30">
-                  <div className="box-numbers">
-                    <div className="item-number">
-                      <h3 className="heading-2"><CounterUp count={469} />k</h3>
-                      <p className="text-xl neutral-700">Social followers</p>
-                    </div>
-                    <div className="item-number">
-                      <h3 className="heading-2"><CounterUp count={25} />k+</h3>
-                      <p className="text-xl neutral-700">Happy Clients</p>
-                    </div>
-                    <div className="item-number">
-                      <h3 className="heading-2"><CounterUp count={756} />+</h3>
-                      <p className="text-xl neutral-700">Projects Done</p>
-                    </div>
-                    <div className="item-number">
-                      <h3 className="heading-2"><CounterUp count={100} />+</h3>
-                      <p className="text-xl neutral-700">Global Branches</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* ── Section 8: Pricing ── */}
-          <section className="section-box box-pricing-2 box-pricing-4">
-            <div className="box-pricing-2-inner">
-              <div className="container">
-                <div className="text-center">
-                  <Link className="btn btn-brand-4-sm" href="#">
-                    Pricing Plan
-                  </Link>
-                  <h2 className="mb-20 mt-15">
-                    Ready to Get Started? Don't Worry,
-                    <br className="d-none d-lg-block" /> We'll Keep You Under
-                    Budget
-                  </h2>
-                  <p className="text-lg neutral-500 mb-65">
-                    Get started with a 5-day trial, 25% off for Yearly Plan,
-                    Cancel anytime.
-                  </p>
-                </div>
-                <div className="block-pricing">
-                  <div className="row">
-                    {[
-                      { title: "Basic", monthly: "$99", yearly: "$1,188" },
-                      { title: "Professional", monthly: "$199", yearly: "$2,388" },
-                      { title: "Enterprise", monthly: "$399", yearly: "$4,788" },
-                    ].map((plan, idx) => (
-                      <div className="col-lg-4 col-md-6" key={idx}>
-                        <div className="card-pricing card-pricing-style-2">
-                          <div className="card-title">
-                            <h6>{plan.title}</h6>
-                          </div>
-                          <div className="card-price">
-                            <div className="for-month">
-                              <h1 className="heading-1">{plan.monthly}</h1>
-                              <span className="text-20-medium color-grey">monthly</span>
-                            </div>
-                            <div className="for-year">
-                              <h1 className="heading-1">{plan.yearly}</h1>
-                              <span className="text-20-medium color-grey">yearly</span>
-                            </div>
-                          </div>
-                          <div className="card-lists">
-                            <strong className="text-18-bold">What's included</strong>
-                            <ul className="list-feature">
-                              {["5,000 Monthly Word Limit", "50+ Languages", "Advance Editor Tool", "50 Accounts"].map((feature, i) => (
-                                <li key={i}>
-                                  <svg xmlns="http://www.w3.org/2000/svg" width={26} height={26} viewBox="0 0 26 26" fill="none">
-                                    <g clipPath={`url(#clip_plan_${idx}_${i})`}>
-                                      <path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#C5FF55" />
-                                      <path d="M7.11719 13.8396L10.479 17.2014L18.8835 8.79688" stroke="#191919" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
-                                    </g>
-                                    <defs>
-                                      <clipPath id={`clip_plan_${idx}_${i}`}>
-                                        <rect width={26} height={26} fill="white" />
-                                      </clipPath>
-                                    </defs>
-                                  </svg>{" "}
-                                  {feature}
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
-                          <div className="card-button">
-                            <Link className="btn btn-get-started" href="#">
-                              Get started
-                              <svg width={23} height={8} viewBox="0 0 23 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M22.5 3.99934L18.9791 0.478516V3.30642H0.5V4.69236H18.9791V7.52031L22.5 3.99934Z" fill="true" />
-                              </svg>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-        </div>
-      </Layout>
-    </>
-  );
+            </Layout >
+        </>
+    )
 }
