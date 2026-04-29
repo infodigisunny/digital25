@@ -1,14 +1,13 @@
 
 import Layout from "@/components/layout/Layout"
 import Link from 'next/link'
-import BlogPost from "@/components/blog/BlogPost";
 export default function AboutUs() {
 
     return (
         <>
 
             <Layout headerStyle={1} footerStyle={1} headerCls="header-style-1 header-style-1" >
-               <div style={{ marginTop: "100px" }}>
+              
                 <section
                           className='section-box box-content-blog'
                           style={{ marginTop: "100px" }}>
@@ -145,7 +144,6 @@ export default function AboutUs() {
                         </div>
                     </div>
                 </section>
-              </div>
             </Layout >
         </>
     )
