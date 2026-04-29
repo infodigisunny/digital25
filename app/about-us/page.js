@@ -12,7 +12,7 @@ export default function About() {
   return (
     <>
       <ResizeContainer />
-        <Layout headerStyle={1} footerStyle={1} headerCls="header-style-1 header-style-1" >
+      <Layout headerStyle={1} footerStyle={1}>
         <div style={{ marginTop: "100px" }}>
           <section className='section-box box-about-section-1'>
             <div className='container-fluid'>
