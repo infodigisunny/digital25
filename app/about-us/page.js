@@ -6,7 +6,7 @@ export default function AboutUs() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1} headerCls="header-style-2 header-style-4" >
+            <Layout headerStyle={1} footerStyle={1} headerCls="header-style-1 header-style-1" >
                 <section className="section-box box-content-term">
                     <div className="container">
                         <div className="text-center contact-head"><span className="btn btn-bg-brand-4 mb-15"><span>
