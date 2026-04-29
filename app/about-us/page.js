@@ -1,6 +1,7 @@
 
 import Layout from "@/components/layout/Layout"
 import Link from 'next/link'
+import BlogPost from "@/components/blog/BlogPost";
 export default function AboutUs() {
 
     return (
