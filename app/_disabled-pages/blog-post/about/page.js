@@ -2,7 +2,6 @@
 
 import CounterUp from "@/components/elements/CounterUp";
 import ResizeContainer from "@/components/elements/ResizeContainer";
-import VideoPopup from "@/components/elements/VideoPopup";
 import Layout from "@/components/layout/Layout";
 import NewsSlider from "@/components/slider/NewsSlider";
 import OfficeSlider from "@/components/slider/OfficeSlider";
@@ -126,7 +125,7 @@ export default function About() {
                       src='/assets/imgs/page/about/img-about.png'
                       alt='Adfinity Clarity'
                     />
-                    <VideoPopup />
+                    
                   </div>
                 </div>
               </div>
@@ -371,7 +370,7 @@ export default function About() {
                       src='/assets/imgs/page/about/img-about.png'
                       alt='Adfinity Clarity'
                     />
-                    <VideoPopup />
+                    
                   </div>
                 </div>
               </div>
