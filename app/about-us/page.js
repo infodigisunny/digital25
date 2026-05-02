@@ -36,18 +36,17 @@ export default function About() {
                 <div className='col-lg-6'>
                   <div className='padding-left-auto'>
                     <Link className='btn btn-tag-black' href='#'>
-                      About Us
+                      We started with a question: 
                     </Link>
                     <h2 className='display-2 mt-15 mb-25'>
-                      This is Who We Are
+                      Why do good businesses stay invisible online?
                     </h2>
                     <p className='text-xl mb-45'>
-                      The true secret of our success lies in people behind the
-                      screen. And with them, our culture.
+                      It turns out that most of them just never had the right people to help them.
                     </p>
                     <div className='box-buttons-feature-4'>
                       <Link className='btn btn-brand-4-medium mr-20' href='#'>
-                        Subscribe
+                        See What We Do
                         <svg
                           width={22}
                           height={8}
@@ -82,7 +81,7 @@ export default function About() {
                             </defs>
                           </svg>
                         </span>
-                        Learn More
+                        Let's Have a Conversation
                       </Link>
                     </div>
                     <div className='box-border-left-author'>
