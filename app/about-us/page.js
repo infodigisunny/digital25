@@ -427,12 +427,13 @@ We are not here to sell you something and then disappear. We are here to help yo
                     Pricing Plan
                   </Link>
                   <h2 className='mb-20 mt-15'>
-                    Ready to Get Started? Don't Worry,
-                    <br className='d-none d-lg-block' /> We'll Keep You Under Budget
+                    Your competitors are getting found. 
+                    <br className='d-none d-lg-block' />You should be, too!
                   </h2>
                   <p className='text-lg neutral-500 mb-65'>
-                    Get started with a 5-day trial, 25% off for Yearly Plan, Cancel anytime.
-                  </p>
+                    There is no secret to search. It is consistent, well-executed work by people who know what they are doing. We do that work every day for businesses in four countries across industries.
+                  </p><br>
+                  <p className='text-lg neutral-500 mb-65'>If your website is not bringing in the leads, it should let us find out why.</p></br>
                 </div>
                 <div className='block-pricing'>
                   <div className='row'>
