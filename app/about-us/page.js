@@ -125,14 +125,8 @@ We are not here to sell you something and then disappear. We are here to help yo
               <div className='row align-items-end'>
                 <div className='col-lg-6 mb-30'>
                   <h2 className='heading-2'>
-                    When you are more prepared, your future will be brighter
+                    Three Things You Must Know About How We Work
                   </h2>
-                </div>
-                <div className='col-lg-6 mb-30'>
-                  <h6 className='neutral-500'>
-                    Since 2010 we've been working with amazing organisations to
-                    create meaningful impact and compelling experiences.
-                  </h6>
                 </div>
               </div>
               <div className='row mt-45'>
@@ -143,10 +137,9 @@ We are not here to sell you something and then disappear. We are here to help yo
                     </div>
                     <div className='card-info'>
                       <Link href='#'>
-                        <h3 className='text-22-bold'>Our philosophy</h3>
+                        <h3 className='text-22-bold'>How we think?</h3>
                         <p className='text-lg neutral-500'>
-                          We also know that with all our wellness initiatives,
-                          customer value and service, our doors to the community.
+                          Clarity is not our name. It is how we work. We do not use language or make reports that are hard to understand. When something is working, we tell you why. When it is not working, we tell you that too. We bring a solution. Honest conversations help everyone.
                         </p>
                       </Link>
                     </div>
@@ -159,10 +152,9 @@ We are not here to sell you something and then disappear. We are here to help yo
                     </div>
                     <div className='card-info'>
                       <Link href='#'>
-                        <h3 className='text-22-bold'>Our Mission</h3>
+                        <h3 className='text-22-bold'>What do we try to do?</h3>
                         <p className='text-lg neutral-500'>
-                          Our mission, and our vision, is our mission. We are
-                          here to support and encourage individuals in their journey.
+                          We want to make high-quality search and digital marketing available to all businesses, not just big ones with big budgets. We want to help the business in Bangalore reach buyers in Brisbane, or the agency in Manchester compete with companies. Where you are should not determine if you can grow online. A good strategy should.
                         </p>
                       </Link>
                     </div>
@@ -175,10 +167,9 @@ We are not here to sell you something and then disappear. We are here to help yo
                     </div>
                     <div className='card-info'>
                       <Link href='#'>
-                        <h3 className='text-22-bold'>Our Identity</h3>
+                        <h3 className='text-22-bold'>What makes us different?</h3>
                         <p className='text-lg neutral-500'>
-                          Our commitment to our clients is key to our success.
-                          We make it a point to meet with our clients to make sure.
+                          We do not change the people who work on your account every month. The people you meet at the start are the ones who do the work. They know your industry, they track your competitors. They care about your numbers.
                         </p>
                       </Link>
                     </div>
