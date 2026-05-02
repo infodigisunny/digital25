@@ -104,9 +104,6 @@ export default function About() {
                 <div className='col-lg-6'>
                   <div className='padding-right-auto'>
                     <div className='box-padding-left-50 box-padding-right-50'>
-                      <div className='strate-icon'>
-                        <span /> Strategies that work
-                      </div>
                       <h2 className='heading-2 mb-20'>
                         We are Adfinity Clarity. We take rankings very seriously!
                       </h2>
