@@ -432,8 +432,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                   </h2>
                   <p className='text-lg neutral-500 mb-65'>
                     There is no secret to search. It is consistent, well-executed work by people who know what they are doing. We do that work every day for businesses in four countries across industries.
-                  </p><br>
-                  <p className='text-lg neutral-500 mb-65'>If your website is not bringing in the leads, it should let us find out why.</p></br>
+                  </p>
                 </div>
                 <div className='block-pricing'>
                   <div className='row'>
