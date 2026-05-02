@@ -39,7 +39,7 @@ export default function About() {
                       About Us 
                     </Link>
                     <h2 className='display-2 mt-15 mb-25'>
-                      We started with a question: Why do good businesses stay invisible online?
+                      We started with a question: <br></br>Why do good businesses stay invisible online?
                     </h2>
                     <p className='text-xl mb-45'>
                       It turns out that most of them just never had the right people to help them.
