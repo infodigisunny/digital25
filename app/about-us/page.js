@@ -86,8 +86,7 @@ export default function About() {
                     </div>
                     <div className='box-border-left-author'>
                       <p className='text-22-bold'>
-                        We facilitate the creation of strategy, design, and
-                        implementation
+                        We are easy to find and even easier to talk to!
                       </p>
                       <div className='box-joined'>
                         <div className='box-authors'>
@@ -105,9 +104,9 @@ export default function About() {
                           </span>
                         </div>
                         <span className='text-lg d-inline-block'>
-                          Join thousands of users in using
+                          Whether you want to discuss a project, ask a question, or get an opinion on your search, we are happy to talk.
                           <br className='d-none d-md-block' />
-                          the Adfinity Clarity platform!
+                          No pitch decks, no pressure. Just a straight conversation.
                         </span>
                       </div>
                     </div>
