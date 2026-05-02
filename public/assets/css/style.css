@@ -10358,10 +10358,3 @@ a.icon-socials:hover {
   object-fit: contain;
 }
 .hero-banner-section { margin-top: 95px; }
-.card-feature-list {
-  text-align: center;
-}
-.card-feature-list .card-image {
-  display: flex;
-  justify-content: center;
-}

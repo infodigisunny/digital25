@@ -130,52 +130,52 @@ We are not here to sell you something and then disappear. We are here to help yo
                 </div>
               </div>
               <div className='row mt-45'>
-  <div className='col-lg-4'>
-    <div className='card-feature-2 card-feature-list' style={{textAlign: 'center'}}>
-      <div className='card-image' style={{display: 'flex', justifyContent: 'center'}}>
-        <img src='/assets/imgs/page/homepage3/marketing.svg' alt='Adfinity Clarity' />
-      </div>
-      <div className='card-info'>
-        <Link href='#'>
-          <h3 className='text-22-bold'>How we think?</h3>
-          <p className='text-lg neutral-500'>
-            Clarity is not our name. It is how we work. We do not use language or make reports that are hard to understand. When something is working, we tell you why. When it is not working, we tell you that too. We bring a solution. Honest conversations help everyone.
-          </p>
-        </Link>
-      </div>
-    </div>
-  </div>
-  <div className='col-lg-4'>
-    <div className='card-feature-2 card-feature-list' style={{textAlign: 'center'}}>
-      <div className='card-image' style={{display: 'flex', justifyContent: 'center'}}>
-        <img src='/assets/imgs/page/homepage3/digital.svg' alt='Adfinity Clarity' />
-      </div>
-      <div className='card-info'>
-        <Link href='#'>
-          <h3 className='text-22-bold'>What do we try to do?</h3>
-          <p className='text-lg neutral-500'>
-            We want to make high-quality search and digital marketing available to all businesses, not just big ones with big budgets. We want to help the business in Bangalore reach buyers in Brisbane, or the agency in Manchester compete with companies. Where you are should not determine if you can grow online. A good strategy should.
-          </p>
-        </Link>
-      </div>
-    </div>
-  </div>
-  <div className='col-lg-4'>
-    <div className='card-feature-2 card-feature-list' style={{textAlign: 'center'}}>
-      <div className='card-image' style={{display: 'flex', justifyContent: 'center'}}>
-        <img src='/assets/imgs/page/homepage3/product.svg' alt='Adfinity Clarity' />
-      </div>
-      <div className='card-info'>
-        <Link href='#'>
-          <h3 className='text-22-bold'>What makes us different?</h3>
-          <p className='text-lg neutral-500'>
-            We do not change the people who work on your account every month. The people you meet at the start are the ones who do the work. They know your industry, they track your competitors. They care about your numbers.
-          </p>
-        </Link>
-      </div>
-    </div>
-  </div>
-</div>
+                <div className='col-lg-4'>
+                  <div className='card-feature-2 card-feature-list'>
+                    <div className='card-image'>
+                      <img src='/assets/imgs/page/homepage3/marketing.svg' alt='Adfinity Clarity' />
+                    </div>
+                    <div className='card-info'>
+                      <Link href='#'>
+                        <h3 className='text-22-bold'>How we think?</h3>
+                        <p className='text-lg neutral-500'>
+                          Clarity is not our name. It is how we work. We do not use language or make reports that are hard to understand. When something is working, we tell you why. When it is not working, we tell you that too. We bring a solution. Honest conversations help everyone.
+                        </p>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className='col-lg-4'>
+                  <div className='card-feature-2 card-feature-list'>
+                    <div className='card-image'>
+                      <img src='/assets/imgs/page/homepage3/digital.svg' alt='Adfinity Clarity' />
+                    </div>
+                    <div className='card-info'>
+                      <Link href='#'>
+                        <h3 className='text-22-bold'>What do we try to do?</h3>
+                        <p className='text-lg neutral-500'>
+                          We want to make high-quality search and digital marketing available to all businesses, not just big ones with big budgets. We want to help the business in Bangalore reach buyers in Brisbane, or the agency in Manchester compete with companies. Where you are should not determine if you can grow online. A good strategy should.
+                        </p>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className='col-lg-4'>
+                  <div className='card-feature-2 card-feature-list'>
+                    <div className='card-image'>
+                      <img src='/assets/imgs/page/homepage3/product.svg' alt='Adfinity Clarity' />
+                    </div>
+                    <div className='card-info'>
+                      <Link href='#'>
+                        <h3 className='text-22-bold'>What makes us different?</h3>
+                        <p className='text-lg neutral-500'>
+                          We do not change the people who work on your account every month. The people you meet at the start are the ones who do the work. They know your industry, they track your competitors. They care about your numbers.
+                        </p>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
 
