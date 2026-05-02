@@ -135,12 +135,15 @@ export default function About() {
                         <span /> Strategies that work
                       </div>
                       <h2 className='heading-2 mb-20'>
-                        Track the progress towards objectives with key results
+                        We are AdFinity Clarity. We take rankings very seriously!
                       </h2>
                       <p className='text-lg neutral-700'>
-                        Adfinity Clarity is an independent web design studio with a rich
-                        history. Founded in 1999, it gathered the best web
-                        designers developers.
+                        We built this company because we saw the problem over and over. Businesses with products were losing to competitors who were better at search. This did not seem right to us. It still does not seem right.
+
+AdFinity Clarity is a company that helps with search and digital marketing. We have teams in the USA, UK, India, and Australia. We have worked with companies that want to get their first 1,000 visitors. We have also worked with brands that need to get back their rankings after something changed with the search algorithm. Both of these situations need work. That is what we do.
+
+We are not here to sell you something and then disappear. We are here to help your business get found by the people at the right time on the right platform.
+
                       </p>
                       <div className='row mt-50'>
                         <div className='col-xl-6 col-lg-12 col-sm-6'>
