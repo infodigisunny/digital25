@@ -130,28 +130,21 @@ We are not here to sell you something and then disappear. We are here to help yo
                 </div>
               </div>
               <div className='row mt-45'>
-                <div className='col-lg-4 d-flex justify-content-center'>
-  <div className='card-feature-2 card-feature-list text-center'>
-    
-    <div className='card-image d-flex justify-content-center'>
-      <img 
-        src='/assets/imgs/page/homepage3/marketing.svg' 
-        alt='Adfinity Clarity'
-        style={{ maxWidth: "80px" }}
-      />
-    </div>
-
-    <div className='card-info'>
-      <Link href='#'>
-        <h3 className='text-22-bold'>How we think?</h3>
-        <p className='text-lg neutral-500'>
-          Clarity is not our name. It is how we work. We do not use language or make reports that are hard to understand. When something is working, we tell you why. When it is not working, we tell you that too. We bring a solution. Honest conversations help everyone.
-        </p>
-      </Link>
-    </div>
-
-  </div>
-</div>
+                <div className='col-lg-4'>
+                  <div className='card-feature-2 card-feature-list'>
+                    <div className='card-image'>
+                      <img src='/assets/imgs/page/homepage3/marketing.svg' alt='Adfinity Clarity' />
+                    </div>
+                    <div className='card-info'>
+                      <Link href='#'>
+                        <h3 className='text-22-bold'>How we think?</h3>
+                        <p className='text-lg neutral-500'>
+                          Clarity is not our name. It is how we work. We do not use language or make reports that are hard to understand. When something is working, we tell you why. When it is not working, we tell you that too. We bring a solution. Honest conversations help everyone.
+                        </p>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
                 <div className='col-lg-4'>
                   <div className='card-feature-2 card-feature-list'>
                     <div className='card-image'>
