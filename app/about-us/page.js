@@ -183,8 +183,8 @@ We are not here to sell you something and then disappear. We are here to help yo
                                     <div className="box-border-rounded-md">
                                         <div className="row align-items-center">
                                             <div className="col-md-7 mb-30">
-                                                <h4 className="mb-20">Save your time and money by choosing our professional team</h4>
-                                                <p className="text-md neutral-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iste</p>
+                                                <h4 className="mb-20">Search is our starting point,</h4>
+                                                <p className="text-md neutral-700">not something we think about later. Before we write anything or run an ad, we study how your customers search. We look at what they type, what they skip, what makes them click, and what makes them leave. This research helps us with everything from the content we build to the pages we optimize and the keywords we target. Most companies do not think about search until later. We think it is the foundation.</p>
                                             </div>
                                             <div className="col-md-5 mb-30 text-center text-md-end"><img src="/assets/imgs/page/features/save-time.png" /></div>
                                         </div>
@@ -194,8 +194,8 @@ We are not here to sell you something and then disappear. We are here to help yo
                                     <div className="box-border-rounded-md">
                                         <div className="row align-items-center">
                                             <div className="col-md-7 mb-30">
-                                                <h4 className="mb-20">Convinced yet? Let's make something great together</h4>
-                                                <p className="text-md neutral-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iste</p>
+                                                <h4 className="mb-20">We look at your digital presence.</h4>
+                                                <p className="text-md neutral-700">A ranking page that does not convert is just a waste of money. We look at the picture including search, paid media, social, and content. We make sure each channel is doing its job and helping the others. This is how you stop losing opportunities and start getting more.</p>
                                             </div>
                                             <div className="col-md-5 mb-30 text-center text-md-end"><img src="/assets/imgs/page/features/convin.png" /></div>
                                         </div>
