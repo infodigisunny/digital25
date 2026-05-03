@@ -235,7 +235,7 @@ export default function OfficeSlider() {
                         </div>
                         <div className="col-lg-4">
                             <div className="card-features-6">
-                                <div className="card-image"> <img src="/assets/imgs/page/about/malaysia.svg.png" alt="Malaysia" /></div>
+                                <div className="card-image"> <img src="/assets/imgs/page/about/malaysia.svg" alt="Malaysia" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">Malaysia</h5>
                                     <p className="mb-12 text-md neutral-300">4517 Washington Ave. Manchester,
