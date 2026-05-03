@@ -1,0 +1,31 @@
+<svg width="48" height="48" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- CN Tower - clean iconic silhouette -->
+
+<!-- Antenna / mast tip -->
+<rect x="49" y="0" width="2" height="14" rx="1" fill="#C5FF55"/>
+<!-- Mast cross bars -->
+<rect x="46" y="5" width="8" height="1.5" rx="0.5" fill="#C5FF55"/>
+<rect x="45" y="9" width="10" height="1.5" rx="0.5" fill="#C5FF55"/>
+
+<!-- Broadcast pod / top section -->
+<rect x="47" y="14" width="6" height="14" fill="#C5FF55"/>
+<rect x="44" y="14" width="12" height="4" rx="1" fill="#C5FF55"/>
+
+<!-- SkyPod observation deck -->
+<rect x="36" y="55" width="28" height="9" rx="4" fill="#C5FF55"/>
+<!-- Pod windows strip -->
+<rect x="38" y="58" width="24" height="3" rx="1" fill="black" fill-opacity="0.15"/>
+<!-- Pod connection to shaft -->
+<rect x="47" y="28" width="6" height="29" fill="#C5FF55"/>
+
+<!-- Lower shaft widens -->
+<path d="M47 64 L53 64 L57 82 L43 82Z" fill="#C5FF55"/>
+
+<!-- Three buttress legs -->
+<path d="M43 78 L43 82 L30 100 L22 100 L40 82 L40 78Z" fill="#C5FF55"/>
+<path d="M57 78 L57 82 L70 100 L78 100 L60 82 L60 78Z" fill="#C5FF55"/>
+<path d="M46 82 L54 82 L54 100 L46 100Z" fill="#C5FF55"/>
+
+<!-- Ground ring -->
+<rect x="18" y="96" width="64" height="4" rx="1.5" fill="#C5FF55"/>
+</svg>

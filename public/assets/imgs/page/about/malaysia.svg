@@ -1,0 +1,54 @@
+<svg width="48" height="48" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Petronas Twin Towers -->
+
+<!-- Left spire -->
+<rect x="26.5" y="1" width="3" height="14" rx="1.5" fill="#C5FF55"/>
+<circle cx="28" cy="1" r="2" fill="#C5FF55"/>
+
+<!-- Right spire -->
+<rect x="70.5" y="1" width="3" height="14" rx="1.5" fill="#C5FF55"/>
+<circle cx="72" cy="1" r="2" fill="#C5FF55"/>
+
+<!-- Left tower top taper -->
+<path d="M22 15 L34 15 L33 24 L23 24Z" fill="#C5FF55"/>
+
+<!-- Right tower top taper -->
+<path d="M66 15 L78 15 L77 24 L67 24Z" fill="#C5FF55"/>
+
+<!-- Sky bridge -->
+<rect x="34" y="48" width="32" height="7" rx="1" fill="#C5FF55"/>
+<!-- Bridge support rods -->
+<rect x="38" y="55" width="2" height="5" fill="#C5FF55"/>
+<rect x="60" y="55" width="2" height="5" fill="#C5FF55"/>
+
+<!-- Left tower main body (8-pointed cross section represented as layered rects) -->
+<rect x="22" y="24" width="12" height="67" rx="0.5" fill="#C5FF55"/>
+<!-- Left flanking fins -->
+<rect x="19" y="28" width="4" height="60" rx="0.5" fill="#C5FF55"/>
+<rect x="33" y="28" width="4" height="60" rx="0.5" fill="#C5FF55"/>
+
+<!-- Right tower main body -->
+<rect x="66" y="24" width="12" height="67" rx="0.5" fill="#C5FF55"/>
+<!-- Right flanking fins -->
+<rect x="63" y="28" width="4" height="60" rx="0.5" fill="#C5FF55"/>
+<rect x="77" y="28" width="4" height="60" rx="0.5" fill="#C5FF55"/>
+
+<!-- Left tower floor lines -->
+<rect x="22" y="33" width="12" height="1.2" fill="black" fill-opacity="0.12"/>
+<rect x="22" y="42" width="12" height="1.2" fill="black" fill-opacity="0.12"/>
+<rect x="22" y="55" width="12" height="1.2" fill="black" fill-opacity="0.12"/>
+<rect x="22" y="64" width="12" height="1.2" fill="black" fill-opacity="0.12"/>
+<rect x="22" y="73" width="12" height="1.2" fill="black" fill-opacity="0.12"/>
+<rect x="22" y="82" width="12" height="1.2" fill="black" fill-opacity="0.12"/>
+
+<!-- Right tower floor lines -->
+<rect x="66" y="33" width="12" height="1.2" fill="black" fill-opacity="0.12"/>
+<rect x="66" y="42" width="12" height="1.2" fill="black" fill-opacity="0.12"/>
+<rect x="66" y="55" width="12" height="1.2" fill="black" fill-opacity="0.12"/>
+<rect x="66" y="64" width="12" height="1.2" fill="black" fill-opacity="0.12"/>
+<rect x="66" y="73" width="12" height="1.2" fill="black" fill-opacity="0.12"/>
+<rect x="66" y="82" width="12" height="1.2" fill="black" fill-opacity="0.12"/>
+
+<!-- Shared podium base -->
+<rect x="16" y="91" width="68" height="9" rx="1.5" fill="#C5FF55"/>
+</svg>

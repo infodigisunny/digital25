@@ -1,0 +1,46 @@
+<svg width="48" height="48" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Marina Bay Sands - 3 towers + boat roof -->
+
+<!-- SkyPark roof (boat/surfboard shape) -->
+<path d="M4 30 Q50 18 96 30 L94 40 Q50 28 6 40Z" fill="#C5FF55"/>
+
+<!-- Infinity pool edge on roof -->
+<rect x="4" y="39" width="92" height="4" rx="0.5" fill="#C5FF55"/>
+
+<!-- Tower 1 (left) -->
+<rect x="6" y="43" width="24" height="48" rx="1" fill="#C5FF55"/>
+<!-- T1 vertical center line -->
+<rect x="17" y="43" width="2" height="48" fill="black" fill-opacity="0.12"/>
+<!-- T1 horizontal floor lines -->
+<rect x="6" y="51" width="24" height="1.5" fill="black" fill-opacity="0.1"/>
+<rect x="6" y="59" width="24" height="1.5" fill="black" fill-opacity="0.1"/>
+<rect x="6" y="67" width="24" height="1.5" fill="black" fill-opacity="0.1"/>
+<rect x="6" y="75" width="24" height="1.5" fill="black" fill-opacity="0.1"/>
+<rect x="6" y="83" width="24" height="1.5" fill="black" fill-opacity="0.1"/>
+
+<!-- Tower 2 (centre) -->
+<rect x="38" y="43" width="24" height="48" rx="1" fill="#C5FF55"/>
+<rect x="49" y="43" width="2" height="48" fill="black" fill-opacity="0.12"/>
+<rect x="38" y="51" width="24" height="1.5" fill="black" fill-opacity="0.1"/>
+<rect x="38" y="59" width="24" height="1.5" fill="black" fill-opacity="0.1"/>
+<rect x="38" y="67" width="24" height="1.5" fill="black" fill-opacity="0.1"/>
+<rect x="38" y="75" width="24" height="1.5" fill="black" fill-opacity="0.1"/>
+<rect x="38" y="83" width="24" height="1.5" fill="black" fill-opacity="0.1"/>
+
+<!-- Tower 3 (right) -->
+<rect x="70" y="43" width="24" height="48" rx="1" fill="#C5FF55"/>
+<rect x="81" y="43" width="2" height="48" fill="black" fill-opacity="0.12"/>
+<rect x="70" y="51" width="24" height="1.5" fill="black" fill-opacity="0.1"/>
+<rect x="70" y="59" width="24" height="1.5" fill="black" fill-opacity="0.1"/>
+<rect x="70" y="67" width="24" height="1.5" fill="black" fill-opacity="0.1"/>
+<rect x="70" y="75" width="24" height="1.5" fill="black" fill-opacity="0.1"/>
+<rect x="70" y="83" width="24" height="1.5" fill="black" fill-opacity="0.1"/>
+
+<!-- Sky bridge between T1 and T2 -->
+<rect x="30" y="63" width="8" height="5" rx="1" fill="#C5FF55"/>
+<!-- Sky bridge between T2 and T3 -->
+<rect x="62" y="63" width="8" height="5" rx="1" fill="#C5FF55"/>
+
+<!-- Podium base -->
+<rect x="2" y="91" width="96" height="9" rx="1.5" fill="#C5FF55"/>
+</svg>

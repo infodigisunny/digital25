@@ -28,7 +28,7 @@ export default function OfficeSlider() {
                     <div className="row">
                         <div className="col-lg-4">
                             <div className="card-features-6">
-                                <div className="card-image"> <img src="/assets/imgs/page/about/london.svg" alt="Adfinity Clarity" /></div>
+                                <div className="card-image"> <img src="/assets/imgs/page/about/united-states.svg" alt="USA" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">United States</h5>
                                     <p className="mb-12 text-md neutral-300">In the United States, we work with businesses across eCommerce, B2B, healthcare, and professional services. Our US team understands search behavior, competitor landscapes, and buyer intent patterns.</p>
