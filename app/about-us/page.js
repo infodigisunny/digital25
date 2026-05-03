@@ -379,11 +379,10 @@ We are not here to sell you something and then disappear. We are here to help yo
           <div className="container mt-25">
                             <div className="box-newsletter">
                                 <div className="newsletter-centre">
-                                    <h2>Your competitors are getting found. You should be, too!</h2>
-                                    <p className="text-md neutral-600">There is no secret to search. It is consistent, well-executed work by people who know what they are doing. We do that work every day for businesses in four countries across industries. If your website is not bringing in the leads, it should let us find out why.</p>
-                                    </div>
-                            </div>
-                            <div className="newsletter-centre">
+                                    <h2>Join our community</h2>
+                                    <p className="text-md neutral-600">Work smarter with this time management and not hard join our newsletter for a better expertrience</p>
+                                </div><br></br>
+                                <div className="newsletter-centre">
                                     <form action="#">
                                         <input className="form-control" type="text" placeholder="Email address..." />
                                         <button className="btn btn-subscribe" type="submit">Subscribe
@@ -393,6 +392,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                                         </button>
                                     </form>
                                 </div>
+                            </div>
                         </div>
         </div>
       </Layout>
