@@ -134,7 +134,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                                     <div className="card-question card-question-2">
                                         <div className="card-info">
                                             <h4>How we think?</h4>
-                                            <p className="text-md neutral-600">Clarity is not our name. It is how we work. We do not use language or make reports that are hard to understand. When something is working, we tell you why. When it is not working, we tell you that too. We bring a solution. Honest conversations help everyone.</p>
+                                            <p className="text-md neutral-600">Clarity is not our name. It is how we work. We do not use language or make reports that are hard to understand. When something is working, we tell you why. When it is not working, we tell you that too.<br></br> We bring a solution. Honest conversations help everyone.</p>
                                         </div>
                                     </div>
                                 </div>
