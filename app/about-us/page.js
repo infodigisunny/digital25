@@ -299,7 +299,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                                 <div className="col-lg-4 col-md-4">
                                     <div className="card-integration">
                                         <div className="card-image">
-                                            <div className="card-image-left"><img src="/assets/imgs/page/integration/logo4.png" alt="Adfinity Clarity" /></div>
+                                            <div className="card-image-left"><img src="/assets/imgs/page/about/instagram.png" alt="Instagram" /></div>
                                             <div className="card-image-info">
                                                 <h3>Instagram</h3>
                                                 </div>
@@ -322,7 +322,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                                 <div className="col-lg-4 col-md-4">
                                     <div className="card-integration">
                                         <div className="card-image">
-                                            <div className="card-image-left"><img src="/assets/imgs/page/integration/logo11.png" alt="Adfinity Clarity" /></div>
+                                            <div className="card-image-left"><img src="/assets/imgs/page/about/facebook.svg" alt="Facebook" /></div>
                                             <div className="card-image-info">
                                                 <h3>Facebook</h3>
                                                 </div>
