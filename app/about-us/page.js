@@ -270,21 +270,19 @@ We are not here to sell you something and then disappear. We are here to help yo
 <section className="section-box box-all-integrations">
                         <div className="container">
                             <div className="text-center">
-                                <h2 className="heading-2 mb-15 mt-15">Our All Integrations</h2>
-                                <p className="text-lg neutral-500 mb-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mollis est<br className="none d-lg-block" />id faucibus iaculis. Cras et congue tortor. Integer laoreet.</p>
-                            </div>
+                                <h2 className="heading-2 mb-15 mt-15">Stay connected. We share what we know.</h2>
+                                </div>
                             <div className="row mt-60">
                                 <div className="col-lg-4 col-md-4">
                                     <div className="card-integration">
                                         <div className="card-image">
                                             <div className="card-image-left"><img src="/assets/imgs/page/integration/logo.png" alt="Adfinity Clarity" /></div>
                                             <div className="card-image-info">
-                                                <h5>Spotify</h5>
-                                                <p className="text-md neutral-500">Company</p>
-                                            </div>
+                                                <h3>LinkedIn</h3>
+                                                </div>
                                         </div>
                                         <div className="card-info">
-                                            <p className="text-md">Aut inventore unde id aliquid sint aut laudantium explicabo qui earum fugit. Est rerum possimus hic sunt temporibus rem deserunt consequatur sit mollitia alias aut</p><Link className="btn btn-learmore-2" href="#"><span>
+                                            <p className="text-md">AdFinity Clarity on LinkedIn Real talk on SEO, algorithm updates, and digital strategy, the kind of content you can actually use, not just scroll past.</p><Link className="btn btn-learmore-2" href="#"><span>
                                                 <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <g clipPath="url(#clip0_24_999)">
                                                         <path d="M10.6557 3.81393L1.71996 12.7497L0.251953 11.2817L9.18664 2.34592H1.31195V0.269531H12.7321V11.6897H10.6557V3.81393Z" fill="#191919" />
