@@ -116,9 +116,9 @@ export default function OfficeSlider() {
                         </div>
                         <div className="col-lg-4">
                             <div className="card-features-6">
-                                <div className="card-image"> <img src="/assets/imgs/page/about/mumbai.png" alt="Adfinity Clarity" /></div>
+                                <div className="card-image"> <img src="/assets/imgs/page/about/uae.svg" alt="UAE" /></div>
                                 <div className="card-info">
-                                    <h5 className="mb-12">Mumbai</h5>
+                                    <h5 className="mb-12">UAE</h5>
                                     <p className="mb-12 text-md neutral-300">4517 Washington Ave. Manchester,
                                         Kentucky 39495</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
@@ -143,9 +143,9 @@ export default function OfficeSlider() {
                     <div className="row">
                         <div className="col-lg-4">
                             <div className="card-features-6">
-                                <div className="card-image"> <img src="/assets/imgs/page/about/london.svg" alt="Adfinity Clarity" /></div>
+                                <div className="card-image"> <img src="/assets/imgs/page/about/canada.svg" alt="canada" /></div>
                                 <div className="card-info">
-                                    <h5 className="mb-12">London</h5>
+                                    <h5 className="mb-12">Canada</h5>
                                     <p className="mb-12 text-md neutral-300">4517 Washington Ave. Manchester,
                                         Kentucky 39495</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
@@ -166,9 +166,9 @@ export default function OfficeSlider() {
                         </div>
                         <div className="col-lg-4">
                             <div className="card-features-6">
-                                <div className="card-image"> <img src="/assets/imgs/page/about/paris.png" alt="Adfinity Clarity" /></div>
+                                <div className="card-image"> <img src="/assets/imgs/page/about/new-zealand.svg" alt="New Zealand" /></div>
                                 <div className="card-info">
-                                    <h5 className="mb-12">Paris</h5>
+                                    <h5 className="mb-12">New Zealand</h5>
                                     <p className="mb-12 text-md neutral-300">4517 Washington Ave. Manchester,
                                         Kentucky 39495</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
@@ -189,9 +189,9 @@ export default function OfficeSlider() {
                         </div>
                         <div className="col-lg-4">
                             <div className="card-features-6">
-                                <div className="card-image"> <img src="/assets/imgs/page/about/toronto.png" alt="Adfinity Clarity" /></div>
+                                <div className="card-image"> <img src="/assets/imgs/page/about/singapore.svg" alt="Singapore" /></div>
                                 <div className="card-info">
-                                    <h5 className="mb-12">Toronto</h5>
+                                    <h5 className="mb-12">Singapore</h5>
                                     <p className="mb-12 text-md neutral-300">4517 Washington Ave. Manchester,
                                         Kentucky 39495</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
@@ -212,9 +212,9 @@ export default function OfficeSlider() {
                         </div>
                         <div className="col-lg-4">
                             <div className="card-features-6">
-                                <div className="card-image"> <img src="/assets/imgs/page/about/osaka.png" alt="Adfinity Clarity" /></div>
+                                <div className="card-image"> <img src="/assets/imgs/page/about/switzerland.svg" alt="Switzerland" /></div>
                                 <div className="card-info">
-                                    <h5 className="mb-12">Osaka</h5>
+                                    <h5 className="mb-12">Switzerland</h5>
                                     <p className="mb-12 text-md neutral-300">4517 Washington Ave. Manchester,
                                         Kentucky 39495</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
@@ -235,9 +235,9 @@ export default function OfficeSlider() {
                         </div>
                         <div className="col-lg-4">
                             <div className="card-features-6">
-                                <div className="card-image"> <img src="/assets/imgs/page/about/mumbai.png" alt="Adfinity Clarity" /></div>
+                                <div className="card-image"> <img src="/assets/imgs/page/about/malaysia.svg.png" alt="Malaysia" /></div>
                                 <div className="card-info">
-                                    <h5 className="mb-12">Mumbai</h5>
+                                    <h5 className="mb-12">Malaysia</h5>
                                     <p className="mb-12 text-md neutral-300">4517 Washington Ave. Manchester,
                                         Kentucky 39495</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
