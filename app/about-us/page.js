@@ -186,7 +186,8 @@ We are not here to sell you something and then disappear. We are here to help yo
             <div className='container'>
               <div className='row align-items-end'>
                 <div className='col-lg-8'>
-                  <h2 className='neutral-0'>Our offices</h2>
+                  <h2 className='neutral-0'>Our offices. One Standard of Work</h2>
+                  <p className="text-md neutral-700">We chose to build teams instead of one big team that tries to serve everyone. Here is what that looks like -</p>
                 </div>
                 <div className='col-lg-4'>
                   <div className='box-button-slider box-button-slider-black'>
