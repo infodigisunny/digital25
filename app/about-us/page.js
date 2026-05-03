@@ -282,7 +282,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                                                 </div>
                                         </div>
                                         <div className="card-info">
-                                            <p className="text-md">Adfinity Clarity on LinkedIn Real talk on SEO, algorithm updates, and digital strategy, the kind of content you can actually use, not just scroll past.</p><Link className="btn btn-learmore-2" href="#"><span>
+                                            <p className="text-md">Adfinity Clarity on LinkedIn Real talk on SEO, algorithm updates, and digital strategy, the kind of content you can actually use, not just scroll past.</p><Link className="btn btn-learmore-2" href="https://www.linkedin.com/company/adfinity-clarity/"><span>
                                                 <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <g clipPath="url(#clip0_24_999)">
                                                         <path d="M10.6557 3.81393L1.71996 12.7497L0.251953 11.2817L9.18664 2.34592H1.31195V0.269531H12.7321V11.6897H10.6557V3.81393Z" fill="#191919" />
@@ -292,7 +292,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                                                             <rect width={13} height={13} fill="white" />
                                                         </clipPath>
                                                     </defs>
-                                                </svg></span>View Integration</Link>
+                                                </svg></span>Follow for Insights</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -305,7 +305,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                                                 </div>
                                         </div>
                                         <div className="card-info">
-                                            <p className="text-md">@AdfinityClarity Campaign results, team culture, quick marketing breakdowns, and the occasional honest post about what doesn't always work.</p><Link className="btn btn-learmore-2" href="#"><span>
+                                            <p className="text-md">@AdfinityClarity Campaign results, team culture, quick marketing breakdowns, and the occasional honest post about what doesn't always work.</p><Link className="btn btn-learmore-2" href="https://www.instagram.com/adfinityclarity/"><span>
                                                 <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <g clipPath="url(#clip0_24_999)">
                                                         <path d="M10.6557 3.81393L1.71996 12.7497L0.251953 11.2817L9.18664 2.34592H1.31195V0.269531H12.7321V11.6897H10.6557V3.81393Z" fill="#191919" />
@@ -315,7 +315,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                                                             <rect width={13} height={13} fill="white" />
                                                         </clipPath>
                                                     </defs>
-                                                </svg></span>View Integration</Link>
+                                                </svg></span>Follow Us on Facebook</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -328,7 +328,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                                                 </div>
                                         </div>
                                         <div className="card-info">
-                                            <p className="text-md">Adfinity Clarity Client stories, industry news, and a community for businesses figuring out their digital growth, wherever they're starting from.</p><Link className="btn btn-learmore-2" href="#"><span>
+                                            <p className="text-md">Adfinity Clarity Client stories, industry news, and a community for businesses figuring out their digital growth, wherever they're starting from.</p><Link className="btn btn-learmore-2" href="https://www.facebook.com/adfinityclarity/"><span>
                                                 <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <g clipPath="url(#clip0_24_999)">
                                                         <path d="M10.6557 3.81393L1.71996 12.7497L0.251953 11.2817L9.18664 2.34592H1.31195V0.269531H12.7321V11.6897H10.6557V3.81393Z" fill="#191919" />
@@ -338,7 +338,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                                                             <rect width={13} height={13} fill="white" />
                                                         </clipPath>
                                                     </defs>
-                                                </svg></span>View Integration</Link>
+                                                </svg></span>Explore Our Feed</Link>
                                         </div>
                                     </div>
                                 </div>
