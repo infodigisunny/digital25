@@ -409,7 +409,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                 <div className='col-lg-8 mb-30'>
                   <div className='box-numbers'>
                     <div className='item-number'>
-                      <h3 className='heading-2'> <CounterUp count={500} /> </h3>
+                      <h3 className='heading-2'><CounterUp count={1} />k</h3>
                       <p className='text-xl neutral-700'>Campaigns Delivered</p>
                     </div>
                     <div className='item-number'>
