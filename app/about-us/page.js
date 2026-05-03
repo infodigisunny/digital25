@@ -382,18 +382,15 @@ We are not here to sell you something and then disappear. We are here to help yo
                                     <h2>Join our community</h2>
                                     <p className="text-md neutral-600">Work smarter with this time management and not hard join our newsletter for a better expertrience</p>
                                 </div><br></br>
-                                <div className='header-right'>
-              {/* <SearchForm />*/}
-              <a
-                className='btn btn-brand-4-medium hover-up'
-                href='#'
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.dispatchEvent(new CustomEvent("openProposalModal"));
-                }}
-              >
-                Get SEO Proposal
-              </a>
+                                <div className="newsletter-centre">
+                                    <form action="#">
+                                        <input className="form-control" type="text" placeholder="Email address..." />
+                                        <button className="btn btn-subscribe" type="submit">Subscribe
+                                            <svg width={22} height={22} viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M22 10.9993L18.4791 7.47852V10.3064H0V11.6924H18.4791V14.5203L22 10.9993Z" fill="true" />
+                                            </svg>
+                                        </button>
+                                    </form>
                                 </div>
                             </div>
                         </div>
