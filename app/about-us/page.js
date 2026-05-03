@@ -125,7 +125,7 @@ We are not here to sell you something and then disappear. We are here to help yo
               <div className='row align-items-end'>
                 <div className='col-lg-6 mb-30 mx-auto text-center'>
                   <h2 className='heading-2'>
-                    Three Things You Must Know About How We Work
+                    How We Think. How We Work. We Never Compromise On.
                   </h2>
                 </div>
               </div>
