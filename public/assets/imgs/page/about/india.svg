@@ -1,0 +1,83 @@
+<svg width="48" height="48" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- TAJ MAHAL - clean flat solid icon -->
+
+<!-- Finial tip -->
+<rect x="48.5" y="0" width="3" height="6" rx="1.5" fill="#C5FF55"/>
+<circle cx="50" cy="9" r="3" fill="#C5FF55"/>
+
+<!-- Main central dome -->
+<path d="M36 35 Q36 15 50 13 Q64 15 64 35Z" fill="#C5FF55"/>
+
+<!-- Left small dome -->
+<path d="M24 35 Q24 27 30 26 Q36 27 36 35Z" fill="#C5FF55"/>
+
+<!-- Right small dome -->
+<path d="M64 35 Q64 27 70 26 Q76 27 76 35Z" fill="#C5FF55"/>
+
+<!-- Left minaret dome -->
+<path d="M10 32 Q10 28 13.5 27.5 Q17 28 17 32Z" fill="#C5FF55"/>
+<!-- Left minaret tip -->
+<rect x="12.5" y="22" width="2" height="6" rx="1" fill="#C5FF55"/>
+<circle cx="13.5" cy="21" r="1.5" fill="#C5FF55"/>
+
+<!-- Right minaret dome -->
+<path d="M83 32 Q83 28 86.5 27.5 Q90 28 90 32Z" fill="#C5FF55"/>
+<!-- Right minaret tip -->
+<rect x="85.5" y="22" width="2" height="6" rx="1" fill="#C5FF55"/>
+<circle cx="86.5" cy="21" r="1.5" fill="#C5FF55"/>
+
+<!-- Drum / base of main dome -->
+<rect x="38" y="33" width="24" height="4" rx="0" fill="#C5FF55"/>
+
+<!-- Left drum small dome -->
+<rect x="25" y="33" width="11" height="4" fill="#C5FF55"/>
+
+<!-- Right drum small dome -->
+<rect x="64" y="33" width="11" height="4" fill="#C5FF55"/>
+
+<!-- Main iwan (central arch body) -->
+<rect x="40" y="37" width="20" height="24" fill="#C5FF55"/>
+<!-- Central arch opening -->
+<path d="M45 61 L45 48 Q50 42 55 48 L55 61Z" fill="#C5FF55" style="fill-rule:evenodd"/>
+<path d="M45 61 L45 48 Q50 42 55 48 L55 61Z" fill="black" fill-opacity="0.22"/>
+
+<!-- Left side iwan -->
+<rect x="26" y="37" width="14" height="18" fill="#C5FF55"/>
+<!-- Left arch opening -->
+<path d="M29 55 L29 47 Q33 43 37 47 L37 55Z" fill="black" fill-opacity="0.18"/>
+
+<!-- Right side iwan -->
+<rect x="60" y="37" width="14" height="18" fill="#C5FF55"/>
+<!-- Right arch opening -->
+<path d="M63 55 L63 47 Q67 43 71 47 L71 55Z" fill="black" fill-opacity="0.18"/>
+
+<!-- Left minaret body -->
+<rect x="10" y="32" width="7" height="23" fill="#C5FF55"/>
+<!-- Left minaret balcony -->
+<rect x="8.5" y="44" width="10" height="2.5" rx="0.5" fill="#C5FF55"/>
+
+<!-- Right minaret body -->
+<rect x="83" y="32" width="7" height="23" fill="#C5FF55"/>
+<!-- Right minaret balcony -->
+<rect x="81.5" y="44" width="10" height="2.5" rx="0.5" fill="#C5FF55"/>
+
+<!-- Terrace / platform -->
+<rect x="6" y="55" width="88" height="5" fill="#C5FF55"/>
+
+<!-- Plinth step 1 -->
+<rect x="10" y="60" width="80" height="5" fill="#C5FF55"/>
+
+<!-- Plinth step 2 -->
+<rect x="16" y="65" width="68" height="5" fill="#C5FF55"/>
+
+<!-- Water channel -->
+<rect x="46" y="70" width="8" height="18" fill="#C5FF55"/>
+
+<!-- Base ground -->
+<rect x="4" y="88" width="92" height="6" rx="2" fill="#C5FF55"/>
+
+<!-- Decorative horizontal lines on main body -->
+<rect x="40" y="41" width="20" height="1.5" fill="#C5FF55" fill-opacity="0.4"/>
+<rect x="40" y="46" width="20" height="1.5" fill="#C5FF55" fill-opacity="0.4"/>
+
+</svg>

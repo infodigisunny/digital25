@@ -50,7 +50,7 @@ export default function OfficeSlider() {
                         </div>
                         <div className="col-lg-4">
                             <div className="card-features-6">
-                                <div className="card-image"> <img src="/assets/imgs/page/about/london.svg" alt="UK" /></div>
+                                <div className="card-image"> <img src="/assets/imgs/page/about/united-kingdom.svg" alt="UK" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">United Kingdom</h5>
                                     <p className="mb-12 text-md neutral-300">In the United Kingdom, our team navigates the search market and its quirks. They understand content, Google UK dynamics, and industry-specific search trends.</p>
@@ -72,7 +72,7 @@ export default function OfficeSlider() {
                         </div>
                         <div className="col-lg-4">
                             <div className="card-features-6">
-                                <div className="card-image"> <img src="/assets/imgs/page/about/mumbai.png" alt="INDIA" /></div>
+                                <div className="card-image"> <img src="/assets/imgs/page/about/india.svg" alt="INDIA" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">India</h5>
                                     <p className="mb-12 text-md neutral-300">In India, our team supports businesses that want to scale and international companies that want to establish a strong presence.</p>
@@ -94,7 +94,7 @@ export default function OfficeSlider() {
                         </div>
                         <div className="col-lg-4">
                             <div className="card-features-6">
-                                <div className="card-image"> <img src="/assets/imgs/page/about/osaka.png" alt="Adfinity Clarity" /></div>
+                                <div className="card-image"> <img src="/assets/imgs/page/about/australia.svg" alt="Australia" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">Australia</h5>
                                     <p className="mb-12 text-md neutral-300">In Australia, our team builds campaigns that reflect how Australian audiences search, trust, and buy.</p>

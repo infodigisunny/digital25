@@ -1,0 +1,59 @@
+<svg width="48" height="48" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Big Ben / Elizabeth Tower - very clean and sharp -->
+
+<!-- Spire -->
+<polygon points="50,1 46,18 54,18" fill="#C5FF55"/>
+
+<!-- Spire base cube -->
+<rect x="45" y="18" width="10" height="5" rx="0.5" fill="#C5FF55"/>
+
+<!-- Lantern -->
+<rect x="43" y="23" width="14" height="6" rx="0.5" fill="#C5FF55"/>
+<!-- Lantern arch windows -->
+<path d="M44.5 29 L44.5 25.5 Q47 23 49.5 25.5 L49.5 29Z" fill="black" fill-opacity="0.2"/>
+<path d="M50.5 29 L50.5 25.5 Q53 23 55.5 25.5 L55.5 29Z" fill="black" fill-opacity="0.2"/>
+
+<!-- Cornice 1 -->
+<rect x="40" y="29" width="20" height="3" rx="0.5" fill="#C5FF55"/>
+
+<!-- Belfry -->
+<rect x="41" y="32" width="18" height="8" rx="0.5" fill="#C5FF55"/>
+<!-- Belfry openings -->
+<path d="M42.5 40 L42.5 35 Q45 32.5 47.5 35 L47.5 40Z" fill="black" fill-opacity="0.22"/>
+<path d="M52.5 40 L52.5 35 Q55 32.5 57.5 35 L57.5 40Z" fill="black" fill-opacity="0.22"/>
+
+<!-- Cornice 2 -->
+<rect x="38" y="40" width="24" height="3" rx="0.5" fill="#C5FF55"/>
+
+<!-- Corner pinnacles -->
+<polygon points="38,43 36,50 40,50" fill="#C5FF55"/>
+<polygon points="62,43 60,50 64,50" fill="#C5FF55"/>
+
+<!-- Clock section with corner columns -->
+<rect x="36" y="43" width="4" height="26" rx="0.5" fill="#C5FF55"/>
+<rect x="60" y="43" width="4" height="26" rx="0.5" fill="#C5FF55"/>
+
+<!-- Clock face north -->
+<rect x="40" y="43" width="20" height="26" fill="#C5FF55"/>
+<!-- Clock circle -->
+<circle cx="50" cy="56" r="9" fill="#C5FF55"/>
+<circle cx="50" cy="56" r="9" stroke="black" stroke-opacity="0.18" stroke-width="1.5" fill="none"/>
+<!-- Clock hands -->
+<rect x="49.2" y="48.5" width="1.6" height="8" rx="0.8" fill="black" fill-opacity="0.3"/>
+<path d="M50 56 L55 58.5" stroke="black" stroke-opacity="0.3" stroke-width="1.5" stroke-linecap="round"/>
+
+<!-- Cornice 3 -->
+<rect x="35" y="69" width="30" height="3.5" rx="0.5" fill="#C5FF55"/>
+
+<!-- Tower main body -->
+<rect x="38" y="72.5" width="24" height="18" fill="#C5FF55"/>
+<!-- Tower windows -->
+<rect x="41" y="76" width="6" height="8" rx="1.5" fill="black" fill-opacity="0.18"/>
+<rect x="53" y="76" width="6" height="8" rx="1.5" fill="black" fill-opacity="0.18"/>
+
+<!-- Base -->
+<rect x="33" y="90.5" width="34" height="5" rx="0.5" fill="#C5FF55"/>
+
+<!-- Ground -->
+<rect x="26" y="95.5" width="48" height="4.5" rx="1.5" fill="#C5FF55"/>
+</svg>
