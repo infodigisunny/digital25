@@ -345,58 +345,6 @@ We are not here to sell you something and then disappear. We are here to help yo
                                 </div>
                         </div>
                     </section>
-          {/* ── Section 6: Get in Touch ── */}
-          <section className='section-box box-get-touch-section'>
-            <div className='container'>
-              <div className='row align-items-center'>
-                <div className='col-lg-6'>
-                  <div className='box-image-get-touch'>
-                    <span className='setup'>
-                      <img src='/assets/imgs/page/about/setup.png' alt='Adfinity Clarity' />
-                    </span>
-                    <span className='icon-1'>
-                      <img src='/assets/imgs/page/about/icon.png' alt='Adfinity Clarity' />
-                    </span>
-                    <img src='/assets/imgs/page/about/img-touch.png' alt='Adfinity Clarity' />
-                  </div>
-                </div>
-                <div className='col-lg-6'>
-                  <Link className='btn btn-brand-4-sm' href='#'>
-                    Contact Us
-                  </Link>
-                  <h2 className='mb-20 mt-20'>Get in Touch</h2>
-                  <p className='text-md neutral-700'>
-                    Contact us below and we will get back to you shortly.
-                  </p>
-                  <div className='block-form-contact mt-45'>
-                    <form action='#'>
-                      <div className='form-group'>
-                        <label htmlFor='fullname'>Your Name *</label>
-                        <input className='form-control' type='text' placeholder='Name' />
-                      </div>
-                      <div className='form-group'>
-                        <label htmlFor='email'>Your Email *</label>
-                        <input className='form-control' type='text' placeholder='email@website.com' />
-                      </div>
-                      <div className='form-group'>
-                        <label htmlFor='message'>Message *</label>
-                        <textarea className='form-control' rows={7} placeholder='How can we help you?' />
-                      </div>
-                      <div className='form-group'>
-                        <button className='btn btn-black btn-rounded' type='submit'>
-                          Send Message
-                          <svg width={22} height={8} viewBox='0 0 22 8' fill='none' xmlns='http://www.w3.org/2000/svg'>
-                            <path d='M22 3.99934L18.4791 0.478516V3.30642H0V4.69236H18.4791V7.52031L22 3.99934Z' fill='true' />
-                          </svg>
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
           {/* ── Section 7: Stats ── */}
           <section className='section-box box-why-trusted box-why-trusted-black'>
             <div className='container'>
@@ -413,7 +361,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                       <p className='text-xl neutral-700'>Campaigns Delivered</p>
                     </div>
                     <div className='item-number'>
-                      <h3 className='heading-2'><CounterUp count={90} />%+</h3>
+                      <h3 className='heading-2'><CounterUp count={90} />%</h3>
                       <p className='text-xl neutral-700'>Client Retention Rate</p>
                     </div>
                     <div className='item-number'>
@@ -429,83 +377,6 @@ We are not here to sell you something and then disappear. We are here to help yo
               </div>
             </div>
           </section>
-
-          {/* ── Section 8: Pricing ── */}
-          <section className='section-box box-pricing-2 box-pricing-4'>
-            <div className='box-pricing-2-inner'>
-              <div className='container'>
-                <div className='text-center'>
-                  <Link className='btn btn-brand-4-sm' href='#'>
-                    Pricing Plan
-                  </Link>
-                  <h2 className='mb-20 mt-15'>
-                    Your competitors are getting found. 
-                    <br className='d-none d-lg-block' />You should be, too!
-                  </h2>
-                  <p className='text-lg neutral-500 mb-65'>
-                    There is no secret to search. It is consistent, well-executed work by people who know what they are doing. We do that work every day for businesses in four countries across industries.
-                  </p>
-                </div>
-                <div className='block-pricing'>
-                  <div className='row'>
-                    {[
-                      { title: "Basic", monthly: "$99", yearly: "$1,188" },
-                      { title: "Professional", monthly: "$199", yearly: "$2,388" },
-                      { title: "Enterprise", monthly: "$399", yearly: "$4,788" },
-                    ].map((plan, idx) => (
-                      <div className='col-lg-4 col-md-6' key={idx}>
-                        <div className='card-pricing card-pricing-style-2'>
-                          <div className='card-title'>
-                            <h6>{plan.title}</h6>
-                          </div>
-                          <div className='card-price'>
-                            <div className='for-month'>
-                              <h1 className='heading-1'>{plan.monthly}</h1>
-                              <span className='text-20-medium color-grey'>monthly</span>
-                            </div>
-                            <div className='for-year'>
-                              <h1 className='heading-1'>{plan.yearly}</h1>
-                              <span className='text-20-medium color-grey'>yearly</span>
-                            </div>
-                          </div>
-                          <div className='card-lists'>
-                            <strong className='text-18-bold'>What's included</strong>
-                            <ul className='list-feature'>
-                              {["5,000 Monthly Word Limit", "50+ Languages", "Advance Editor Tool", "50 Accounts"].map((feature, i) => (
-                                <li key={i}>
-                                  <svg xmlns='http://www.w3.org/2000/svg' width={26} height={26} viewBox='0 0 26 26' fill='none'>
-                                    <g clipPath={`url(#clip_${idx}_${i})`}>
-                                      <path d='M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z' fill='#C5FF55' />
-                                      <path d='M7.11719 13.8396L10.479 17.2014L18.8835 8.79688' stroke='#191919' strokeWidth={2} strokeLinecap='round' strokeLinejoin='round' />
-                                    </g>
-                                    <defs>
-                                      <clipPath id={`clip_${idx}_${i}`}>
-                                        <rect width={26} height={26} fill='white' />
-                                      </clipPath>
-                                    </defs>
-                                  </svg>{" "}
-                                  {feature}
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
-                          <div className='card-button'>
-                            <Link className='btn btn-get-started' href='#'>
-                              Get started
-                              <svg width={23} height={8} viewBox='0 0 23 8' fill='none' xmlns='http://www.w3.org/2000/svg'>
-                                <path d='M22.5 3.99934L18.9791 0.478516V3.30642H0.5V4.69236H18.9791V7.52031L22.5 3.99934Z' fill='true' />
-                              </svg>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
         </div>
       </Layout>
     </>
