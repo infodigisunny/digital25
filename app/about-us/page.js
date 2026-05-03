@@ -124,16 +124,16 @@ We are not here to sell you something and then disappear. We are here to help yo
             <div className='container'>
               <div className='row align-items-end'>
                 <div className='col-lg-6 mb-30 mx-auto text-center'>
-                  <h2 className='heading-2'>
+                  <h3 className='heading-3'>
                     How We Think. How We Work. We Never Compromise On.
-                  </h2>
+                  </h3>
                 </div>
               </div>
              <div className="row">
                                 <div className="col-lg-4 col-md-6">
                                     <div className="card-question card-question-2">
                                         <div className="card-info">
-                                            <h3>How we think?</h3>
+                                            <h4>How we think?</h4>
                                             <p className="text-md neutral-600">Clarity is not our name. It is how we work. We do not use language or make reports that are hard to understand. When something is working, we tell you why. When it is not working, we tell you that too. We bring a solution. Honest conversations help everyone.</p>
                                         </div>
                                     </div>
@@ -141,7 +141,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                                 <div className="col-lg-4 col-md-6">
                                     <div className="card-question card-question-2">
                                         <div className="card-info">
-                                            <h3>What do we try to do?</h3>
+                                            <h4>What do we try to do?</h4>
                                             <p className="text-md neutral-600">We want to make high-quality search and digital marketing available to all businesses, not just big ones with big budgets. We want to help the business in Bangalore reach buyers in Brisbane, or the agency in Manchester compete with companies. Where you are should not determine if you can grow online. A good strategy should.</p>
                                         </div>
                                     </div>
@@ -149,7 +149,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                                 <div className="col-lg-4 col-md-6">
                                     <div className="card-question card-question-2">
                                         <div className="card-info">
-                                            <h3>What makes us different?</h3>
+                                            <h4>What makes us different?</h4>
                                             <p className="text-md neutral-600">We do not change the people who work on your account every month. The people you meet at the start are the ones who do the work. They know your industry, they track your competitors. They care about your numbers.</p>
                                         </div>
                                     </div>
