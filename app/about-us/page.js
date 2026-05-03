@@ -159,8 +159,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                                 </div>
                             </div>
             </div>
-          </section>
-<div className="row">
+            <div className="row">
                                 <div className="col-lg-6">
                                     <div className="box-border-rounded-md">
                                         <div className="row align-items-center">
@@ -184,6 +183,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                                     </div>
                                 </div>
                             </div>
+          </section>
           {/* ── Section 3: Offices ── */}
           <section className='section-box box-our-offices'>
             <div className='container'>
