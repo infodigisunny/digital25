@@ -378,7 +378,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                     </section>
           <div className="container mt-25">
                             <div className="box-newsletter">
-                                <div className="newsletter-left">
+                                <div className="newsletter-centre">
                                     <h2>Your competitors are getting found. You should be, too!</h2>
                                     <p className="text-md neutral-600">There is no secret to search. It is consistent, well-executed work by people who know what they are doing. We do that work every day for businesses in four countries across industries.</p>
                                     <p className="text-md neutral-600">If your website is not bringing in the leads, it should let us find out why.</p>
