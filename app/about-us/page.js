@@ -413,16 +413,16 @@ We are not here to sell you something and then disappear. We are here to help yo
                       <p className='text-xl neutral-700'>Campaigns Delivered</p>
                     </div>
                     <div className='item-number'>
-                      <h3 className='heading-2'><CounterUp count={25} />k+</h3>
-                      <p className='text-xl neutral-700'>Happy Clients</p>
+                      <h3 className='heading-2'><CounterUp count={90} />%+</h3>
+                      <p className='text-xl neutral-700'>Client Retention Rate</p>
                     </div>
                     <div className='item-number'>
-                      <h3 className='heading-2'><CounterUp count={756} />+</h3>
-                      <p className='text-xl neutral-700'>Projects Done</p>
+                      <h3 className='heading-2'><CounterUp count={12} />+</h3>
+                      <p className='text-xl neutral-700'>Industries Served</p>
                     </div>
                     <div className='item-number'>
-                      <h3 className='heading-2'><CounterUp count={100} />+</h3>
-                      <p className='text-xl neutral-700'>Global branches</p>
+                      <h3 className='heading-2'><CounterUp count={10} />+</h3>
+                      <p className='text-xl neutral-700'>Countries</p>
                     </div>
                   </div>
                 </div>
