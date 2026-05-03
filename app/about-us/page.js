@@ -134,7 +134,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                                     <div className="card-question card-question-2">
                                         <div className="card-image"><img src="/assets/imgs/page/features/internet.png" alt="Adfinity Clarity" /></div>
                                         <div className="card-info">
-                                            <h6>Scalable Workforce</h6>
+                                            <h3>Scalable Workforce</h3>
                                             <p className="text-md neutral-600">In general, analyses of famous case studies help your clients, partners, and visitors have a better understanding of what is going on in the market. Your helpful advice can also be beneficial for audiences, which keeps them coming back for more.</p>
                                         </div>
                                     </div>
