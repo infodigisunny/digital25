@@ -134,8 +134,8 @@ We are not here to sell you something and then disappear. We are here to help yo
                                     <div className="card-question card-question-2">
                                         <div className="card-image"><img src="/assets/imgs/page/features/internet.png" alt="Adfinity Clarity" /></div>
                                         <div className="card-info">
-                                            <h3>Scalable Workforce</h3>
-                                            <p className="text-md neutral-600">In general, analyses of famous case studies help your clients, partners, and visitors have a better understanding of what is going on in the market. Your helpful advice can also be beneficial for audiences, which keeps them coming back for more.</p>
+                                            <h3>How we think?</h3>
+                                            <p className="text-md neutral-600">Clarity is not our name. It is how we work. We do not use language or make reports that are hard to understand. When something is working, we tell you why. When it is not working, we tell you that too. We bring a solution. Honest conversations help everyone.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -143,8 +143,8 @@ We are not here to sell you something and then disappear. We are here to help yo
                                     <div className="card-question card-question-2">
                                         <div className="card-image"><img src="/assets/imgs/page/features/train.png" alt="Adfinity Clarity" /></div>
                                         <div className="card-info">
-                                            <h6>Trained for Efficiency</h6>
-                                            <p className="text-md neutral-600">In general, analyses of famous case studies help your clients, partners, and visitors have a better understanding of what is going on in the market. Your helpful advice can also be beneficial for audiences, which keeps them coming back for more.</p>
+                                            <h3>What do we try to do?</h3>
+                                            <p className="text-md neutral-600">We want to make high-quality search and digital marketing available to all businesses, not just big ones with big budgets. We want to help the business in Bangalore reach buyers in Brisbane, or the agency in Manchester compete with companies. Where you are should not determine if you can grow online. A good strategy should.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -152,8 +152,8 @@ We are not here to sell you something and then disappear. We are here to help yo
                                     <div className="card-question card-question-2">
                                         <div className="card-image"><img src="/assets/imgs/page/features/pricing.png" alt="Adfinity Clarity" /></div>
                                         <div className="card-info">
-                                            <h6>Predictable Pricing</h6>
-                                            <p className="text-md neutral-600">In general, analyses of famous case studies help your clients, partners, and visitors have a better understanding of what is going on in the market. Your helpful advice can also be beneficial for audiences, which keeps them coming back for more.</p>
+                                            <h3>What makes us different?</h3>
+                                            <p className="text-md neutral-600">We do not change the people who work on your account every month. The people you meet at the start are the ones who do the work. They know your industry, they track your competitors. They care about your numbers.</p>
                                         </div>
                                     </div>
                                 </div>
