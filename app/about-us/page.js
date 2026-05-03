@@ -377,22 +377,29 @@ We are not here to sell you something and then disappear. We are here to help yo
                         </div>
                     </section>
           <div className="container mt-25">
-                            <div className="box-newsletter">
-                                <div className="newsletter-centre">
-                                    <h2>Your competitors are getting found. You should be, too!</h2>
-                                    <p className="text-md neutral-600">There is no secret to search. It is consistent, well-executed work by people who know what they are doing. We do that work every day for businesses in four countries across industries. If your website is not bringing in the leads, it should let us find out why.</p>
-                                </div>
-                                <div className="newsletter-centre">
-                                    <form action="#">
-                                        <button className="btn btn-subscribe" type="submit">Get a free SEO audit
-                                            <svg width={22} height={22} viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M22 10.9993L18.4791 7.47852V10.3064H0V11.6924H18.4791V14.5203L22 10.9993Z" fill="true" />
-                                            </svg>
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
+  <div className="box-newsletter">
+    
+    <div className="newsletter-centre" style={{ textAlign: "center" }}>
+      <h2>Your competitors are getting found. You should be, too!</h2>
+      <p className="text-md neutral-600">
+        There is no secret to search. It is consistent, well-executed work by people who know what they are doing. We do that work every day for businesses in four countries across industries. If your website is not bringing in the leads, it should let us find out why.
+      </p>
+    </div>
+
+    {/* Button bottom + center */}
+    <div style={{ width: "100%", textAlign: "center", marginTop: "25px" }}>
+      <form action="#">
+        <button className="btn btn-subscribe" type="submit">
+          Get a free SEO audit
+          <svg width={22} height={22} viewBox="0 0 22 22" fill="none">
+            <path d="M22 10.9993L18.4791 7.47852V10.3064H0V11.6924H18.4791V14.5203L22 10.9993Z" fill="true" />
+          </svg>
+        </button>
+      </form>
+    </div>
+
+  </div>
+</div>
         </div>
       </Layout>
     </>
