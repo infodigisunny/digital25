@@ -118,30 +118,7 @@ We are not here to sell you something and then disappear. We are here to help yo
               </div>
             </div>
           </section>
-<div className="row">
-                                <div className="col-lg-6">
-                                    <div className="box-border-rounded-md">
-                                        <div className="row align-items-center">
-                                            <div className="col-md-7 mb-30">
-                                                <h4 className="mb-20">Save your time and money by choosing our professional team</h4>
-                                                <p className="text-md neutral-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iste</p>
-                                            </div>
-                                            <div className="col-md-5 mb-30 text-center text-md-end"><img src="/assets/imgs/page/features/save-time.png" /></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6">
-                                    <div className="box-border-rounded-md">
-                                        <div className="row align-items-center">
-                                            <div className="col-md-7 mb-30">
-                                                <h4 className="mb-20">Convinced yet? Let's make something great together</h4>
-                                                <p className="text-md neutral-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iste</p>
-                                            </div>
-                                            <div className="col-md-5 mb-30 text-center text-md-end"><img src="/assets/imgs/page/features/convin.png" /></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
           {/* ── Section 2: Prepared / Values ── */}
           <section className='section-box box-prepared-section'>
             <div className='container'>
@@ -201,7 +178,30 @@ We are not here to sell you something and then disappear. We are here to help yo
               </div>
             </div>
           </section>
-
+<div className="row">
+                                <div className="col-lg-6">
+                                    <div className="box-border-rounded-md">
+                                        <div className="row align-items-center">
+                                            <div className="col-md-7 mb-30">
+                                                <h4 className="mb-20">Save your time and money by choosing our professional team</h4>
+                                                <p className="text-md neutral-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iste</p>
+                                            </div>
+                                            <div className="col-md-5 mb-30 text-center text-md-end"><img src="/assets/imgs/page/features/save-time.png" /></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-6">
+                                    <div className="box-border-rounded-md">
+                                        <div className="row align-items-center">
+                                            <div className="col-md-7 mb-30">
+                                                <h4 className="mb-20">Convinced yet? Let's make something great together</h4>
+                                                <p className="text-md neutral-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iste</p>
+                                            </div>
+                                            <div className="col-md-5 mb-30 text-center text-md-end"><img src="/assets/imgs/page/features/convin.png" /></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
           {/* ── Section 3: Offices ── */}
           <section className='section-box box-our-offices'>
             <div className='container'>
