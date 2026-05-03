@@ -43,11 +43,11 @@ export default function Team2Slider() {
                 <Swiper {...swiperOptions}>
                     <SwiperSlide>
                         <div className="card-team-2">
-                            <div className="card-image"><img src="/assets/imgs/page/homepage2/team1.png" alt="Adfinity Clarity" /></div>
-                            <div className="card-info"><Link href="#">
-                                <h6>Olivia Williams</h6>
+                            <div className="card-image"><img src="/assets/imgs/page/homepage2/Ethan.png" alt="Ethan Hawke" /></div>
+                            <div className="card-info"><Link href="https://www.linkedin.com/in/ethan-hawke-b688152a5/">
+                                <h6>Ethan Hawke</h6>
                             </Link>
-                                <p className="text-lg neutral-600">Master Trainer</p>
+                                <p className="text-lg neutral-600">Backend Developer</p>
                             </div>
                         </div>
                     </SwiperSlide>
