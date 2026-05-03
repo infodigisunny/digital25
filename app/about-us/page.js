@@ -235,7 +235,7 @@ We are not here to sell you something and then disappear. We are here to help yo
           </section>
 
           {/* ── Section 5: Awards ── */}
-          <section className='section-box box-awards-section'>
+         {/*<section className='section-box box-awards-section'>
             <div className='container'>
               <div className='row align-items-end'>
                 <div className='col-lg-4 mb-30'>
@@ -266,6 +266,37 @@ We are not here to sell you something and then disappear. We are here to help yo
               </div>
             </div>
             
+          </section> */}
+          <section className='section-box box-why-trusted box-why-trusted-black'>
+            <div className='container'>
+              <div className='row align-items-end'>
+                <div className='col-lg-4 mb-30'>
+                  <h2 className='text-32-bold'>
+                    Numbers We Are Proud Of!
+                  </h2>
+                </div>
+                <div className='col-lg-8 mb-30'>
+                  <div className='box-numbers'>
+                    <div className='item-number'>
+                      <h3 className='heading-2'><CounterUp count={1} />k</h3>
+                      <p className='text-xl neutral-700'>Campaigns Delivered</p>
+                    </div>
+                    <div className='item-number'>
+                      <h3 className='heading-2'><CounterUp count={90} />%</h3>
+                      <p className='text-xl neutral-700'>Client Retention Rate</p>
+                    </div>
+                    <div className='item-number'>
+                      <h3 className='heading-2'><CounterUp count={12} />+</h3>
+                      <p className='text-xl neutral-700'>Industries Served</p>
+                    </div>
+                    <div className='item-number'>
+                      <h3 className='heading-2'><CounterUp count={10} />+</h3>
+                      <p className='text-xl neutral-700'>Countries</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
 <section className="section-box box-all-integrations">
                         <div className="container">
@@ -345,38 +376,6 @@ We are not here to sell you something and then disappear. We are here to help yo
                                 </div>
                         </div>
                     </section>
-          {/* ── Section 7: Stats ── */}
-          <section className='section-box box-why-trusted box-why-trusted-black'>
-            <div className='container'>
-              <div className='row align-items-end'>
-                <div className='col-lg-4 mb-30'>
-                  <h2 className='text-32-bold'>
-                    Numbers We Are Proud Of!
-                  </h2>
-                </div>
-                <div className='col-lg-8 mb-30'>
-                  <div className='box-numbers'>
-                    <div className='item-number'>
-                      <h3 className='heading-2'><CounterUp count={1} />k</h3>
-                      <p className='text-xl neutral-700'>Campaigns Delivered</p>
-                    </div>
-                    <div className='item-number'>
-                      <h3 className='heading-2'><CounterUp count={90} />%</h3>
-                      <p className='text-xl neutral-700'>Client Retention Rate</p>
-                    </div>
-                    <div className='item-number'>
-                      <h3 className='heading-2'><CounterUp count={12} />+</h3>
-                      <p className='text-xl neutral-700'>Industries Served</p>
-                    </div>
-                    <div className='item-number'>
-                      <h3 className='heading-2'><CounterUp count={10} />+</h3>
-                      <p className='text-xl neutral-700'>Countries</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
           <div className="container mt-25">
                             <div className="box-newsletter">
                                 <div className="newsletter-left">
