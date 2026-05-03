@@ -265,8 +265,326 @@ We are not here to sell you something and then disappear. We are here to help yo
                 </div>
               </div>
             </div>
+            
           </section>
-
+<section className="section-box box-all-integrations">
+                        <div className="container">
+                            <div className="text-center">
+                                <h2 className="heading-2 mb-15 mt-15">Our All Integrations</h2>
+                                <p className="text-lg neutral-500 mb-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mollis est<br className="none d-lg-block" />id faucibus iaculis. Cras et congue tortor. Integer laoreet.</p>
+                            </div>
+                            <div className="row mt-60">
+                                <div className="col-lg-4 col-md-4">
+                                    <div className="card-integration">
+                                        <div className="card-image">
+                                            <div className="card-image-left"><img src="/assets/imgs/page/integration/logo.png" alt="Adfinity Clarity" /></div>
+                                            <div className="card-image-info">
+                                                <h5>Spotify</h5>
+                                                <p className="text-md neutral-500">Company</p>
+                                            </div>
+                                        </div>
+                                        <div className="card-info">
+                                            <p className="text-md">Aut inventore unde id aliquid sint aut laudantium explicabo qui earum fugit. Est rerum possimus hic sunt temporibus rem deserunt consequatur sit mollitia alias aut</p><Link className="btn btn-learmore-2" href="#"><span>
+                                                <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clipPath="url(#clip0_24_999)">
+                                                        <path d="M10.6557 3.81393L1.71996 12.7497L0.251953 11.2817L9.18664 2.34592H1.31195V0.269531H12.7321V11.6897H10.6557V3.81393Z" fill="#191919" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_24_999">
+                                                            <rect width={13} height={13} fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg></span>View Integration</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-4">
+                                    <div className="card-integration">
+                                        <div className="card-image">
+                                            <div className="card-image-left"><img src="/assets/imgs/page/integration/logo4.png" alt="Adfinity Clarity" /></div>
+                                            <div className="card-image-info">
+                                                <h5>Hublot</h5>
+                                                <p className="text-md neutral-500">Company</p>
+                                            </div>
+                                        </div>
+                                        <div className="card-info">
+                                            <p className="text-md">Aut inventore unde id aliquid sint aut laudantium explicabo qui earum fugit. Est rerum possimus hic sunt temporibus rem deserunt consequatur sit mollitia alias aut</p><Link className="btn btn-learmore-2" href="#"><span>
+                                                <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clipPath="url(#clip0_24_999)">
+                                                        <path d="M10.6557 3.81393L1.71996 12.7497L0.251953 11.2817L9.18664 2.34592H1.31195V0.269531H12.7321V11.6897H10.6557V3.81393Z" fill="#191919" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_24_999">
+                                                            <rect width={13} height={13} fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg></span>View Integration</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-4">
+                                    <div className="card-integration">
+                                        <div className="card-image">
+                                            <div className="card-image-left"><img src="/assets/imgs/page/integration/logo11.png" alt="Adfinity Clarity" /></div>
+                                            <div className="card-image-info">
+                                                <h5>Dumani</h5>
+                                                <p className="text-md neutral-500">Company</p>
+                                            </div>
+                                        </div>
+                                        <div className="card-info">
+                                            <p className="text-md">Aut inventore unde id aliquid sint aut laudantium explicabo qui earum fugit. Est rerum possimus hic sunt temporibus rem deserunt consequatur sit mollitia alias aut</p><Link className="btn btn-learmore-2" href="#"><span>
+                                                <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clipPath="url(#clip0_24_999)">
+                                                        <path d="M10.6557 3.81393L1.71996 12.7497L0.251953 11.2817L9.18664 2.34592H1.31195V0.269531H12.7321V11.6897H10.6557V3.81393Z" fill="#191919" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_24_999">
+                                                            <rect width={13} height={13} fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg></span>View Integration</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-4">
+                                    <div className="card-integration">
+                                        <div className="card-image">
+                                            <div className="card-image-left"><img src="/assets/imgs/page/integration/logo10.png" alt="Adfinity Clarity" /></div>
+                                            <div className="card-image-info">
+                                                <h5>Webflow</h5>
+                                                <p className="text-md neutral-500">Company</p>
+                                            </div>
+                                        </div>
+                                        <div className="card-info">
+                                            <p className="text-md">Aut inventore unde id aliquid sint aut laudantium explicabo qui earum fugit. Est rerum possimus hic sunt temporibus rem deserunt consequatur sit mollitia alias aut</p><Link className="btn btn-learmore-2" href="#"><span>
+                                                <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clipPath="url(#clip0_24_999)">
+                                                        <path d="M10.6557 3.81393L1.71996 12.7497L0.251953 11.2817L9.18664 2.34592H1.31195V0.269531H12.7321V11.6897H10.6557V3.81393Z" fill="#191919" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_24_999">
+                                                            <rect width={13} height={13} fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg></span>View Integration</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-4">
+                                    <div className="card-integration">
+                                        <div className="card-image">
+                                            <div className="card-image-left"><img src="/assets/imgs/page/integration/logo2.png" alt="Adfinity Clarity" /></div>
+                                            <div className="card-image-info">
+                                                <h5>Shopify</h5>
+                                                <p className="text-md neutral-500">Company</p>
+                                            </div>
+                                        </div>
+                                        <div className="card-info">
+                                            <p className="text-md">Aut inventore unde id aliquid sint aut laudantium explicabo qui earum fugit. Est rerum possimus hic sunt temporibus rem deserunt consequatur sit mollitia alias aut</p><Link className="btn btn-learmore-2" href="#"><span>
+                                                <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clipPath="url(#clip0_24_999)">
+                                                        <path d="M10.6557 3.81393L1.71996 12.7497L0.251953 11.2817L9.18664 2.34592H1.31195V0.269531H12.7321V11.6897H10.6557V3.81393Z" fill="#191919" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_24_999">
+                                                            <rect width={13} height={13} fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg></span>View Integration</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-4">
+                                    <div className="card-integration">
+                                        <div className="card-image">
+                                            <div className="card-image-left"><img src="/assets/imgs/page/integration/logo3.png" alt="Adfinity Clarity" /></div>
+                                            <div className="card-image-info">
+                                                <h5>Kickstar</h5>
+                                                <p className="text-md neutral-500">Company</p>
+                                            </div>
+                                        </div>
+                                        <div className="card-info">
+                                            <p className="text-md">Aut inventore unde id aliquid sint aut laudantium explicabo qui earum fugit. Est rerum possimus hic sunt temporibus rem deserunt consequatur sit mollitia alias aut</p><Link className="btn btn-learmore-2" href="#"><span>
+                                                <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clipPath="url(#clip0_24_999)">
+                                                        <path d="M10.6557 3.81393L1.71996 12.7497L0.251953 11.2817L9.18664 2.34592H1.31195V0.269531H12.7321V11.6897H10.6557V3.81393Z" fill="#191919" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_24_999">
+                                                            <rect width={13} height={13} fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg></span>View Integration</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-4">
+                                    <div className="card-integration">
+                                        <div className="card-image">
+                                            <div className="card-image-left"><img src="/assets/imgs/page/integration/logo5.png" alt="Adfinity Clarity" /></div>
+                                            <div className="card-image-info">
+                                                <h5>Pinterest</h5>
+                                                <p className="text-md neutral-500">Company</p>
+                                            </div>
+                                        </div>
+                                        <div className="card-info">
+                                            <p className="text-md">Aut inventore unde id aliquid sint aut laudantium explicabo qui earum fugit. Est rerum possimus hic sunt temporibus rem deserunt consequatur sit mollitia alias aut</p><Link className="btn btn-learmore-2" href="#"><span>
+                                                <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clipPath="url(#clip0_24_999)">
+                                                        <path d="M10.6557 3.81393L1.71996 12.7497L0.251953 11.2817L9.18664 2.34592H1.31195V0.269531H12.7321V11.6897H10.6557V3.81393Z" fill="#191919" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_24_999">
+                                                            <rect width={13} height={13} fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg></span>View Integration</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-4">
+                                    <div className="card-integration">
+                                        <div className="card-image">
+                                            <div className="card-image-left"><img src="/assets/imgs/page/integration/logo7.png" alt="Adfinity Clarity" /></div>
+                                            <div className="card-image-info">
+                                                <h5>Zappier</h5>
+                                                <p className="text-md neutral-500">Company</p>
+                                            </div>
+                                        </div>
+                                        <div className="card-info">
+                                            <p className="text-md">Aut inventore unde id aliquid sint aut laudantium explicabo qui earum fugit. Est rerum possimus hic sunt temporibus rem deserunt consequatur sit mollitia alias aut</p><Link className="btn btn-learmore-2" href="#"><span>
+                                                <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clipPath="url(#clip0_24_999)">
+                                                        <path d="M10.6557 3.81393L1.71996 12.7497L0.251953 11.2817L9.18664 2.34592H1.31195V0.269531H12.7321V11.6897H10.6557V3.81393Z" fill="#191919" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_24_999">
+                                                            <rect width={13} height={13} fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg></span>View Integration</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-4">
+                                    <div className="card-integration">
+                                        <div className="card-image">
+                                            <div className="card-image-left"><img src="/assets/imgs/page/integration/logo12.png" alt="Adfinity Clarity" /></div>
+                                            <div className="card-image-info">
+                                                <h5>Slack</h5>
+                                                <p className="text-md neutral-500">Company</p>
+                                            </div>
+                                        </div>
+                                        <div className="card-info">
+                                            <p className="text-md">Aut inventore unde id aliquid sint aut laudantium explicabo qui earum fugit. Est rerum possimus hic sunt temporibus rem deserunt consequatur sit mollitia alias aut</p><Link className="btn btn-learmore-2" href="#"><span>
+                                                <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clipPath="url(#clip0_24_999)">
+                                                        <path d="M10.6557 3.81393L1.71996 12.7497L0.251953 11.2817L9.18664 2.34592H1.31195V0.269531H12.7321V11.6897H10.6557V3.81393Z" fill="#191919" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_24_999">
+                                                            <rect width={13} height={13} fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg></span>View Integration</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-4">
+                                    <div className="card-integration">
+                                        <div className="card-image">
+                                            <div className="card-image-left"><img src="/assets/imgs/page/integration/logo13.png" alt="Adfinity Clarity" /></div>
+                                            <div className="card-image-info">
+                                                <h5>Salesforce</h5>
+                                                <p className="text-md neutral-500">Company</p>
+                                            </div>
+                                        </div>
+                                        <div className="card-info">
+                                            <p className="text-md">Aut inventore unde id aliquid sint aut laudantium explicabo qui earum fugit. Est rerum possimus hic sunt temporibus rem deserunt consequatur sit mollitia alias aut</p><Link className="btn btn-learmore-2" href="#"><span>
+                                                <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clipPath="url(#clip0_24_999)">
+                                                        <path d="M10.6557 3.81393L1.71996 12.7497L0.251953 11.2817L9.18664 2.34592H1.31195V0.269531H12.7321V11.6897H10.6557V3.81393Z" fill="#191919" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_24_999">
+                                                            <rect width={13} height={13} fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg></span>View Integration</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-4">
+                                    <div className="card-integration">
+                                        <div className="card-image">
+                                            <div className="card-image-left"><img src="/assets/imgs/page/integration/logo14.png" alt="Adfinity Clarity" /></div>
+                                            <div className="card-image-info">
+                                                <h5>Dmark</h5>
+                                                <p className="text-md neutral-500">Company</p>
+                                            </div>
+                                        </div>
+                                        <div className="card-info">
+                                            <p className="text-md">Aut inventore unde id aliquid sint aut laudantium explicabo qui earum fugit. Est rerum possimus hic sunt temporibus rem deserunt consequatur sit mollitia alias aut</p><Link className="btn btn-learmore-2" href="#"><span>
+                                                <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clipPath="url(#clip0_24_999)">
+                                                        <path d="M10.6557 3.81393L1.71996 12.7497L0.251953 11.2817L9.18664 2.34592H1.31195V0.269531H12.7321V11.6897H10.6557V3.81393Z" fill="#191919" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_24_999">
+                                                            <rect width={13} height={13} fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg></span>View Integration</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-4">
+                                    <div className="card-integration">
+                                        <div className="card-image">
+                                            <div className="card-image-left"><img src="/assets/imgs/page/integration/logo15.png" alt="Adfinity Clarity" /></div>
+                                            <div className="card-image-info">
+                                                <h5>Mail Chip</h5>
+                                                <p className="text-md neutral-500">Company</p>
+                                            </div>
+                                        </div>
+                                        <div className="card-info">
+                                            <p className="text-md">Aut inventore unde id aliquid sint aut laudantium explicabo qui earum fugit. Est rerum possimus hic sunt temporibus rem deserunt consequatur sit mollitia alias aut</p><Link className="btn btn-learmore-2" href="#"><span>
+                                                <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clipPath="url(#clip0_24_999)">
+                                                        <path d="M10.6557 3.81393L1.71996 12.7497L0.251953 11.2817L9.18664 2.34592H1.31195V0.269531H12.7321V11.6897H10.6557V3.81393Z" fill="#191919" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_24_999">
+                                                            <rect width={13} height={13} fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg></span>View Integration</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="text-center">
+                                    <nav aria-label="Page navigation example">
+                                        <ul className="pagination">
+                                            <li className="page-item"><Link className="page-link" href="#" aria-label="Previous"><span aria-hidden="true">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
+                                                    <path d="M10 3.33398L5.33333 8.00065L10 12.6673" stroke="#191919" strokeWidth="1.33333" strokeLinecap="round" strokeLinejoin="round" />
+                                                </svg></span></Link></li>
+                                            <li className="page-item"><Link className="page-link" href="#">1</Link></li>
+                                            <li className="page-item"><Link className="page-link active" href="#">2</Link></li>
+                                            <li className="page-item"><Link className="page-link" href="#">3</Link></li>
+                                            <li className="page-item"><Link className="page-link" href="#">4</Link></li>
+                                            <li className="page-item"><Link className="page-link" href="#">5</Link></li>
+                                            <li className="page-item"><Link className="page-link" href="#">6</Link></li>
+                                            <li className="page-item"><Link className="page-link" href="#" aria-label="Next"><span aria-hidden="true">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
+                                                    <path d="M6 3.33398L10.6667 8.00065L6 12.6673" stroke="#191919" strokeWidth="1.33333" strokeLinecap="round" strokeLinejoin="round" />
+                                                </svg></span></Link></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
           {/* ── Section 6: Get in Touch ── */}
           <section className='section-box box-get-touch-section'>
             <div className='container'>
