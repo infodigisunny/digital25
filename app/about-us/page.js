@@ -220,11 +220,11 @@ We are not here to sell you something and then disappear. We are here to help yo
                   <Link className='btn btn-brand-4-sm' href='#'>
                     Our people
                   </Link>
-                  <h2 className='mb-20 mt-20'>Meet Our Team</h2>
+                  <h2 className='mb-20 mt-20'>The team you will work with</h2>
                   <p className='text-md neutral-500'>
-                    This is our team, a lot of smiling happy people who work hard to
+                    There is no handing off your account to someone you have never spoken to. Our strategists, search specialists, and content. Paid media managers are people you get to know. 
                     <br className='d-none d-lg-block' />
-                    empower your teams.
+                    They ask questions about your business, show up to calls prepared, and treat your account with care.
                   </p>
                 </div>
                 <div className='box-swiper mt-60'>
