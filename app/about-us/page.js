@@ -562,26 +562,6 @@ We are not here to sell you something and then disappear. We are here to help yo
                                         </div>
                                     </div>
                                 </div>
-                                <div className="text-center">
-                                    <nav aria-label="Page navigation example">
-                                        <ul className="pagination">
-                                            <li className="page-item"><Link className="page-link" href="#" aria-label="Previous"><span aria-hidden="true">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
-                                                    <path d="M10 3.33398L5.33333 8.00065L10 12.6673" stroke="#191919" strokeWidth="1.33333" strokeLinecap="round" strokeLinejoin="round" />
-                                                </svg></span></Link></li>
-                                            <li className="page-item"><Link className="page-link" href="#">1</Link></li>
-                                            <li className="page-item"><Link className="page-link active" href="#">2</Link></li>
-                                            <li className="page-item"><Link className="page-link" href="#">3</Link></li>
-                                            <li className="page-item"><Link className="page-link" href="#">4</Link></li>
-                                            <li className="page-item"><Link className="page-link" href="#">5</Link></li>
-                                            <li className="page-item"><Link className="page-link" href="#">6</Link></li>
-                                            <li className="page-item"><Link className="page-link" href="#" aria-label="Next"><span aria-hidden="true">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
-                                                    <path d="M6 3.33398L10.6667 8.00065L6 12.6673" stroke="#191919" strokeWidth="1.33333" strokeLinecap="round" strokeLinejoin="round" />
-                                                </svg></span></Link></li>
-                                        </ul>
-                                    </nav>
-                                </div>
                             </div>
                         </div>
                     </section>
