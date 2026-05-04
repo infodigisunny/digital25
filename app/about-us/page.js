@@ -7,6 +7,54 @@ import OfficeSlider from "@/components/slider/OfficeSlider";
 import Team2Slider from "@/components/slider/Team2Slider";
 import Link from "next/link";
 import Head from "next/head";
+import { useState, useEffect } from 'react';
+
+const [form, setForm] = useState({
+    name: '',
+    email: '',
+    mobile: '',
+    website: '',
+    message: '',
+  });
+
+  const [status, setStatus] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [showModal, setShowModal] = useState(false); // ✅ Modal state
+
+  // ✅ Header button ka event suno
+  useEffect(() => {
+    const handler = () => setShowModal(true);
+    window.addEventListener("openProposalModal", handler);
+    return () => window.removeEventListener("openProposalModal", handler);
+  }, []);
+
+  const handleChange = (e) => {
+    setForm({
+      ...form,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    setStatus('Submitting...');
+
+    try {
+      const res = await axios.post('/api/sendEmail', form);
+      if (res.status === 200) {
+        setStatus('Form submitted successfully!');
+        setForm({ name: '', email: '', mobile: '', website: '', message: '' });
+        setTimeout(() => setShowModal(false), 2000); // ✅ 2 sec baad modal band
+      } else {
+        setStatus('Failed to submit. Please try again.');
+      }
+    } catch (error) {
+      setStatus('Failed to send message. Try again later.');
+    } finally {
+      setLoading(false);
+    }
+  };
 
 export default function About() {
   return (
