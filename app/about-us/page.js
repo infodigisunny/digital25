@@ -6,6 +6,7 @@ import Layout from "@/components/layout/Layout";
 import OfficeSlider from "@/components/slider/OfficeSlider";
 import Team2Slider from "@/components/slider/Team2Slider";
 import Link from "next/link";
+import ProposalModal from "@/components/ProposalModal";
 
 export const metadata = {
   title: "About Award-Winning SEO Company | Adfinity Clarity",
@@ -83,7 +84,15 @@ export default function About() {
                           />
                         </svg>
                       </Link>
-                      <Link className='btn btn-learmore-2' href='#'>
+                      <Link
+  href="#"
+  onClick={(e) => {
+    e.preventDefault();
+    if (typeof window !== "undefined") {
+      window.dispatchEvent(new Event("openProposalModal"));
+    }
+  }}
+>
                         <span>
                           <svg
                             width={39}
@@ -425,6 +434,7 @@ We are not here to sell you something and then disappear. We are here to help yo
   </div>
 </div>
         </div>
+        <ProposalModal />
       </Layout>
       
     </>
