@@ -6,26 +6,49 @@ import Layout from "@/components/layout/Layout";
 import OfficeSlider from "@/components/slider/OfficeSlider";
 import Team2Slider from "@/components/slider/Team2Slider";
 import Link from "next/link";
-import Head from "next/head";
+
+export const metadata = {
+  title: "About Award-Winning SEO Company | Adfinity Clarity",
+  description: "Looking for a leading SEO & Digital Marketing Agency with a global presence? Learn about Adfinity Clarity passion for driving growth & client expectations.",
+   alternates: {
+    canonical: "https://adfinityclarity.com/about-us", // 🔁 Replace with your page's actual canonical URL
+    languages: {
+      "en": "https://adfinityclarity.com/about-us",
+      "x-default": "https://adfinityclarity.com/about-us",
+  },
+  },
+  openGraph: {
+    title: "About Award-Winning SEO Company | Adfinity Clarity",
+    description:
+      "Looking for a leading SEO & Digital Marketing Agency with a global presence? Learn about Adfinity Clarity passion for driving growth & client expectations.",
+    url: "https://adfinityclarity.com/about-us",
+    siteName: "Adfinityclarity.com/about-us",
+    type: "website",
+    locale: "en_US",
+    images: [
+      {
+        url: "https://adfinityclarity.com/assets/imgs/page/features/convin.png",
+        width: 1600,
+        height: 720,
+        type: "image/png",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Award-Winning SEO Company | Adfinity Clarity",
+    description:
+      "Looking for a leading SEO & Digital Marketing Agency with a global presence? Learn about Adfinity Clarity passion for driving growth & client expectations.",
+    site: "@adfinityclarity",
+    images: ["https://adfinityclarity.com/assets/imgs/page/features/convin.png"],
+  },
+
+};
 
 
 export default function About() {
   return (
     <>
-      <Head>
-        <title>About Us | Adfinity Clarity – Transparent & Smart Ad Management</title>
-        <meta
-          name="description"
-          content="Learn about Adfinity Clarity – our mission is to bring complete transparency, smart automation, and data-driven insights to digital advertising management. Meet the team behind the platform."
-        />
-        <meta property="og:title" content="About Us | Adfinity Clarity" />
-        <meta
-          property="og:description"
-          content="Discover how Adfinity Clarity is redefining digital ad management with transparency, clarity, and intelligent automation."
-        />
-        <meta property="og:type" content="website" />
-      </Head>
-
       <ResizeContainer />
       <Layout headerStyle={1} footerStyle={1} logoWhite>
         <div style={{ marginTop: "100px" }}>
