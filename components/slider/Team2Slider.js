@@ -43,7 +43,7 @@ export default function Team2Slider() {
                 <Swiper {...swiperOptions}>
                     <SwiperSlide>
                         <div className="card-team-2">
-                            <div className="card-image"><img src="/assets/imgs/page/homepage2/Ethan.png" alt="Ethan Hawke" /></div>
+                            <div className="card-image"><img src="/assets/imgs/page/about/Ethan.webp" alt="Ethan Hawke" /></div>
                             <div className="card-info"><Link href="https://www.linkedin.com/in/ethan-hawke-b688152a5/">
                                 <h6>Ethan Hawke</h6>
                             </Link>
@@ -53,31 +53,31 @@ export default function Team2Slider() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="card-team-2">
-                            <div className="card-image"><img src="/assets/imgs/page/homepage2/team2.png" alt="Adfinity Clarity" /></div>
+                            <div className="card-image"><img src="/assets/imgs/page/about/Sunny.webp" alt="Sunny" /></div>
                             <div className="card-info"><Link href="#">
-                                <h6>Foysal Khan</h6>
+                                <h6>Sunny Singh</h6>
                             </Link>
-                                <p className="text-lg neutral-600">Master Trainer</p>
+                                <p className="text-lg neutral-600">SEO Manager</p>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="card-team-2">
-                            <div className="card-image"><img src="/assets/imgs/page/homepage2/team3.png" alt="Adfinity Clarity" /></div>
+                            <div className="card-image"><img src="/assets/imgs/page/about/Aiden.webp" alt="Aiden" /></div>
                             <div className="card-info"><Link href="#">
-                                <h6>Ava Smith</h6>
+                                <h6>Aiden Wills</h6>
                             </Link>
-                                <p className="text-lg neutral-600">Master Trainer</p>
+                                <p className="text-lg neutral-600">Content Writer</p>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="card-team-2">
-                            <div className="card-image"><img src="/assets/imgs/page/homepage2/team4.png" alt="Adfinity Clarity" /></div>
+                            <div className="card-image"><img src="/assets/imgs/page/about/Ian.webp" alt="Ian" /></div>
                             <div className="card-info"><Link href="#">
-                                <h6>Alexander Hall</h6>
+                                <h6>Ian Baxter</h6>
                             </Link>
-                                <p className="text-lg neutral-600">Master Trainer</p>
+                                <p className="text-lg neutral-600">Social Media Manager</p>
                             </div>
                         </div>
                     </SwiperSlide>
