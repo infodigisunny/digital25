@@ -26,7 +26,7 @@ export default function About() {
       </Head>
 
       <ResizeContainer />
-      <Layout headerStyle={1} footerStyle={1}>
+      <Layout headerStyle={1} footerStyle={1} logoWhite>
         <div style={{ marginTop: "100px" }}>
 
           {/* ── Section 1: Hero ── */}
