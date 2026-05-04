@@ -43,6 +43,9 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                                         <li className={isActive.key == 3 ? "has-children active" : "has-children"}>
                                         <Link href="/seo-search-engine-optimization" aria-label="SEO">SEO</Link>
                                         </li>
+                                        <li className={isActive.key == 4 ? "has-children active" : "has-children"}>
+                                        <Link href="/about-us" aria-label="About Us">About Us</Link>
+                                        </li>
                                     </ul>
                                 </nav><br></br>
                             </div>
