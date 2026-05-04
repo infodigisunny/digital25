@@ -7,7 +7,6 @@ import OfficeSlider from "@/components/slider/OfficeSlider";
 import Team2Slider from "@/components/slider/Team2Slider";
 import Link from "next/link";
 import Head from "next/head";
-import Section1 from "@/components/Section1";
 
 
 export default function About() {
@@ -402,15 +401,6 @@ We are not here to sell you something and then disappear. We are here to help yo
 
   </div>
 </div>
-<div style={{ textAlign: "center", marginTop: "25px" }}>
-                <button
-                  type="button"
-                  className="btn btn-subscribe"
-                  onClick={() => window.dispatchEvent(new Event("openProposalModal"))}
-                >
-                  Get a free SEO audit
-                </button>
-              </div>
         </div>
       </Layout>
     </>
