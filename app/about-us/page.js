@@ -370,7 +370,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                                                             <rect width={13} height={13} fill="white" />
                                                         </clipPath>
                                                     </defs>
-                                                </svg></span>Follow Us on Facebook</Link>
+                                                </svg></span>Explore Our Feed</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -393,7 +393,7 @@ We are not here to sell you something and then disappear. We are here to help yo
                                                             <rect width={13} height={13} fill="white" />
                                                         </clipPath>
                                                     </defs>
-                                                </svg></span>Explore Our Feed</Link>
+                                                </svg></span>Follow Us on Facebook</Link>
                                         </div>
                                     </div>
                                 </div>
