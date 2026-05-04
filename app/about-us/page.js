@@ -6,7 +6,6 @@ import Layout from "@/components/layout/Layout";
 import OfficeSlider from "@/components/slider/OfficeSlider";
 import Team2Slider from "@/components/slider/Team2Slider";
 import Link from "next/link";
-import Section1 from "@/components/sections/proposalbutton/modup.js";
 
 export const metadata = {
   title: "About Award-Winning SEO Company | Adfinity Clarity",
