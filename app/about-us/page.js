@@ -6,7 +6,6 @@ import Layout from "@/components/layout/Layout";
 import OfficeSlider from "@/components/slider/OfficeSlider";
 import Team2Slider from "@/components/slider/Team2Slider";
 import Link from "next/link";
-import ProposalModal from "@/components/ProposalModal";
 
 export const metadata = {
   title: "About Award-Winning SEO Company | Adfinity Clarity",
@@ -70,17 +69,20 @@ export default function About() {
                       It turns out that most of them just never had the right people to help them.
                     </p>
                     <div className='box-buttons-feature-4'>
-                      <Link
-  href="#"
-  onClick={(e) => {
-    e.preventDefault();
-    if (typeof window !== "undefined") {
-      window.dispatchEvent(new Event("openProposalModal"));
-    }
-  }}
->
-  Let's Have a Conversation
-</Link>
+                      <Link className='btn btn-brand-4-medium mr-20' href='#'>
+                        See What We Do
+                        <svg
+                          width={22}
+                          height={8}
+                          viewBox='0 0 22 8'
+                          fill='none'
+                          xmlns='http://www.w3.org/2000/svg'>
+                          <path
+                            d='M22 3.99934L18.4791 0.478516V3.30642H0V4.69236H18.4791V7.52031L22 3.99934Z'
+                            fill='true'
+                          />
+                        </svg>
+                      </Link>
                       <Link className='btn btn-learmore-2' href='#'>
                         <span>
                           <svg
@@ -423,7 +425,6 @@ We are not here to sell you something and then disappear. We are here to help yo
   </div>
 </div>
         </div>
-        <ProposalModal />
       </Layout>
       
     </>
