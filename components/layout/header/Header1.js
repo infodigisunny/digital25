@@ -67,9 +67,9 @@ export default function Header1({
                     <li className='has-children'>
                           <Link href='/seo-search-engine-optimization'>SEO</Link>
                         </li>
-                    <Link className='active' href='/about-us' aria-label='About Us'>
-                        About Us
-                      </Link>
+                    <li className='has-children'>
+                      <Link href='/about-us'>About Us</Link>
+                    </li>
                     {/* <li className='mega-li has-children'>
                       <Link href='#'>Pages</Link>
                       <div className='mega-menu'>
