@@ -6,6 +6,7 @@ import Layout from "@/components/layout/Layout";
 import OfficeSlider from "@/components/slider/OfficeSlider";
 import Team2Slider from "@/components/slider/Team2Slider";
 import Link from "next/link";
+import ProposalModal from "@/components/elements/ProposalModal";
 
 
 export const metadata = {
@@ -426,6 +427,7 @@ We are not here to sell you something and then disappear. We are here to help yo
   </div>
 </div>
         </div>
+        <ProposalModal />
       </Layout>
       
     </>
