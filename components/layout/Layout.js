@@ -1,4 +1,3 @@
-
 'use client'
 import { useEffect, useState } from "react"
 import AddClassBody from '../elements/AddClassBody'
@@ -10,10 +9,10 @@ import Footer2 from './footer/Footer2'
 import Footer3 from './footer/Footer3'
 import Footer4 from './footer/Footer4'
 import Header1 from "./header/Header1"
+import ProposalModal from '../elements/ProposalModal' // ✅ ADD
 
 export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, topBar, headerCls, logoWhite }) {
     const [scroll, setScroll] = useState(0)
-    // Moblile Menu
     const [isMobileMenu, setMobileMenu] = useState(false)
     const handleMobileMenu = () => {
         setMobileMenu(!isMobileMenu)
@@ -34,6 +33,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
             }
         })
     }, [])
+
     return (
         <>
             <AddClassBody />
@@ -45,17 +45,17 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
 
             <main className="main">
                 {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
-
                 {children}
             </main>
 
-            {!footerStyle && < Footer1 />}
-            {footerStyle == 1 ? < Footer1 /> : null}
-            {footerStyle == 2 ? < Footer2 /> : null}
-            {footerStyle == 3 ? < Footer3 /> : null}
-            {footerStyle == 4 ? < Footer4 /> : null}
+            {!footerStyle && <Footer1 />}
+            {footerStyle == 1 ? <Footer1 /> : null}
+            {footerStyle == 2 ? <Footer2 /> : null}
+            {footerStyle == 3 ? <Footer3 /> : null}
+            {footerStyle == 4 ? <Footer4 /> : null}
 
             <BackToTop />
+            <ProposalModal /> {/* ✅ ADD - Har page pe modal available rahega */}
         </>
     )
 }
