@@ -85,7 +85,11 @@ export default function About() {
                           />
                         </svg>
                       </Link>
-                      <Link className='btn btn-learmore-2' href='#'>
+                      <Link className='btn btn-learmore-2' href='#' 
+                      onClick={(e) => {
+                      e.preventDefault();
+                      window.dispatchEvent(new CustomEvent("openProposalModal"));
+                      }}>
                         <span>
                           <svg
                             width={39}
