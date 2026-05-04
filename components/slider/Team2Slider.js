@@ -54,7 +54,7 @@ export default function Team2Slider() {
                     <SwiperSlide>
                         <div className="card-team-2">
                             <div className="card-image"><img src="/assets/imgs/page/about/Sunny.webp" alt="Sunny" /></div>
-                            <div className="card-info"><Link href="#">
+                            <div className="card-info"><Link href="https://www.linkedin.com/in/sunny-singh-b00117129/">
                                 <h6>Sunny Singh</h6>
                             </Link>
                                 <p className="text-lg neutral-600">SEO Manager</p>
@@ -64,7 +64,7 @@ export default function Team2Slider() {
                     <SwiperSlide>
                         <div className="card-team-2">
                             <div className="card-image"><img src="/assets/imgs/page/about/Aiden.webp" alt="Aiden" /></div>
-                            <div className="card-info"><Link href="#">
+                            <div className="card-info"><Link href="https://about.me/aidenwills">
                                 <h6>Aiden Wills</h6>
                             </Link>
                                 <p className="text-lg neutral-600">Content Writer</p>
@@ -74,56 +74,16 @@ export default function Team2Slider() {
                     <SwiperSlide>
                         <div className="card-team-2">
                             <div className="card-image"><img src="/assets/imgs/page/about/Ian.webp" alt="Ian" /></div>
-                            <div className="card-info"><Link href="#">
+                            <div className="card-info"><Link href="https://about.me/ibaxter">
                                 <h6>Ian Baxter</h6>
                             </Link>
                                 <p className="text-lg neutral-600">Social Media Manager</p>
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="card-team-2">
-                            <div className="card-image"><img src="/assets/imgs/page/homepage2/team1.png" alt="Adfinity Clarity" /></div>
-                            <div className="card-info"><Link href="#">
-                                <h6>Olivia Williams</h6>
-                            </Link>
-                                <p className="text-lg neutral-600">Master Trainer</p>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="card-team-2">
-                            <div className="card-image"><img src="/assets/imgs/page/homepage2/team2.png" alt="Adfinity Clarity" /></div>
-                            <div className="card-info"><Link href="#">
-                                <h6>Foysal Khan</h6>
-                            </Link>
-                                <p className="text-lg neutral-600">Master Trainer</p>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="card-team-2">
-                            <div className="card-image"><img src="/assets/imgs/page/homepage2/team3.png" alt="Adfinity Clarity" /></div>
-                            <div className="card-info"><Link href="#">
-                                <h6>Ava Smith</h6>
-                            </Link>
-                                <p className="text-lg neutral-600">Master Trainer</p>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="card-team-2">
-                            <div className="card-image"><img src="/assets/imgs/page/homepage2/team4.png" alt="Adfinity Clarity" /></div>
-                            <div className="card-info"><Link href="#">
-                                <h6>Alexander Hall</h6>
-                            </Link>
-                                <p className="text-lg neutral-600">Master Trainer</p>
-                            </div>
-                        </div>
-                    </SwiperSlide>
                 </Swiper>
             </div>
-            <div className="box-button-slider box-button-slider-team">
+           {/* <div className="box-button-slider box-button-slider-team">
                 <div className="swiper-button-prev swiper-button-prev-testimonials swiper-button-prev-3">
                     <svg width={16} height={16} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6.66667 3.33398L2 8.00065M2 8.00065L6.66667 12.6673M2 8.00065H14" stroke="true" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
@@ -136,7 +96,7 @@ export default function Team2Slider() {
                         </path>
                     </svg>
                 </div>
-            </div>
+            </div>*/}
         </>
     )
 }
