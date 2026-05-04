@@ -426,6 +426,60 @@ We are not here to sell you something and then disappear. We are here to help yo
 </div>
         </div>
       </Layout>
+      {/* ✅ MODAL POPUP */}
+      {showModal && (
+        <div
+          onClick={() => setShowModal(false)}
+          style={{
+            position: "fixed", top: 0, left: 0,
+            width: "100vw", height: "100vh",
+            background: "rgba(0,0,0,0.6)",
+            display: "flex", alignItems: "center", justifyContent: "center",
+            zIndex: 9999,
+          }}
+        >
+          <div
+            onClick={(e) => e.stopPropagation()}
+            style={{
+              background: "#fff", padding: "36px", borderRadius: "12px",
+              width: "90%", maxWidth: "500px",
+              boxShadow: "0 0 30px rgba(0,0,0,0.2)", position: "relative",
+            }}
+          >
+            <button onClick={() => setShowModal(false)}
+              style={{ position: "absolute", top: "12px", right: "16px", background: "none", border: "none", fontSize: "22px", cursor: "pointer" }}>
+              ✕
+            </button>
+
+            <h3 style={{ marginBottom: "20px", fontWeight: "700", textAlign: "center" }}>
+              Get a Free Proposal
+            </h3>
+
+            <form onSubmit={handleSubmit}>
+              <div className="form-group mb-3">
+                <input type="text" name="name" value={form.name} onChange={handleChange} required placeholder="NAME*" className="form-control" style={{ width: "100%", padding: "10px" }} />
+              </div>
+              <div className="form-group mb-3">
+                <input type="email" name="email" value={form.email} onChange={handleChange} required placeholder="EMAIL*" className="form-control" style={{ width: "100%", padding: "10px" }} />
+              </div>
+              <div className="form-group mb-3">
+                <input type="tel" name="mobile" value={form.mobile} onChange={handleChange} required placeholder="MOBILE*" className="form-control" style={{ width: "100%", padding: "10px" }} />
+              </div>
+              <div className="form-group mb-3">
+                <input type="text" name="website" value={form.website} onChange={handleChange} required placeholder="WEBSITE*" className="form-control" style={{ width: "100%", padding: "10px" }} />
+              </div>
+              <div className="form-group mb-3">
+                <textarea name="message" value={form.message} onChange={handleChange} required rows={4} placeholder="MESSAGE*" className="form-control" style={{ width: "100%", padding: "10px" }} />
+              </div>
+              <button type="submit" disabled={loading}
+                style={{ background: "#000", color: "#fff", padding: "10px 24px", borderRadius: "6px", border: "none", cursor: "pointer", width: "100%", marginTop: "6px" }}>
+                {loading ? "Submitting..." : "SEND ME A PROPOSAL →"}
+              </button>
+              {status && <p style={{ marginTop: "10px", color: "#555" }}>{status}</p>}
+            </form>
+          </div>
+        </div>
+      )}
     </>
   );
 }
