@@ -77,7 +77,7 @@ export default function OfficeSlider() {
                                     <h5 className="mb-12">India</h5>
                                     <p className="mb-12 text-md neutral-300">In India, our team supports businesses that want to scale and international companies that want to establish a strong presence.</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
-                                    <Link className="btn btn-link-white" href="#">
+                                    <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
                                             <g clipPath="url(#clip0_5_2504)">
