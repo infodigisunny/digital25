@@ -33,7 +33,7 @@ export default function OfficeSlider() {
                                     <h5 className="mb-12">United States</h5>
                                     <p className="mb-12 text-md neutral-300">In the United States, we work with businesses across eCommerce, B2B, healthcare, and professional services. Our US team understands search behavior, competitor landscapes, and buyer intent patterns.</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
-                                    <Link className="btn btn-link-white" href="#">
+                                    <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
                                             <g clipPath="url(#clip0_5_2504)">
@@ -55,7 +55,7 @@ export default function OfficeSlider() {
                                     <h5 className="mb-12">United Kingdom</h5>
                                     <p className="mb-12 text-md neutral-300">In the United Kingdom, our team navigates the search market and its quirks. They understand content, Google UK dynamics, and industry-specific search trends.</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
-                                    <Link className="btn btn-link-white" href="#">
+                                    <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
                                             <g clipPath="url(#clip0_5_2504)">
@@ -99,7 +99,7 @@ export default function OfficeSlider() {
                                     <h5 className="mb-12">Australia</h5>
                                     <p className="mb-12 text-md neutral-300">In Australia, our team builds campaigns that reflect how Australian audiences search, trust, and buy.</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
-                                    <Link className="btn btn-link-white" href="#">
+                                    <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
                                             <g clipPath="url(#clip0_5_2504)">
@@ -122,7 +122,7 @@ export default function OfficeSlider() {
                                     <p className="mb-12 text-md neutral-300">4517 Washington Ave. Manchester,
                                         Kentucky 39495</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
-                                    <Link className="btn btn-link-white" href="#">
+                                    <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
                                             <g clipPath="url(#clip0_5_2504)">
@@ -149,7 +149,7 @@ export default function OfficeSlider() {
                                     <p className="mb-12 text-md neutral-300">4517 Washington Ave. Manchester,
                                         Kentucky 39495</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
-                                    <Link className="btn btn-link-white" href="#">
+                                    <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
                                             <g clipPath="url(#clip0_5_2504)">
@@ -172,7 +172,7 @@ export default function OfficeSlider() {
                                     <p className="mb-12 text-md neutral-300">4517 Washington Ave. Manchester,
                                         Kentucky 39495</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
-                                    <Link className="btn btn-link-white" href="#">
+                                    <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
                                             <g clipPath="url(#clip0_5_2504)">
@@ -195,7 +195,7 @@ export default function OfficeSlider() {
                                     <p className="mb-12 text-md neutral-300">4517 Washington Ave. Manchester,
                                         Kentucky 39495</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
-                                    <Link className="btn btn-link-white" href="#">
+                                    <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
                                             <g clipPath="url(#clip0_5_2504)">
@@ -218,7 +218,7 @@ export default function OfficeSlider() {
                                     <p className="mb-12 text-md neutral-300">4517 Washington Ave. Manchester,
                                         Kentucky 39495</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
-                                    <Link className="btn btn-link-white" href="#">
+                                    <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
                                             <g clipPath="url(#clip0_5_2504)">
@@ -241,7 +241,7 @@ export default function OfficeSlider() {
                                     <p className="mb-12 text-md neutral-300">4517 Washington Ave. Manchester,
                                         Kentucky 39495</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
-                                    <Link className="btn btn-link-white" href="#">
+                                    <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
                                             <g clipPath="url(#clip0_5_2504)">
