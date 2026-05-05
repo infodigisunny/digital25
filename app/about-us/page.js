@@ -7,6 +7,7 @@ import OfficeSlider from "@/components/slider/OfficeSlider";
 import Team2Slider from "@/components/slider/Team2Slider";
 import Link from "next/link";
 import ProposalModal from "@/components/elements/ProposalModal";
+import ModalBtn from "@/components/elements/ModalBtn"
 
 
 export const metadata = {
@@ -85,30 +86,22 @@ export default function About() {
                           />
                         </svg>
                       </Link>
-                      <Link className='btn btn-learmore-2' href='#' >
-                        <span>
-                          <svg
-                            width={39}
-                            height={38}
-                            viewBox='0 0 39 38'
-                            fill='none'
-                            xmlns='http://www.w3.org/2000/svg'>
-                            <rect x='0.5' width={38} height={38} rx={19} fill='#191919' />
-                            <g clipPath='url(#clip0_1_376)'>
-                              <path
-                                d='M24.1537 16.8139L15.218 25.7497L13.75 24.2817L22.6847 15.3459H14.81V13.2695H26.2301V24.6897H24.1537V16.8139Z'
-                                fill='#C5FF55'
-                              />
-                            </g>
-                            <defs>
-                              <clipPath id='clip0_1_376'>
-                                <rect width={13} height={13} fill='white' transform='translate(13.5 13)' />
-                              </clipPath>
-                            </defs>
-                          </svg>
-                        </span>
-                        Let's Have a Conversation
-                      </Link>
+                      <ModalBtn className="btn btn-learmore-2">
+  <span>
+    <svg width={39} height={38} viewBox='0 0 39 38' fill='none' xmlns='http://www.w3.org/2000/svg'>
+      <rect x='0.5' width={38} height={38} rx={19} fill='#191919' />
+      <g clipPath='url(#clip0_1_376)'>
+        <path d='M24.1537 16.8139L15.218 25.7497L13.75 24.2817L22.6847 15.3459H14.81V13.2695H26.2301V24.6897H24.1537V16.8139Z' fill='#C5FF55' />
+      </g>
+      <defs>
+        <clipPath id='clip0_1_376'>
+          <rect width={13} height={13} fill='white' transform='translate(13.5 13)' />
+        </clipPath>
+      </defs>
+    </svg>
+  </span>
+  Let's Have a Conversation
+</ModalBtn>
                     </div>
                   </div>
                 </div>
