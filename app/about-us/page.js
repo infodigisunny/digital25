@@ -408,12 +408,12 @@ We are not here to sell you something and then disappear. We are here to help yo
     {/* Button bottom + center */}
     <div style={{ width: "100%", textAlign: "center", marginTop: "25px" }}>
       <form action="#">
-        <button className="btn btn-subscribe" type="submit">
-          Get a free SEO audit
-          <svg width={22} height={22} viewBox="0 0 22 22" fill="none">
-            <path d="M22 10.9993L18.4791 7.47852V10.3064H0V11.6924H18.4791V14.5203L22 10.9993Z" fill="true" />
-          </svg>
-        </button>
+        <ModalBtn className="btn btn-subscribe">
+  Get a free SEO audit
+  <svg width={22} height={22} viewBox="0 0 22 22" fill="none">
+    <path d="M22 10.9993L18.4791 7.47852V10.3064H0V11.6924H18.4791V14.5203L22 10.9993Z" fill="true" />
+  </svg>
+</ModalBtn>
       </form>
     </div>
 
