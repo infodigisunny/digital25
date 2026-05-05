@@ -85,11 +85,10 @@ export default function About() {
                           />
                         </svg>
                       </Link>
-                      <Link 
-  className='btn btn-learmore-2' 
+                      <Link className='btn btn-learmore-2' 
   href='#'
-  onClick={() => window.openModal()}
->
+  onClick="openModal()"
+> 
                         <span>
                           <svg
                             width={39}
