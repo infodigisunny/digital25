@@ -85,7 +85,7 @@ export default function About() {
                           />
                         </svg>
                       </Link>
-            <Link 
+            <a 
   className='btn btn-learmore-2' 
   href='#'
   onClick={() => window.openModal()}
@@ -112,7 +112,7 @@ export default function About() {
                           </svg>
                         </span>
                         Let's Have a Conversation
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
