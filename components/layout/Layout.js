@@ -9,21 +9,25 @@ import Footer2 from './footer/Footer2'
 import Footer3 from './footer/Footer3'
 import Footer4 from './footer/Footer4'
 import Header1 from "./header/Header1"
-import ProposalModal from '../elements/ProposalModal' // ✅ ADD
+import ProposalModal from '../elements/ProposalModal'
 
 export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, topBar, headerCls, logoWhite }) {
     const [scroll, setScroll] = useState(0)
     const [isMobileMenu, setMobileMenu] = useState(false)
+
     const handleMobileMenu = () => {
         setMobileMenu(!isMobileMenu)
         !isMobileMenu ? document.body.classList.add("mobile-menu-active") : document.body.classList.remove("mobile-menu-active")
     }
 
     useEffect(() => {
+        // ✅ Global function — kisi bhi button pe onclick="openModal()" likhdo, kaam karega
+        window.openModal = () => {
+            window.dispatchEvent(new CustomEvent("openProposalModal"))
+        }
+
         const WOW = require('wowjs')
-        window.wow = new WOW.WOW({
-            live: false
-        })
+        window.wow = new WOW.WOW({ live: false })
         window.wow.init()
 
         document.addEventListener("scroll", () => {
@@ -55,7 +59,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
             {footerStyle == 4 ? <Footer4 /> : null}
 
             <BackToTop />
-            <ProposalModal /> {/* ✅ ADD - Har page pe modal available rahega */}
+            <ProposalModal />
         </>
     )
 }
