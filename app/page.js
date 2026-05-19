@@ -65,7 +65,7 @@ export default function Home() {
 <Script
   id="image-schema"
   type="application/ld+json"
-  strategy="beforeInteractive"
+  strategy="afterInteractive"
   dangerouslySetInnerHTML={{
     __html: JSON.stringify({
       "@context": "https://schema.org",
@@ -82,7 +82,7 @@ export default function Home() {
 <Script
   id="breadcrumb-schema"
   type="application/ld+json"
-  strategy="beforeInteractive"
+  strategy="afterInteractive"
   dangerouslySetInnerHTML={{
     __html: JSON.stringify({
       "@context": "https://schema.org",
@@ -104,7 +104,7 @@ export default function Home() {
 <Script
   id="webpage-schema"
   type="application/ld+json"
-  strategy="beforeInteractive"
+  strategy="afterInteractive"
   dangerouslySetInnerHTML={{
     __html: JSON.stringify({
       "@context": "https://schema.org",
@@ -134,7 +134,7 @@ export default function Home() {
 <Script
   id="faq-schema"
   type="application/ld+json"
-  strategy="beforeInteractive"
+  strategy="afterInteractive"
   dangerouslySetInnerHTML={{
     __html: JSON.stringify({
       "@context": "https://schema.org",
