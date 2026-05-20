@@ -12,7 +12,7 @@ import ModalBtn from "@/components/elements/ModalBtn"
 
 export const metadata = {
   title: "About Award-Winning SEO Company | Adfinity Clarity",
-  description: "Looking for a leading SEO & Digital Marketing Agency with a global presence? Learn about Adfinity Clarity passion for driving growth & client expectations.",
+  description: "Adfinity Clarity is a top-rated SEO and Digital Marketing Agency helping businesses grow revenue through data-driven strategies. Learn our story today.",
    alternates: {
     canonical: "https://adfinityclarity.com/about-us", // 🔁 Replace with your page's actual canonical URL
     languages: {
@@ -23,7 +23,7 @@ export const metadata = {
   openGraph: {
     title: "About Award-Winning SEO Company | Adfinity Clarity",
     description:
-      "Looking for a leading SEO & Digital Marketing Agency with a global presence? Learn about Adfinity Clarity passion for driving growth & client expectations.",
+      "Adfinity Clarity is a top-rated SEO and Digital Marketing Agency helping businesses grow revenue through data-driven strategies. Learn our story today.",
     url: "https://adfinityclarity.com/about-us",
     siteName: "Adfinityclarity.com/about-us",
     type: "website",
@@ -41,7 +41,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "About Award-Winning SEO Company | Adfinity Clarity",
     description:
-      "Looking for a leading SEO & Digital Marketing Agency with a global presence? Learn about Adfinity Clarity passion for driving growth & client expectations.",
+      "Adfinity Clarity is a top-rated SEO and Digital Marketing Agency helping businesses grow revenue through data-driven strategies. Learn our story today.",
     site: "@adfinityclarity",
     images: ["https://adfinityclarity.com/assets/imgs/page/features/convin.png"],
   },
