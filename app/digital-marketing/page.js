@@ -10,7 +10,7 @@ import Section7 from "@/components/sections/home4/Section7"
 //import Section8 from "@/components/sections/home4/Section8"
 // import Section9 from "@/components/sections/home4/Section9"
 export const metadata = {
-  title: "Digital Marketing Services | SEO & Performance Marketing",
+  title: "Digital Marketing Services | SEO and Performance Marketing",
   description: "Digital Marketing Services, like SEO, PPC, Content Marketing, Email and Performance Marketing, Lead Generation with Adfinity Clarity online marketing services",
    alternates: {
     canonical: "https://adfinityclarity.com/digital-marketing", // 🔁 Replace with your page's actual canonical URL
@@ -20,7 +20,7 @@ export const metadata = {
   },
   },
   openGraph: {
-    title: "Digital Marketing Services | SEO & Performance Marketing",
+    title: "Digital Marketing Services | SEO and Performance Marketing",
     description:
       "Digital Marketing Services, like SEO, PPC, Content Marketing, Email and Performance Marketing, Lead Generation with Adfinity Clarity online marketing services",
     url: "https://adfinityclarity.com/digital-marketing",
@@ -38,7 +38,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Digital Marketing Services | SEO & Performance Marketing",
+    title: "Digital Marketing Services | SEO and Performance Marketing",
     description:
       "Digital Marketing Services, like SEO, PPC, Content Marketing, Email and Performance Marketing, Lead Generation with Adfinity Clarity online marketing services",
     site: "@adfinityclarity",
