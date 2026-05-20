@@ -202,6 +202,7 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(imageSchema) }}
         />
+        <meta name="google-site-verification" content="u4O0nRNafe3pkIB3d6EG-kBJAl0lTRq7Ntjm_dbH9eA" />
       </head>
       <body className={urban.variable}>
         {children}
