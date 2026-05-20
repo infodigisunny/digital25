@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    optimizeCss: true, // CSS preload warning fix ke liye
+    optimizeCss: false, // CSS preload warning fix ke liye
   },
 }
 
