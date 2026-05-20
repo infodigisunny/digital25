@@ -14,7 +14,7 @@ import Section8 from "@/components/sections/home3/Section8"
 import Section9 from "@/components/sections/home3/Section9"
 export const metadata = {
   title: "SEO Services For Ranking & Revenue: #1 Rated SEO Agency",
-  description: "Professional SEO Agency for Traffic & Revenue Generation. Get expert SEO services that boost website ranking and results & Get a free consultation today!",
+  description: "Professional SEO Agency for Traffic and Revenue Generation. Get expert SEO services that boost website ranking and results. Get a free consultation today!",
   alternates: {
     canonical: "https://adfinityclarity.com/seo-search-engine-optimization", // 🔁 Replace with your page's actual canonical URL
      languages: {
@@ -25,7 +25,7 @@ export const metadata = {
   openGraph: {
     title: "SEO Services For Ranking & Revenue: #1 Rated SEO Agency",
     description:
-      "Professional SEO Agency for Traffic & Revenue Generation. Get expert SEO services that boost website ranking and results & Get a free consultation today!",
+      "Professional SEO Agency for Traffic and Revenue Generation. Get expert SEO services that boost website ranking and results. Get a free consultation today!",
     url: "https://adfinityclarity.com/seo-search-engine-optimization",
     siteName: "Adfinityclarity.com/seo-search-engine-optimization",
     type: "website",
@@ -43,7 +43,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "SEO Services For Ranking & Revenue: #1 Rated SEO Agency",
     description:
-      "Professional SEO Agency for Traffic & Revenue Generation. Get expert SEO services that boost website ranking and results & Get a free consultation today!",
+      "Professional SEO Agency for Traffic and Revenue Generation. Get expert SEO services that boost website ranking and results. Get a free consultation today!",
     site: "@adfinityclarity",
     images: ["https://adfinityclarity.com/assets/imgs/template/adfinityclarity.png"],
   },
