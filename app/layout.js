@@ -185,7 +185,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="stylesheet" href="/assets/css/style.css" />
+        <link rel="preload" href="/assets/css/style.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+<noscript><link rel="stylesheet" href="/assets/css/style.css" /></noscript>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
