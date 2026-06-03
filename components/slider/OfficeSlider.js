@@ -140,11 +140,7 @@ export default function OfficeSlider() {
                                 <div className="card-image"> <img src="/assets/imgs/page/about/canada.svg" alt="canada" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">Canada</h5>
-                                    <p className="mb-12 text-md neutral-300">In Canada, we work with brands across retail, healthcare, and service industries to improve
-how they reach local audiences online. Our Canadian team focuses on practical SEO
-strategies that help businesses build visibility, connect with the right customers, and grow
-steadily.</p>
-                                    <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
+                                    <p className="mb-12 text-md neutral-300">In Canada, we work with brands across retail, healthcare, and service industries to improve how they reach local audiences online. Our Canadian team focuses on practical SEO strategies that help businesses build visibility, connect with the right customers, and grow steadily.  </p>
                                     <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
@@ -165,10 +161,7 @@ steadily.</p>
                                 <div className="card-image"> <img src="/assets/imgs/page/about/new-zealand.svg" alt="New Zealand" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">New Zealand</h5>
-                                    <p className="mb-12 text-md neutral-300">In New Zealand, we work with growing businesses that value authenticity and connection to
-the community. Our team understands local search habits, regional competition, and
-customer intent to develop meaningful digital visibility that drives steady, sustainable growth.</p>
-                                    <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
+                                    <p className="mb-12 text-md neutral-300">In New Zealand, we work with growing businesses that value authenticity and connection to the community. Our team understands local SEO search habits, regional competition, and customer intent to develop meaningful digital visibility that drives steady, sustainable growth.</p>
                                     <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
@@ -189,11 +182,7 @@ customer intent to develop meaningful digital visibility that drives steady, sus
                                 <div className="card-image"> <img src="/assets/imgs/page/about/singapore.svg" alt="Singapore" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">Singapore</h5>
-                                    <p className="mb-12 text-md neutral-300">Singapore’s digitally mature landscape requires more than a cookie-cutter strategy. We
-work with innovation-led businesses in finance, technology, and professional services, with
-our team combining savvy market insight and strategic SEO expertise to help brands stand
-out in a highly competitive space</p>
-                                    <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
+                                    <p className="mb-12 text-md neutral-300">Singapore’s digitally mature landscape requires more than a cookie-cutter strategy. We work with innovation-led businesses in finance, technology, and professional services, with our team combining savvy market insight and strategic SEO Agency expertise to help brands stand out in a highly competitive space.</p>
                                     <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
@@ -214,11 +203,7 @@ out in a highly competitive space</p>
                                 <div className="card-image"> <img src="/assets/imgs/page/about/switzerland.svg" alt="Switzerland" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">Switzerland</h5>
-                                    <p className="mb-12 text-md neutral-300">Switzerland digitally mature landscape requires more than a cookie-cutter strategy. We
-work with innovation-led businesses in finance, technology, and professional services, with
-our team combining savvy market insight and strategic SEO expertise to help brands stand
-out in a highly competitive space</p>
-                                    <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
+                                    <p className="mb-12 text-md neutral-300">Retail, healthcare, and service businesses across Switzerland often struggle to reach people at a local level, that's the gap we help close. Rather than broad, generic visibility, our SEO Company work is built around bringing in traffic that actually matters and turning that into growth that holds up over time.</p>
                                     <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
@@ -239,11 +224,7 @@ out in a highly competitive space</p>
                                 <div className="card-image"> <img src="/assets/imgs/page/about/malaysia.svg" alt="Malaysia" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">Malaysia</h5>
-                                    <p className="mb-12 text-md neutral-300">Finance, technology, and professional services firms in Malaysia are competing in one of
-the most digitally mature markets in the world. The SEO strategies that work here aren't built
-on guesswork, they're grounded in local market behaviour, real customer intent, and a clear
-view of what sustainable visibility actually looks like for your business.</p>
-                                    <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
+                                    <p className="mb-12 text-md neutral-300">Community trust isn't something you can manufacture, and businesses in Malaysia tend to know that better than most. Our team digs into how local audiences actually search and engage, then builds visibility around those real behaviours, so the right customers can find you without you having to shout for attention.</p>
                                     <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
