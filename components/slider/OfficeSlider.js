@@ -119,8 +119,10 @@ export default function OfficeSlider() {
                                 <div className="card-image"> <img src="/assets/imgs/page/about/uae.svg" alt="UAE" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">UAE</h5>
-                                    <p className="mb-12 text-md neutral-300">4517 Washington Ave. Manchester,
-                                        Kentucky 39495</p>
+                                    <p className="mb-12 text-md neutral-300">We assist aspirational companies in intensely competitive and rapidly evolving marketplaces
+in the United Arab Emirates. To assist firms in establishing credibility, attracting high-quality
+leads, and expanding with confidence, our UAE staff is informed by multicultural audiences,
+premium consumer demands, and regional search trends.</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
                                     <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -146,8 +148,10 @@ export default function OfficeSlider() {
                                 <div className="card-image"> <img src="/assets/imgs/page/about/canada.svg" alt="canada" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">Canada</h5>
-                                    <p className="mb-12 text-md neutral-300">4517 Washington Ave. Manchester,
-                                        Kentucky 39495</p>
+                                    <p className="mb-12 text-md neutral-300">In Canada, we work with brands across retail, healthcare, and service industries to improve
+how they reach local audiences online. Our Canadian team focuses on practical SEO
+strategies that help businesses build visibility, connect with the right customers, and grow
+steadily.</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
                                     <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -169,8 +173,9 @@ export default function OfficeSlider() {
                                 <div className="card-image"> <img src="/assets/imgs/page/about/new-zealand.svg" alt="New Zealand" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">New Zealand</h5>
-                                    <p className="mb-12 text-md neutral-300">4517 Washington Ave. Manchester,
-                                        Kentucky 39495</p>
+                                    <p className="mb-12 text-md neutral-300">In New Zealand, we work with growing businesses that value authenticity and connection to
+the community. Our team understands local search habits, regional competition, and
+customer intent to develop meaningful digital visibility that drives steady, sustainable growth.</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
                                     <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -192,8 +197,10 @@ export default function OfficeSlider() {
                                 <div className="card-image"> <img src="/assets/imgs/page/about/singapore.svg" alt="Singapore" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">Singapore</h5>
-                                    <p className="mb-12 text-md neutral-300">4517 Washington Ave. Manchester,
-                                        Kentucky 39495</p>
+                                    <p className="mb-12 text-md neutral-300">Singapore’s digitally mature landscape requires more than a cookie-cutter strategy. We
+work with innovation-led businesses in finance, technology, and professional services, with
+our team combining savvy market insight and strategic SEO expertise to help brands stand
+out in a highly competitive space</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
                                     <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -215,8 +222,10 @@ export default function OfficeSlider() {
                                 <div className="card-image"> <img src="/assets/imgs/page/about/switzerland.svg" alt="Switzerland" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">Switzerland</h5>
-                                    <p className="mb-12 text-md neutral-300">4517 Washington Ave. Manchester,
-                                        Kentucky 39495</p>
+                                    <p className="mb-12 text-md neutral-300">Switzerland digitally mature landscape requires more than a cookie-cutter strategy. We
+work with innovation-led businesses in finance, technology, and professional services, with
+our team combining savvy market insight and strategic SEO expertise to help brands stand
+out in a highly competitive space</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
                                     <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -238,8 +247,10 @@ export default function OfficeSlider() {
                                 <div className="card-image"> <img src="/assets/imgs/page/about/malaysia.svg" alt="Malaysia" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">Malaysia</h5>
-                                    <p className="mb-12 text-md neutral-300">4517 Washington Ave. Manchester,
-                                        Kentucky 39495</p>
+                                    <p className="mb-12 text-md neutral-300">Finance, technology, and professional services firms in Malaysia are competing in one of
+the most digitally mature markets in the world. The SEO strategies that work here aren't built
+on guesswork, they're grounded in local market behaviour, real customer intent, and a clear
+view of what sustainable visibility actually looks like for your business.</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
                                     <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
