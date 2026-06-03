@@ -31,7 +31,7 @@ export default function OfficeSlider() {
                                 <div className="card-image"> <img src="/assets/imgs/page/about/united-states.svg" alt="USA" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">United States</h5>
-                                    <p className="mb-12 text-md neutral-300">In the United States, we work with businesses across eCommerce, B2B, healthcare, and professional services. Our US team understands search behavior, competitor landscapes, and  a clear view of what sustainable visibility actually looks like for your business.</p>
+                                    <p className="mb-12 text-md neutral-300">In the United States, we work with businesses across eCommerce, B2B, healthcare, and professional services. Our US Digital Marketing team understands search behavior, competitor landscapes, and  a clear view of what sustainable visibility actually looks like for your business.</p>
                                     <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
@@ -182,7 +182,7 @@ export default function OfficeSlider() {
                                 <div className="card-image"> <img src="/assets/imgs/page/about/singapore.svg" alt="Singapore" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">Singapore</h5>
-                                    <p className="mb-12 text-md neutral-300">Singapore’s digitally mature landscape requires more than a cookie-cutter strategy. We work with innovation-led businesses in finance, technology, and professional services, with our team combining savvy market insight and strategic SEO Agency expertise to help brands stand out in a highly competitive space.</p>
+                                    <p className="mb-12 text-md neutral-300">Singapore’s digitally mature landscape requires more than a cookie-cutter strategy. We work with innovation-led businesses in finance, technology, and professional services, with our team combining savvy market insight and strategic SEO Agency expertise to help brands.</p>
                                     <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
