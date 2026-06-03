@@ -31,8 +31,7 @@ export default function OfficeSlider() {
                                 <div className="card-image"> <img src="/assets/imgs/page/about/united-states.svg" alt="USA" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">United States</h5>
-                                    <p className="mb-12 text-md neutral-300">In the United States, we work with businesses across eCommerce, B2B, healthcare, and professional services. Our US team understands search behavior, competitor landscapes, and buyer intent patterns.</p>
-                                    <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
+                                    <p className="mb-12 text-md neutral-300">In the United States, we work with businesses across eCommerce, B2B, healthcare, and professional services. Our US team understands search behavior, competitor landscapes, and  a clear view of what sustainable visibility actually looks like for your business.</p>
                                     <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
@@ -53,8 +52,7 @@ export default function OfficeSlider() {
                                 <div className="card-image"> <img src="/assets/imgs/page/about/united-kingdom.svg" alt="UK" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">United Kingdom</h5>
-                                    <p className="mb-12 text-md neutral-300">In the United Kingdom, our team navigates the search market and its quirks. They understand content, Google UK dynamics, and industry-specific search trends.</p>
-                                    <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
+                                    <p className="mb-12 text-md neutral-300">In the United Kingdom, our team navigates the search market and its quirks. They understand content, Google United Kingdom dynamics, and industry-specific search trends. Finance, technology, and professional services firms in UK are competing in one of the most digitally mature markets in the world.</p>
                                     <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
@@ -75,8 +73,7 @@ export default function OfficeSlider() {
                                 <div className="card-image"> <img src="/assets/imgs/page/about/india.svg" alt="INDIA" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">India</h5>
-                                    <p className="mb-12 text-md neutral-300">In India, our team supports businesses that want to scale and international companies that want to establish a strong presence.</p>
-                                    <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
+                                    <p className="mb-12 text-md neutral-300">In India, our team supports businesses that want to scale and international companies that want to establish a strong presence. We work across sectors to sharpen that understanding, improving lead quality and helping brands keep pace in a market where cultures, expectations, and trends shift constantly. </p>
                                     <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
@@ -97,8 +94,7 @@ export default function OfficeSlider() {
                                 <div className="card-image"> <img src="/assets/imgs/page/about/australia.svg" alt="Australia" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">Australia</h5>
-                                    <p className="mb-12 text-md neutral-300">In Australia, our team builds campaigns that reflect how Australian audiences search, trust, and buy.</p>
-                                    <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
+                                    <p className="mb-12 text-md neutral-300">In Australia, our team builds campaigns that reflect how Australian audiences search, trust, and buy. what separates growing brands from stagnant ones is how well they understand the people they're trying to reach. The SEO strategies that work here aren't built on guesswork, they're grounded in local market behaviour, real customer intent.</p>
                                     <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
@@ -119,9 +115,7 @@ export default function OfficeSlider() {
                                 <div className="card-image"> <img src="/assets/imgs/page/about/uae.svg" alt="UAE" /></div>
                                 <div className="card-info">
                                     <h5 className="mb-12">UAE</h5>
-                                    <p className="mb-12 text-md neutral-300">We assist aspirational companies in intensely competitive and rapidly evolving marketplaces
-in the United Arab Emirates.</p>
-                                    <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
+                                    <p className="mb-12 text-md neutral-300">We assist aspirational companies in intensely competitive and rapidly evolving marketplaces in the United Arab Emirates. To assist firms in establishing credibility, attracting high-quality leads, and expanding with confidence, our UAE staff is informed by multicultural audiences, premium consumer demands, and regional search trends.</p>
                                     <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width={38} height={38} rx={19} fill="true" />
