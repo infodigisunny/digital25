@@ -120,9 +120,7 @@ export default function OfficeSlider() {
                                 <div className="card-info">
                                     <h5 className="mb-12">UAE</h5>
                                     <p className="mb-12 text-md neutral-300">We assist aspirational companies in intensely competitive and rapidly evolving marketplaces
-in the United Arab Emirates. To assist firms in establishing credibility, attracting high-quality
-leads, and expanding with confidence, our UAE staff is informed by multicultural audiences,
-premium consumer demands, and regional search trends.</p>
+in the United Arab Emirates.</p>
                                     <p className="text-md neutral-300 mb-30">Hours: 8:00 - 17:00, Mon - Sat </p>
                                     <Link className="btn btn-link-white" href="mailto:official@adfinityclarity.com">
                                         <svg width={38} height={38} viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
